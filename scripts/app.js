@@ -671,7 +671,16 @@ class WebDev100Days {
         category: "basic",
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["LeetCode", "Stats", "Graph"]
-      }
+      },
+       {
+        originalDay: 124,
+        name: " Pixel Art Maker",
+        description: "Create pixel art with a simple grid interface.",
+        demoLink: "./public/Day-76_PixelArt/index.html",
+        category: "creativity",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Grid Creation", "Color Selection", "Download Art", "Reset Canvas"]
+       }
 
     ];
   

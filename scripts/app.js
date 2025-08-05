@@ -661,6 +661,16 @@ class WebDev100Days {
         category: "basic",
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["LeetCode", "Stats", "Graph"]
+      },
+        {
+
+        originalDay: 124,
+        name: "Flappy Bird",
+        description: "Play with Bird",
+        demoLink: "./public/flappy-bird/index.html",
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Bird", "Score", "Hard"]
       }
 
     ];

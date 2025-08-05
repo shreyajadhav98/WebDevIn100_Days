@@ -671,6 +671,17 @@ class WebDev100Days {
         category: "basic",
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["LeetCode", "Stats", "Graph"]
+      },
+
+      {
+
+        originalDay: 124,
+        name: "LoveVerse",
+        description: "A Lovely Website with some crazy stuffs.",
+        demoLink: "./public/Day-70/index.html",
+        category: "utilities",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Love Game", "Romantic"]
       }
 
     ];

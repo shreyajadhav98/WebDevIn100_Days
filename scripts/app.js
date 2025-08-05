@@ -676,11 +676,12 @@ class WebDev100Days {
         originalDay: 124,
         name: "QuizProgram",
         description: "Take a random quiz",
-        demoLink: "./public/Quiz-Program/index.html",
+        demoLink: "./public/QuizProgram/index.html",
         category: "basic",
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Quiz", "Scores"]
       }
+
     ];
   
   // Assign sequential day numbers (1, 2, 3, 4...) regardless of original day numbers

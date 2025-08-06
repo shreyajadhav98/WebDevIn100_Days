@@ -628,7 +628,6 @@ class WebDev100Days {
         features: ["Canvas Drawing", "Color Picker", "Brush Size Control", "Clear Canvas Button"]
       },
 
-
       { 
          originalDay: 120,
          name: "Fruit Slicer ",
@@ -673,6 +672,7 @@ class WebDev100Days {
         features: ["LeetCode", "Stats", "Graph"]
       },
 
+
       {
 
         originalDay: 124,
@@ -682,7 +682,19 @@ class WebDev100Days {
         category: "utilities",
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Love Game", "Romantic"]
+  },
+
+       {
+        originalDay: 150,
+          name: "University Management System",
+        description: "Manage university operations including courses, students, and faculty.",
+        demoLink: "./public/University_managment_system/index.html",
+        category: "utilities",
+        technologies: ["HTML", "CSS", "JavaScript", "API"],
+        features: ["Visitor Management", "History Tracking", "Search Functionality"]
+
       }
+
 
     ];
   

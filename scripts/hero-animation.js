@@ -2,10 +2,9 @@ document.addEventListener("DOMContentLoaded", function() {
     // Animation for the main title (h1)
     const titleOptions = {
         strings: ["100 Days of Web Development"],
-        typeSpeed: 40,
-        backSpeed:60,
+        typeSpeed: 50,
         showCursor: false, // We will show only one cursor
-        loop: true
+        loop: false
     };
     const typedTitle = new Typed('#animated-hero-title', titleOptions);
 

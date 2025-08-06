@@ -90,11 +90,8 @@
     <div class="hero-bg"></div>
     <div class="container">
       <div class="hero-content animate-fade-in">
-        <h1 class="hero-title">100 Days of Web Development</h1>
-        <p class="hero-subtitle">
-          Master web development through building 100 unique projects. From basic HTML/CSS to advanced JavaScript applications,
-          each project is designed to enhance your skills and build an impressive portfolio.
-        </p>
+      <h1 class="hero-title"><span id="animated-hero-title"></span></h1>
+    <p class="hero-subtitle"><span id="animated-hero-subtitle"></span></p>
         <div class="hero-actions">
           <a href="#projects" class="btn btn-primary">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -315,6 +312,9 @@
 
   <!-- JavaScript -->
   <script src="./scripts/app.js"></script>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="./scripts/hero-animation.js"></script>
   
   <script>
     // Set current year in footer

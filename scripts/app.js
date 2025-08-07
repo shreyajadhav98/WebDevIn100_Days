@@ -724,7 +724,7 @@ class WebDev100Days {
 
         originalDay: 129,
         name: "Fruit Ninja",
-        description: "A Lovely Website with some crazy stuffs.",
+        description: "Play with fruits",
         demoLink: "./public/Day-59/index.html",
         category: "utilities",
         technologies: ["HTML", "CSS", "JavaScript"],

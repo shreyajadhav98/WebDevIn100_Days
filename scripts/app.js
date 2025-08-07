@@ -637,10 +637,18 @@ class WebDev100Days {
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Score System", "Lifes", "Fruit Cutting"]
       },
+      {
 
-
+        originalDay: 121,
+        name: "BattleShip",
+        description: "Destroy the enemy ship",
+        demoLink: "./public/Day-71/index.html",
+        category: "utilities",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Hide 'n' seek", "Catch"]
+      },
       { 
-         originalDay: 121,
+         originalDay: 122,
          name: "Github Profle Finder ",
         description: "Find Github Profile ",
         demoLink: "./public/Github_Profile_Finder/index.html",
@@ -648,12 +656,30 @@ class WebDev100Days {
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Github", "Github Followers ", "Creative"]
       },
+      {
 
+        originalDay: 123,
+        name: "HeliFly",
+        description: "Fly the Helicopter",
+        demoLink: "./public/Day-55/index.html",
+        category: "utilities",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Fly"]
+      },
+      {
 
+        originalDay: 124,
+        name: "RoboBuilder",
+        description: "Buildd the Robot",
+        demoLink: "./public/Day-72/index.html",
+        category: "utilities",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Repair", "Fix"]
+      },
       
         {
 
-        originalDay: 122,
+        originalDay: 125,
         name: "Hamster Slap",
         description: "Slap the Hamster coming from the hole.",
         demoLink: "./public/Day-69/index.html",
@@ -663,7 +689,7 @@ class WebDev100Days {
       },
         {
 
-        originalDay: 123,
+        originalDay: 126,
         name: "LeetMatrix",
         description: "Check Leetcode stats ",
         demoLink: "./public/LeetMatrix/index.html",
@@ -675,7 +701,7 @@ class WebDev100Days {
 
       {
 
-        originalDay: 124,
+        originalDay: 127,
         name: "LoveVerse",
         description: "A Lovely Website with some crazy stuffs.",
         demoLink: "./public/Day-70/index.html",
@@ -685,7 +711,7 @@ class WebDev100Days {
   },
 
        {
-        originalDay: 150,
+        originalDay: 128,
           name: "University Management System",
         description: "Manage university operations including courses, students, and faculty.",
         demoLink: "./public/University_managment_system/index.html",
@@ -693,7 +719,17 @@ class WebDev100Days {
         technologies: ["HTML", "CSS", "JavaScript", "API"],
         features: ["Visitor Management", "History Tracking", "Search Functionality"]
 
-      }
+      },
+      {
+
+        originalDay: 129,
+        name: "Fruit Ninja",
+        description: "A Lovely Website with some crazy stuffs.",
+        demoLink: "./public/Day-59/index.html",
+        category: "utilities",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Cut"]
+  }
 
 
     ];

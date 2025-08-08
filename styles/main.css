@@ -1400,9 +1400,21 @@ body {
   color: #1d4ed8;
 }
 
-.category-advanced {
+.category-education {
   background: rgba(245, 101, 101, 0.1);
-  color: #dc2626;
+  color: #ffaa00;
+}
+.category-productivity {
+  background: rgba(130, 245, 101, 0.1);
+  color: #f700b5;
+}
+.category-entertainment{
+  background: rgba(101, 185, 245, 0.1);
+  color: #ae00ff;
+}
+.category-creativity{
+  background: rgba(101, 149, 245, 0.1);
+  color: #1aff00;
 }
 
 .tech-cell {

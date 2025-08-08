@@ -661,6 +661,24 @@ class WebDev100Days {
         technologies: ["HTML", "CSS", "JavaScript", "API"],
         features: ["Visitor Management", "History Tracking", "Search Functionality"]
 
+      },
+      {
+        originalDay: 127,
+          name: "CineSearch",
+        description: "stylish and responsive movie search web app that allows users to search for any movie using the OMDB API.",
+        demoLink: "./public/CineSearch/index.html",
+        category: "entertainment",
+        technologies: ["HTML", "CSS", "JavaScript", "API"],
+        features:[
+  "Live Movie Search Functionality",
+  "Poster, Title & Year Display",
+  "Responsive Grid Layout",
+  "OMDb API Integration",
+  "Error Handling & No Result Messages",
+  "Dark-Themed UI with Neon Accents",
+  "Clean Separation of HTML, CSS, and JS"
+]
+
       }
     ];
   

@@ -1,12 +1,10 @@
-// WebDevIn_100Days Application
-
 class WebDev100Days {
   constructor() {
     this.projects = [];
     this.filteredProjects = [];
     this.currentFilter = 'all';
     this.currentPage = 1;
-    this.projectsPerPage = 20; // Increased for table view
+    this.projectsPerPage = 20;
     this.searchTerm = '';
     
     this.init();
@@ -19,11 +17,11 @@ class WebDev100Days {
     this.setupScrollToTop();
     this.setupMobileMenu();
     await this.loadProjects();
+    this.updateStatistics();
     this.renderTable();
   }
 
   setupEventListeners() {
-    // Search functionality
     const searchInput = document.getElementById('searchInput');
     const searchButton = document.getElementById('searchButton');
     
@@ -41,15 +39,12 @@ class WebDev100Days {
       });
     }
 
-    // Filter tabs
     document.addEventListener('click', (e) => {
       if (e.target.matches('.filter-tab')) {
         this.setActiveFilter(e.target.dataset.filter);
       }
     });
 
-    // View toggle - removed since we only have table view now
-    // Pagination
     document.addEventListener('click', (e) => {
       if (e.target.matches('.pagination-btn')) {
         const page = parseInt(e.target.dataset.page);
@@ -60,7 +55,6 @@ class WebDev100Days {
       }
     });
 
-    // Project row clicks - open demo in new tab
     document.addEventListener('click', (e) => {
       if (e.target.matches('.demo-btn') || e.target.closest('.demo-btn')) {
         e.preventDefault();
@@ -76,7 +70,6 @@ class WebDev100Days {
     const themeToggle = document.querySelector('.theme-toggle');
     const currentTheme = localStorage.getItem('theme') || 'light';
     
-    // Set initial theme
     document.documentElement.setAttribute('data-theme', currentTheme);
     
     if (themeToggle) {
@@ -87,7 +80,6 @@ class WebDev100Days {
         document.documentElement.setAttribute('data-theme', next);
         localStorage.setItem('theme', next);
         
-        // Update icon
         this.updateThemeIcon(next);
       });
     }
@@ -144,7 +136,6 @@ class WebDev100Days {
         mobileNav.classList.toggle('active');
       });
 
-      // Close mobile menu when clicking outside
       document.addEventListener('click', (e) => {
         if (!mobileMenuBtn.contains(e.target) && !mobileNav.contains(e.target)) {
           mobileMenuBtn.classList.remove('active');
@@ -155,7 +146,6 @@ class WebDev100Days {
   }
 
   async loadProjects() {
-    // Complete list of all projects - day numbers will be assigned sequentially
     const projectsData = [
       {
         originalDay: 1,
@@ -247,7 +237,6 @@ class WebDev100Days {
         technologies: ["HTML", "CSS", "JavaScript", "Canvas"],
         features: ["Neon Graphics", "Power-ups", "Score System"]
       },
-      
       {
         originalDay: 11,
         name: "Weather App",
@@ -437,15 +426,6 @@ class WebDev100Days {
         technologies: ["HTML", "CSS", "JavaScript", "SVG"],
         features: ["Move Validation", "Piece Animation", "Game Logic", "Interactive Board"]
       },
-       {
-        originalDay: 56,
-        name: "TypeRush",
-        description: "Typing speed test game with real-time feedback and statistics.",
-        demoLink: "./public/Day-56_TypeRush/index.html",
-        category: "games",
-        technologies: ["HTML", "CSS", "JavaScript"],
-        features: ["Typing Challenge", "Real-time Feedback", "Statistics Tracking"]
-      },
       {
         originalDay: 72,
         name: "Portfolio Website",
@@ -455,7 +435,6 @@ class WebDev100Days {
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Responsive Design", "Smooth Animations", "Contact Form"]
       },
-      // Non-numbered projects (using 100+ for consistency)
       {
         originalDay: 101,
         name: "Etch-a-Sketch",
@@ -586,7 +565,7 @@ class WebDev100Days {
          originalDay: 115,
          name: "Word Guess Game",
          description: "An interactive word guessing game where players try to reveal the hidden word within limited attempts.",
-         demoLink: " ./public/Day53-Word-Guess-Game/index.html",
+         demoLink: "./public/Day53-Word-Guess-Game/index.html",
          category: "games",
          technologies: ["HTML", "CSS", "JavaScript"],
          features: ["Random Word Generation", "Limited Attempts", "Letter Hints", "Win/Loss Feedback"]
@@ -627,32 +606,25 @@ class WebDev100Days {
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Canvas Drawing", "Color Picker", "Brush Size Control", "Clear Canvas Button"]
       },
-
-      { 
+      {
          originalDay: 120,
-         name: "Fruit Slicer ",
-        description: "Every slice counts. Miss and it’s game over!",
-        demoLink: "./public/Fruit_Slicer_Game/index.html",
-        category: "games",
-        technologies: ["HTML", "CSS", "JavaScript"],
-        features: ["Score System", "Lifes", "Fruit Cutting"]
+         name: "Fruit Slicer",
+         description: "Every slice counts. Miss and it’s game over!",
+         demoLink: "./public/Fruit_Slicer_Game/index.html",
+         category: "games",
+         technologies: ["HTML", "CSS", "JavaScript"],
+         features: ["Score System", "Lifes", "Fruit Cutting"]
       },
-
-
-      { 
+      {
          originalDay: 121,
-         name: "Github Profle Finder ",
-        description: "Find Github Profile ",
-        demoLink: "./public/Github_Profile_Finder/index.html",
-        category: "utilities",
-        technologies: ["HTML", "CSS", "JavaScript"],
-        features: ["Github", "Github Followers ", "Creative"]
+         name: "Github Profile Finder",
+         description: "Find Github Profile",
+         demoLink: "./public/Github_Profile_Finder/index.html",
+         category: "utilities",
+         technologies: ["HTML", "CSS", "JavaScript"],
+         features: ["Github", "Github Followers", "Creative"]
       },
-
-
-      
-        {
-
+      {
         originalDay: 122,
         name: "Hamster Slap",
         description: "Slap the Hamster coming from the hole.",
@@ -661,39 +633,47 @@ class WebDev100Days {
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Hide n seek", "Catch", "Slap"]
       },
-        {
-
+      {
         originalDay: 123,
         name: "LeetMatrix",
-        description: "Check Leetcode stats ",
+        description: "Check Leetcode stats",
         demoLink: "./public/LeetMatrix/index.html",
         category: "basic",
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["LeetCode", "Stats", "Graph"]
       },
-       {
+      {
 
         originalDay: 124,
+        name: "Flappy Bird",
+        description: "Play with Bird",
+        demoLink: "./public/flappy-bird/index.html",
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Bird", "Score", "Hard"]
+        },
+       {
+
+        originalDay: 125,
+        name: "University Management System",
+        description: "Manage university operations including courses, students, and faculty.",
+        demoLink: "./public/University_managment_system/index.html",
+        category: "utilities",
+        technologies: ["HTML", "CSS", "JavaScript", "API"],
+        features: ["Visitor Management", "History Tracking", "Search Functionality"] 
+         },
+      { originalDay: 126,
         name: " Pixel Art Maker",
         description: "Create pixel art with a simple grid interface.",
         demoLink: "./public/Day-76_PixelArt/index.html",
         category: "creativity",
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Grid Creation", "Color Selection", "Download Art", "Reset Canvas"]
-       },
+       }
 
-      { originalDay: 150,
-          name: "University Management System",
-        description: "Manage university operations including courses, students, and faculty.",
-        demoLink: "./public/University_managment_system/index.html",
-        category: "utilities",
-        technologies: ["HTML", "CSS", "JavaScript", "API"],
-        features: ["Visitor Management", "History Tracking", "Search Functionality"]
-      }
-
+    
     ];
   
-  // Assign sequential day numbers (1, 2, 3, 4...) regardless of original day numbers
     this.projects = projectsData.map((project, index) => ({
       ...project,
       day: index + 1
@@ -702,15 +682,46 @@ class WebDev100Days {
     this.filteredProjects = [...this.projects];
   }
 
+  updateStatistics() {
+    const statsContainer = document.querySelector('.challenge-stats');
+    if (!statsContainer) return;
+
+    // Calculate unique technologies
+    const uniqueTechnologies = [...new Set(
+      this.projects.flatMap(project => project.technologies)
+    )].length;
+
+    // Update stats
+    statsContainer.innerHTML = `
+      <h3 class="challenge-stats-title">Challenge Statistics</h3>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number">${this.projects.length}</div>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">100</div>
+          <div class="stat-label">Total Goal</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">${uniqueTechnologies}</div>
+          <div class="stat-label">Technologies</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">∞</div>
+          <div class="stat-label">Learning</div>
+        </div>
+      </div>
+    `;
+  }
+
   filterProjects() {
     let filtered = [...this.projects];
 
-    // Filter by category
     if (this.currentFilter !== 'all') {
       filtered = filtered.filter(project => project.category === this.currentFilter);
     }
 
-    // Filter by search term
     if (this.searchTerm) {
       filtered = filtered.filter(project => 
         project.name.toLowerCase().includes(this.searchTerm) ||
@@ -721,7 +732,7 @@ class WebDev100Days {
     }
 
     this.filteredProjects = filtered;
-    this.currentPage = 1; // Reset to first page
+    this.currentPage = 1;
     this.renderTable();
   }
 
@@ -729,7 +740,6 @@ class WebDev100Days {
     this.currentFilter = filter;
     this.currentPage = 1;
     
-    // Update active tab
     document.querySelectorAll('.filter-tab').forEach(tab => {
       tab.classList.remove('active');
     });
@@ -744,12 +754,10 @@ class WebDev100Days {
     
     if (!tableContainer) return;
 
-    // Calculate pagination for table
     const startIndex = (this.currentPage - 1) * this.projectsPerPage;
     const endIndex = startIndex + this.projectsPerPage;
     const projectsToShow = this.filteredProjects.slice(startIndex, endIndex);
 
-    // Clear container
     tableContainer.innerHTML = '';
 
     if (projectsToShow.length === 0) {
@@ -763,11 +771,9 @@ class WebDev100Days {
       emptyState.classList.remove('show');
     }
 
-    // Create table
     const table = document.createElement('table');
     table.className = 'projects-table';
 
-    // Table header
     table.innerHTML = `
       <thead>
         <tr>
@@ -816,14 +822,12 @@ class WebDev100Days {
       </tbody>
     `;
 
-    // Append table to container
     tableContainer.appendChild(table);
 
     this.renderPagination();
   }
 
   sortTable(column) {
-    // Simple sorting implementation
     this.filteredProjects.sort((a, b) => {
       if (column === 'day') {
         return a.day - b.day;
@@ -850,7 +854,6 @@ class WebDev100Days {
     paginationContainer.style.display = 'flex';
     paginationContainer.innerHTML = '';
 
-    // Previous button
     const prevBtn = document.createElement('button');
     prevBtn.className = 'pagination-btn';
     prevBtn.disabled = this.currentPage === 1;
@@ -858,7 +861,6 @@ class WebDev100Days {
     prevBtn.dataset.page = this.currentPage - 1;
     paginationContainer.appendChild(prevBtn);
 
-    // Page numbers
     for (let i = 1; i <= totalPages; i++) {
       if (i === 1 || i === totalPages || (i >= this.currentPage - 2 && i <= this.currentPage + 2)) {
         const pageBtn = document.createElement('button');
@@ -874,7 +876,6 @@ class WebDev100Days {
       }
     }
 
-    // Next button
     const nextBtn = document.createElement('button');
     nextBtn.className = 'pagination-btn';
     nextBtn.disabled = this.currentPage === totalPages;
@@ -882,7 +883,6 @@ class WebDev100Days {
     nextBtn.dataset.page = this.currentPage + 1;
     paginationContainer.appendChild(nextBtn);
 
-    // Page info
     const pageInfo = document.createElement('div');
     pageInfo.className = 'pagination-info';
     pageInfo.textContent = `${this.currentPage} of ${totalPages}`;
@@ -902,15 +902,11 @@ class WebDev100Days {
   }
 }
 
-// Start the app when the page loads
-let app; // Global app instance for table sorting
+let app;
 document.addEventListener('DOMContentLoaded', () => {
   app = new WebDev100Days();
 });
 
-// Export for module usage
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = WebDev100Days;
 }
-
-

@@ -23,11 +23,11 @@ Welcome to **100_days_100_web_project** – a challenge-based repository to **le
 - [Open Source Programs](#-open-source-programs)
 - [Live Website](#-live-website)
 - [Project List](#-project-list)
-- [Project Structure](#project-structure)
+- [Project Structure](#-project-structure)
 - [Goals](#-goals)
 - [Tech Stack](#-tech-stack)
 - [Getting Started](#-getting-started)
-- [How to Contribute](#how-to-contribute)
+- [How to Contribute](#-how-to-contribute)
 - [Show Your Support](#show-your-support)
 
 ---
@@ -70,8 +70,8 @@ We are proud to be contributing as part of these amazing communities!
 
 ---
 
-## Project Structure 
-
+## 📁 Project Structure 
+```
 WebDevIn100_Days/
 ├── .vscode/                      # VS Code workspace settings
 │   └── settings.json
@@ -99,7 +99,7 @@ WebDevIn100_Days/
 ├── script.js                      # Additional JS logic (e.g., navbar)
 └── site.webmanifest               # PWA manifest file
 
-
+```
 ---
 
 ## 🎯 Goals
@@ -135,14 +135,16 @@ git clone https://github.com/your-username/WebDevIn100Days.git
 
 ---
 
-## 🤝 How to Contribute
+##  🤝 How to Contribute
 
 1. **Fork** the repository.
-2. **Clone** your fork :  ``` https://github.com/your-username/WebDevIn100Days.git ```
-3. **Create a new branch** for your mini-project or contribution : ``` fect/fix/add ```
-4. **Add your project** inside the appropriate folder (e.g., `public/Day-XX-ProjectName/`)
-5. **Commit** your changes : 
-
+``` https://github.com/ruchikakengal/WebDevIn100_Days```
+2. **Clone** your fork : 
+``` https://github.com/your-username/WebDevIn100Days.git ```
+3. **Create a new branch** for your mini-project or contribution :
+``` fect/fix/add ```
+5. **Add your project** inside the appropriate folder (e.g., `public/Day-XX-ProjectName/`)
+6. **Commit** your changes : 
 ```bash 
 git add .
 git commit -m "Add Day-XX: Project Name" 

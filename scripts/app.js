@@ -427,6 +427,16 @@ class WebDev100Days {
         features: ["Move Validation", "Piece Animation", "Game Logic", "Interactive Board"]
       },
       {
+        originalDay: 54,
+        name: "Rock Paper Scissors",
+        description: "Interactive rock paper scissors game with user vs computer gameplay.",
+        demoLink: "./public/Day-54_RockPaperSessior/rock-paper-scissors-game-with-javascript-html-and-css/index.html",
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Move Validation", "Piece Animation", "Game Logic", "Interactive Board"]
+      },
+
+      {
         originalDay: 72,
         name: "Portfolio Website",
         description: "Modern portfolio website template with responsive design and animations.",

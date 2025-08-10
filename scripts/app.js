@@ -695,6 +695,7 @@ class WebDev100Days {
 
       {
 
+
         originalDay: 128,
         name: "LoveVerse",
         description: "A Lovely Website with some crazy stuffs.",
@@ -706,8 +707,16 @@ class WebDev100Days {
 
        {
         originalDay: 129,
+        name: "QuizProgram",
+        description: "Take a random quiz",
+        demoLink: "./public/QuizProgram/index.html",
+        category: "basic",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Quiz", "Scores"]
+      },
+      {
+        originalDay: 124,
 
-      
         name: "Flappy Bird",
         description: "Play with Bird",
         demoLink: "./public/flappy-bird/index.html",
@@ -715,6 +724,7 @@ class WebDev100Days {
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Bird", "Score", "Hard"]
         },
+      
        {
         originalDay: 130,
 
@@ -741,7 +751,7 @@ class WebDev100Days {
 
         originalDay: 132,
         name: "Solitaire",
-        description: "Play with fruits",
+        description: "Play with Cards",
         demoLink: "./public/Day-90/index.html",
         category: "games",
         technologies: ["HTML", "CSS", "JavaScript"],
@@ -751,7 +761,7 @@ class WebDev100Days {
 
         originalDay: 133,
         name: "Door Game",
-        description: "Play with fruits",
+        description: "Open the Doors of your luck",
         demoLink: "./public/Day-91/index.html",
         category: "games",
         technologies: ["HTML", "CSS", "JavaScript"],
@@ -761,7 +771,7 @@ class WebDev100Days {
 
         originalDay: 134,
         name: "Roast Battle",
-        description: "Play with fruits",
+        description: "Roast Your self by AI",
         demoLink: "./public/Day-92/index.html",
         category: "games",
         technologies: ["HTML", "CSS", "JavaScript"],
@@ -771,7 +781,7 @@ class WebDev100Days {
 
         originalDay: 135,
         name: "Compliment Generator",
-        description: "Play with fruits",
+        description: "Generate Compliment for your love once",
         demoLink: "./public/Day-93/index.html",
         category: "games",
         technologies: ["HTML", "CSS", "JavaScript"],
@@ -781,7 +791,7 @@ class WebDev100Days {
 
         originalDay: 136,
         name: "PickUp Lines",
-        description: "Play with fruits",
+        description: "Generate PickUp Lines for your someonce",
         demoLink: "./public/Day-94/index.html",
         category: "games",
         technologies: ["HTML", "CSS", "JavaScript"],
@@ -791,7 +801,7 @@ class WebDev100Days {
 
         originalDay: 137,
         name: "Hero Identity",
-        description: "Play with fruits",
+        description: "Know who you are",
         demoLink: "./public/Day-95/index.html",
         category: "games",
         technologies: ["HTML", "CSS", "JavaScript"],
@@ -801,7 +811,7 @@ class WebDev100Days {
 
         originalDay: 138,
         name: "Fotune Teller",
-        description: "Play with fruits",
+        description: "Know your future",
         demoLink: "./public/Day-96/index.html",
         category: "games",
         technologies: ["HTML", "CSS", "JavaScript"],

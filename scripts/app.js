@@ -661,15 +661,25 @@ class WebDev100Days {
         features: ["Bird", "Score", "Hard"]
         },
        {
+
         originalDay: 125,
-          name: "University Management System",
+        name: "University Management System",
         description: "Manage university operations including courses, students, and faculty.",
         demoLink: "./public/University_managment_system/index.html",
         category: "utilities",
         technologies: ["HTML", "CSS", "JavaScript", "API"],
-        features: ["Visitor Management", "History Tracking", "Search Functionality"]
+        features: ["Visitor Management", "History Tracking", "Search Functionality"] 
+         },
+      { originalDay: 126,
+        name: " Pixel Art Maker",
+        description: "Create pixel art with a simple grid interface.",
+        demoLink: "./public/Day-76_PixelArt/index.html",
+        category: "creativity",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Grid Creation", "Color Selection", "Download Art", "Reset Canvas"]
+       }
 
-      }
+    
     ];
   
     this.projects = projectsData.map((project, index) => ({

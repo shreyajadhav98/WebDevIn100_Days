@@ -759,6 +759,7 @@ class WebDev100Days {
 
 
 
+
       ,
       {
 
@@ -839,7 +840,16 @@ class WebDev100Days {
           category: "games",
             technologies: ["HTML", "CSS", "JavaScript"],
               features: ["Future", "Fortune"]
-}
+},
+{
+        originalDay: 144,
+        name: "Fitness Tracker",
+        description: "Advanced, vibrant web app to track daily steps and water intake with charts, themes, and responsive design.",
+        demoLink: "./public/Fitness_Tracker/index.html",
+        category: "productivity",
+        technologies: ["HTML", "CSS", "JavaScript", "Chart.js"],
+        features: ["Daily Steps & Water Input", "Dark/Light Mode", "Chart.js Visualizations", "Responsive Design", "Duplicate Prevention", "Tooltips on Charts"]
+       }
 
 
 

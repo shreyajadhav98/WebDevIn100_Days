@@ -849,7 +849,18 @@ class WebDev100Days {
         category: "productivity",
         technologies: ["HTML", "CSS", "JavaScript", "Chart.js"],
         features: ["Daily Steps & Water Input", "Dark/Light Mode", "Chart.js Visualizations", "Responsive Design", "Duplicate Prevention", "Tooltips on Charts"]
-       }
+       },
+{
+  originalDay: 146,
+  name: "Memory Grid Rush",
+  description: "Fast-paced memory game where players repeat flashing grid patterns that get progressively harder with each level.",
+  demoLink: "./public/Memory_Grid_Rush/index.html",
+  category: "games",
+  technologies: ["HTML", "CSS", "JavaScript"],
+  features: [
+  "Dynamic grid scaling, pattern generation & replay, dark/light mode, score & level tracking, keyboard accessibility, animated feedback, and replay option."
+  ]
+}
 
 
 

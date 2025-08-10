@@ -622,7 +622,7 @@ class WebDev100Days {
         name: "BattleShip",
         description: "Destroy the enemy ship",
         demoLink: "./public/Day-71/index.html",
-        category: "utilities",
+        category: "games",
         technologies: ["HTML", "CSS", "JavaScript", "Node.js"],
         features: ["Hide 'n' seek", "Catch"]
       },
@@ -641,7 +641,7 @@ class WebDev100Days {
         name: "HeliFly",
         description: "Fly the Helicopter",
         demoLink: "./public/Day-55/index.html",
-        category: "utilities",
+        category: "games",
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Fly"]
       },
@@ -651,7 +651,7 @@ class WebDev100Days {
         name: "RoboBuilder",
         description: "Buildd the Robot",
         demoLink: "./public/Day-72/index.html",
-        category: "utilities",
+        category: "games",
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Repair", "Fix"]
       },
@@ -674,7 +674,7 @@ class WebDev100Days {
         name: "Hamster Slap",
         description: "Slap the Hamster coming from the hole.",
         demoLink: "./public/Day-69/index.html",
-        category: "utilities",
+        category: "games",
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Hide n seek", "Catch", "Slap"]
       },
@@ -699,7 +699,7 @@ class WebDev100Days {
         name: "LoveVerse",
         description: "A Lovely Website with some crazy stuffs.",
         demoLink: "./public/Day-70/index.html",
-        category: "utilities",
+        category: "games",
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Love Game", "Romantic"]
   },
@@ -733,9 +733,79 @@ class WebDev100Days {
         name: "Fruit Ninja",
         description: "Play with fruits",
         demoLink: "./public/Day-59/index.html",
-        category: "utilities",
+        category: "games",
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Cut"]
+  },
+  {
+
+        originalDay: 132,
+        name: "Solitaire",
+        description: "Play with fruits",
+        demoLink: "./public/Day-90/index.html",
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Ace", "King"]
+  },
+  {
+
+        originalDay: 133,
+        name: "Door Game",
+        description: "Play with fruits",
+        demoLink: "./public/Day-91/index.html",
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Luck", "Doors"]
+  },
+  {
+
+        originalDay: 134,
+        name: "Roast Battle",
+        description: "Play with fruits",
+        demoLink: "./public/Day-92/index.html",
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Roast"]
+  },
+  {
+
+        originalDay: 135,
+        name: "Compliment Generator",
+        description: "Play with fruits",
+        demoLink: "./public/Day-93/index.html",
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Compliments"]
+  },
+  {
+
+        originalDay: 136,
+        name: "PickUp Lines",
+        description: "Play with fruits",
+        demoLink: "./public/Day-94/index.html",
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["PickUp Lines"]
+  },
+  {
+
+        originalDay: 137,
+        name: "Hero Identity",
+        description: "Play with fruits",
+        demoLink: "./public/Day-95/index.html",
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Hero", "Powers"]
+  },
+  {
+
+        originalDay: 138,
+        name: "Fotune Teller",
+        description: "Play with fruits",
+        demoLink: "./public/Day-96/index.html",
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Future", "Fortune"]
   }
 
 

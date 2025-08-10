@@ -643,7 +643,15 @@ class WebDev100Days {
         features: ["LeetCode", "Stats", "Graph"]
       },
       {
-
+        originalDay: 130,
+        name: "QuizProgram",
+        description: "Take a random quiz",
+        demoLink: "./public/QuizProgram/index.html",
+        category: "basic",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Quiz", "Scores"]
+      },
+      {
         originalDay: 124,
         name: "Flappy Bird",
         description: "Play with Bird",

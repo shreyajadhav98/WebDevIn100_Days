@@ -849,6 +849,15 @@ class WebDev100Days {
         category: "productivity",
         technologies: ["HTML", "CSS", "JavaScript", "Chart.js"],
         features: ["Daily Steps & Water Input", "Dark/Light Mode", "Chart.js Visualizations", "Responsive Design", "Duplicate Prevention", "Tooltips on Charts"]
+       },
+{
+        originalDay: 145,
+        name: "Invoice Builder",
+        description: "Generate Product Invoice",
+        demoLink: "./public/Invoice-Builder/index.html",
+        category: "utilities",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Invoice", "Product Invoice ",  "Invoice Generator"]
        }
 
 

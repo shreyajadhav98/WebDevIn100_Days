@@ -24,7 +24,12 @@
     background-color: #1abc9c; /* Teal hover for burger menu */
     color: #ffffff;
   }
-
+/* Styling for the animated cursor */
+/* Styling for the animated cursor */
+.hero-subtitle .typed-cursor {
+    color: #FFF; /* Or any color that looks good on your hero background */
+    font-size: 1.2rem;
+}
   /* Buttons */
   button,
   .button {

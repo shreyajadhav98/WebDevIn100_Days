@@ -17,6 +17,20 @@ Welcome to **100_days_100_web_project** – a challenge-based repository to **le
 ![Total Lines](https://sloc.xyz/github/ruchikakengal/WebDevIn100_days)
 
 ---
+## 📖 Table of Contents
+
+- [About](#webdevin100_days)
+- [Open Source Programs](#-open-source-programs)
+- [Live Website](#-live-website)
+- [Project List](#-project-list)
+- [Project Structure](#-project-structure)
+- [Goals](#-goals)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#-getting-started)
+- [How to Contribute](#-how-to-contribute)
+- [Show Your Support](#show-your-support)
+
+---
 
 ## 🚀 Open Source Programs
 
@@ -40,8 +54,6 @@ We are proud to be contributing as part of these amazing communities!
 🔗 [Visit Live Demo](https://webdevin100days.netlify.app)
 
 
-
-
 ---
 
 ## 📁 Project List
@@ -57,6 +69,39 @@ We are proud to be contributing as part of these amazing communities!
 > 📌 Projects will be updated daily. Bookmark this repo and check back often!
 
 ---
+
+## 📁 Project Structure 
+```
+WebDevIn100_Days/
+├── .vscode/                      # VS Code workspace settings
+│   └── settings.json
+│
+├── public/                       # Public assets and mini-projects
+│   ├── Budget-Tracker/                 # game
+│   │   └── index.html
+│   └── Days 1...                       # Games files
+│
+├── scripts/                       # JS scripts for project logic
+│   └── app.js 
+│                      
+├── styles/                        # CSS styles
+│   └── All files of .css
+│
+├── .gitignore                     # Git ignore rules
+├── 404.html                       # Custom 404 page
+├── CODE_OF_CONDUCT.md             # Contributor guidelines
+├── contributors.html              # Contributors page
+├── index.css                      # Main styles
+├── index.html                     # Main html
+├── index.js                       # Main JavaScript entry
+├── README.md                      # Project documentation
+├── LICENSE                        # License information
+├── script.js                      # Additional JS logic (e.g., navbar)
+└── site.webmanifest               # PWA manifest file
+
+```
+---
+
 ## 🎯 Goals
 
 - 💡 Improve HTML, CSS & JavaScript skills
@@ -88,6 +133,30 @@ git clone https://github.com/your-username/WebDevIn100Days.git
 <a href="https://github.com/ruchikakengal/WebDevIn100_Days/graphs/contributors">
 <img src="https://contributors-img.web.app/image?repo=ruchikakengal/WebDevIn100_Days"/>
 
+---
+
+##  🤝 How to Contribute
+
+1. **Fork** the repository.
+``` https://github.com/ruchikakengal/WebDevIn100_Days```
+2. **Clone** your fork : 
+``` https://github.com/your-username/WebDevIn100Days.git ```
+3. **Create a new branch** for your mini-project or contribution :
+``` fect/fix/add ```
+5. **Add your project** inside the appropriate folder (e.g., `public/Day-XX-ProjectName/`)
+6. **Commit** your changes : 
+```bash 
+git add .
+git commit -m "Add Day-XX: Project Name" 
+
+```
+6. **Push** to your fork and **create a pull request** on the main repo.
+7. Wait for review and feedback!
+
+> See [CONTRIBUTORS.html](contributors.html) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for our guidelines.
+
+
+---
 
 ## Show Your Support
 

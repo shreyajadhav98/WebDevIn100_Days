@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="fav.svg" type="image/x-icon">
+   <title>Puzzle Game</title>
+   <link rel="stylesheet" type="text/css" href="game_styles.css" />
+</head>
+
+<body>
+
+   <div id="game_wrap">
+      <div class="console outset grey">
+         <div class="block_wrap inset grey">
+            <div class="preview"></div>
+         </div>
+
+         <div class="field_wrap inset grey">
+            <div class="field"></div>
+         </div>
+
+         <div class="score_wrap inset grey">
+            <div class="list">
+               <span>Level</span><span class="level">1</span>
+            </div>
+
+            <div class="list">
+               <span>Score</span><span class="score">0</span>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <script type="text/javascript" src="game_mechanics.js"></script>
+
+</body>
+
+</html>
+
+
+<!-- 
+Controls :
+
+Left, Right Arrow keys: Move left/right.
+Up Arrow key: Holds movement.
+Down Arrow key: Moves down faster.
+"N": rotates counter-clockwise.
+"M": rotates clockwise.
+ -->

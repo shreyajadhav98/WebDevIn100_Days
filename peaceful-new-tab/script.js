@@ -1,3 +1,5 @@
+const API_KEY="YOUR_PEXEL_API_KEY_HERE" //replace the placeholder with your pexels api key
+
 // Greeting and Name
 function getName() {
   let name = localStorage.getItem("name");

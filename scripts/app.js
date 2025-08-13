@@ -1040,6 +1040,15 @@ class WebDev100Days {
           category: "games",
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["Bird", "Score", "Hard"]
+  },
+      {
+         originalDay:156, 
+         name: "Fanta Website Clone",
+          description: "Enjoy your first Drink ",
+          demoLink: "./public/Fanta-Website/index.html",
+          category: "creativity",
+          technologies: ["HTML", "CSS", "JavaScript"],
+          features: ["Fanta", "Coldrink", "Animation"]
   }
 
 

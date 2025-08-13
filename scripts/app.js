@@ -1040,8 +1040,21 @@ class WebDev100Days {
           category: "games",
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["Bird", "Score", "Hard"]
-  }
+  },
 
+{
+  originalDay: 157, 
+  name: "Drum Kit",
+  description: "A fun and interactive drum kit that can be played by clicking buttons or pressing keys.",
+  demoLink: "./public/Drum-Kit/index.html",
+  category: "entertainment",
+  technologies: ["HTML", "CSS", "JavaScript"],
+  features: [
+    "Play drums using mouse clicks or keyboard keys",
+    "Visual feedback on key press",
+    "Multiple drum sounds"
+  ]
+}
 
 
       

@@ -1059,6 +1059,15 @@ class WebDev100Days {
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["food", "meals", "creativity"]
   },
+      {
+         originalDay:159, 
+         name: "Fitness Club ",
+          description: "Your Only Gym",
+          demoLink: "./public/Gym-Website/index.html",
+          category: "creativity",
+          technologies: ["HTML", "CSS", "JavaScript"],
+          features: ["Gym", "Weight", "Fitness"]
+  },
 
 
 

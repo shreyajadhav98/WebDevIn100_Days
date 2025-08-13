@@ -851,7 +851,7 @@ class WebDev100Days {
               features: ["Future", "Fortune"]
 },
 {
-        originalDay: 144,
+        originalDay: 139,
         name: "Fitness Tracker",
         description: "Advanced, vibrant web app to track daily steps and water intake with charts, themes, and responsive design.",
         demoLink: "./public/Fitness_Tracker/index.html",
@@ -859,9 +859,181 @@ class WebDev100Days {
         technologies: ["HTML", "CSS", "JavaScript", "Chart.js"],
         features: ["Daily Steps & Water Input", "Dark/Light Mode", "Chart.js Visualizations", "Responsive Design", "Duplicate Prevention", "Tooltips on Charts"]
        },
+
+
+
+
+
+
+
+
+
+
+
+       {
+
+  originalDay: 140,
+    name: "Super Mario",
+      description: "Mario is back.",
+        demoLink: "./public/Day-62/index.html",
+          category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Mario", "Jump"]
+},
+
+{
+
+  originalDay: 141,
+    name: "Netflix",
+      description: "Netflix Clone",
+        demoLink: "./public/Day-97/index.html",
+          category: "Utility",
+            technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Clone"]
+},
+{
+
+  originalDay: 142,
+    name: "Spin",
+      description: "Spin the wheel",
+        demoLink: "./public/Day-98/index.html",
+          category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Spin", "Wheel"]
+},
+{
+
+  originalDay: 143,
+    name: "PuckMan",
+      description: "Escape from the ghost",
+        demoLink: "./public/Day-99/index.html",
+          category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["PuckMan", "Ghost"]
+},
+{
+
+  originalDay: 144,
+    name: "EduGames phase 1",
+      description: "Class 1 - Class 8",
+        demoLink: "./public/Day-100/index.html",
+          category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Games", "MCQ"]
+},
+{
+
+  originalDay: 145,
+    name: "EduGames phase 2",
+      description: "Class 9 - Class 12",
+        demoLink: "./public/Day-80/index.html",
+          category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Games", "MCQ"]
+},
+{
+
+  originalDay: 146,
+    name: "Tank Battle",
+      description: "Fight with Tanks",
+        demoLink: "./public/Day-81/index.html",
+          category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Future", "Fortune"]
+},
+{
+
+  originalDay: 147,
+    name: "Carrom",
+      description: "Play carrom",
+        demoLink: "./public/Day-82/index.html",
+          category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Carrom", "Fun"]
+},
+{
+
+  originalDay: 148,
+    name: "Pong",
+      description: "Play Pong",
+        demoLink: "./public/Day-83/index.html",
+          category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Future", "Fortune"]
+},
+{
+
+  originalDay: 149,
+    name: "404 Escape Room",
+      description: "Find the hidden clues",
+        demoLink: "./public/Day-84/index.html",
+          category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Hidden", "Clues"]
+},
+{
+
+  originalDay: 150,
+    name: "Sudoku",
+      description: "Play with numbers",
+        demoLink: "./public/Day-85/index.html",
+          category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Numbers"]
+},
+{
+
+  originalDay: 151,
+    name: "KBC",
+      description: "Kaun Banega crorepati?",
+        demoLink: "./public/Day-86/index.html",
+          category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["MCQ", "Lifelines"]
+},
+{
+
+  originalDay: 152,
+    name: "Past Life Finder",
+      description: "Know your Past",
+        demoLink: "./public/Day-87/index.html",
+          category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Past"]
+},
+{
+
+  originalDay: 153,
+    name: "Tetris",
+      description: "Play Tetris",
+        demoLink: "./public/Day-88/index.html",
+          category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Tetris", "Boxes"]
+},
+{
+
+  originalDay: 154,
+    name: "Puzzle",
+      description: "Slides the boxes",
+        demoLink: "./public/Day-89/index.html",
+          category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Slide", "Solve"]
+},
+{
+
+  originalDay: 155,
+    name: "Archery",
+      description: "Aim the target",
+        demoLink: "./public/Day-61/index.html",
+          category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Slide", "Solve"]
+},
    
       {
-         originalDay:145, 
+         originalDay:156, 
          name: "Flappy Bird",
           description: "Play with Bird",
           demoLink: "./public/flappy-bird/index.html",
@@ -869,6 +1041,7 @@ class WebDev100Days {
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["Bird", "Score", "Hard"]
   }
+
 
 
       

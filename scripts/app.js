@@ -1068,6 +1068,15 @@ class WebDev100Days {
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["Gym", "Weight", "Fitness"]
   },
+      {
+         originalDay:160, 
+         name: "Salon Website ",
+          description: "Firt Cut Free",
+          demoLink: "./public/Salon-Website/index.html",
+          category: "creativity",
+          technologies: ["HTML", "CSS", "JavaScript"],
+          features: ["salon", "cutting", "glow up"]
+  },
 
 
 

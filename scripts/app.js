@@ -51,6 +51,18 @@ class WebDev100Days {
         if (page && page !== this.currentPage) {
           this.currentPage = page;
           this.renderTable();
+
+           // Scroll headings se start ho
+      setTimeout(() => {
+        const tableHead = document.querySelector("table thead");
+        if (tableHead) {
+          // Agar koi fixed header ya navbar height hai to uska offset nikal lo
+          const headerOffset = 80; // yahan apne header ki actual height set karo
+          const y = tableHead.getBoundingClientRect().top + window.scrollY - headerOffset;
+          window.scrollTo({ top: y, behavior: "smooth" });
+        }
+      }, 50);
+      
         }
       }
     });
@@ -703,6 +715,7 @@ class WebDev100Days {
 
 
 
+
       {
 
 
@@ -724,16 +737,7 @@ class WebDev100Days {
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Quiz", "Scores"]
       },
-      {
-        originalDay: 124,
-
-        name: "Flappy Bird",
-        description: "Play with Bird",
-        demoLink: "./public/flappy-bird/index.html",
-        category: "games",
-        technologies: ["HTML", "CSS", "JavaScript"],
-        features: ["Bird", "Score", "Hard"]
-      },
+ 
 
       {
 
@@ -741,11 +745,15 @@ class WebDev100Days {
         originalDay: 125,
         name: "University Management System",
 
+
         description: "Manage university operations including courses, students, and faculty.",
         demoLink: "./public/University_managment_system/index.html",
         category: "utilities",
         technologies: ["HTML", "CSS", "JavaScript", "API"],
         features: ["Visitor Management", "History Tracking", "Search Functionality"]
+
+
+
       },
       {
         originalDay: 126,
@@ -755,12 +763,13 @@ class WebDev100Days {
         category: "creativity",
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Grid Creation", "Color Selection", "Download Art", "Reset Canvas"]
-      }
+
+      },
 
 
 
 
-      ,
+      
       {
 
   originalDay: 131,
@@ -850,8 +859,19 @@ class WebDev100Days {
         technologies: ["HTML", "CSS", "JavaScript", "Chart.js"],
         features: ["Daily Steps & Water Input", "Dark/Light Mode", "Chart.js Visualizations", "Responsive Design", "Duplicate Prevention", "Tooltips on Charts"]
        },
-{
-  originalDay: 146,
+
+   
+      {
+         originalDay:145, 
+         name: "Flappy Bird",
+          description: "Play with Bird",
+          demoLink: "./public/flappy-bird/index.html",
+          category: "games",
+          technologies: ["HTML", "CSS", "JavaScript"],
+          features: ["Bird", "Score", "Hard"]
+  },
+      {
+  originalDay: 150,
   name: "Memory Grid Rush",
   description: "Fast-paced memory game where players repeat flashing grid patterns that get progressively harder with each level.",
   demoLink: "./public/Memory_Grid_Rush/index.html",

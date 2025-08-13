@@ -1042,14 +1042,23 @@ class WebDev100Days {
           features: ["Bird", "Score", "Hard"]
   },
       {
-         originalDay:156, 
+         originalDay:157, 
          name: "Fanta Website Clone",
           description: "Enjoy your first Drink ",
           demoLink: "./public/Fanta-Website/index.html",
           category: "creativity",
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["Fanta", "Coldrink", "Animation"]
-  }
+  },
+      {
+         originalDay:158, 
+         name: "Ruchii Tiffin ",
+          description: "Simple Homely Tasty Meals ",
+          demoLink: "./public/Ruchii-Tiffin/index.html",
+          category: "creativity",
+          technologies: ["HTML", "CSS", "JavaScript"],
+          features: ["food", "meals", "creativity"]
+  },
 
 
 

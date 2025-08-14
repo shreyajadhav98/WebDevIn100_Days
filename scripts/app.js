@@ -861,15 +861,6 @@ class WebDev100Days {
        },
 
 
-
-
-
-
-
-
-
-
-
        {
 
   originalDay: 140,
@@ -1042,6 +1033,7 @@ class WebDev100Days {
           features: ["Bird", "Score", "Hard"]
   },
       {
+
          originalDay:157, 
          name: "Fanta Website Clone",
           description: "Enjoy your first Drink ",
@@ -1068,8 +1060,18 @@ class WebDev100Days {
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["Gym", "Weight", "Fitness"]
   },
+      
+    {
+        originalDay: 157,
+        name: "Invoice Builder",
+        description: "Generate Product Invoice",
+        demoLink: "./public/Invoice-Builder/index.html",
+        category: "utilities",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Invoice", "Product Invoice ",  "Invoice Generator"]
+       },
       {
-         originalDay:160, 
+         originalDay:161, 
          name: "Salon Website ",
           description: "Firt Cut Free",
           demoLink: "./public/Salon-Website/index.html",
@@ -1077,6 +1079,7 @@ class WebDev100Days {
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["salon", "cutting", "glow up"]
   },
+
 
 
 

@@ -861,15 +861,6 @@ class WebDev100Days {
        },
 
 
-
-
-
-
-
-
-
-
-
        {
 
   originalDay: 140,
@@ -1042,6 +1033,7 @@ class WebDev100Days {
           features: ["Bird", "Score", "Hard"]
   },
       {
+
          originalDay:157, 
          name: "Fanta Website Clone",
           description: "Enjoy your first Drink ",
@@ -1051,7 +1043,18 @@ class WebDev100Days {
           features: ["Fanta", "Coldrink", "Animation"]
   },
       {
-         originalDay:158, 
+
+        originalDay: 157,
+        name: "Invoice Builder",
+        description: "Generate Product Invoice",
+        demoLink: "./public/Invoice-Builder/index.html",
+        category: "utilities",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Invoice", "Product Invoice ",  "Invoice Generator"]
+       },
+      
+      {
+         originalDay:159, 
          name: "Ruchii Tiffin ",
           description: "Simple Homely Tasty Meals ",
           demoLink: "./public/Ruchii-Tiffin/index.html",
@@ -1059,6 +1062,7 @@ class WebDev100Days {
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["food", "meals", "creativity"]
   },
+
 
 
 

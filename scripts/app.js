@@ -1022,6 +1022,7 @@ class WebDev100Days {
             technologies: ["HTML", "CSS", "JavaScript"],
               features: ["Slide", "Solve"]
 },
+
    
       {
          originalDay:156, 
@@ -1033,7 +1034,11 @@ class WebDev100Days {
           features: ["Bird", "Score", "Hard"]
   },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+     
+>>>>>>> main
       {
 
         originalDay: 157,
@@ -1054,6 +1059,7 @@ class WebDev100Days {
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["Fanta", "Coldrink", "Animation"]
   },
+<<<<<<< HEAD
 >>>>>>> upstream/main
 
 {
@@ -1073,6 +1079,20 @@ class WebDev100Days {
 
 
       
+=======
+
+ {
+  originalDay: 165,
+  name: "Memory Grid Rush",
+  description: "Fast-paced memory game where players repeat flashing grid patterns that get progressively harder with each level.",
+  demoLink: "./public/Memory_Grid_Rush/index.html",
+  category: "games",
+  technologies: ["HTML", "CSS", "JavaScript"],
+  features: [
+  "Dynamic grid scaling, pattern generation & replay, dark/light mode, score & level tracking, keyboard accessibility, animated feedback, and replay option."
+  ]
+}
+>>>>>>> main
 
     ];
 

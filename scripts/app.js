@@ -1053,11 +1053,11 @@ class WebDev100Days {
           category: "creativity",
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["Fanta", "Coldrink", "Animation"]
-  }
+  },
 >>>>>>> upstream/main
 
 {
-  originalDay: 157, 
+  originalDay: 159, 
   name: "Drum Kit",
   description: "A fun and interactive drum kit that can be played by clicking buttons or pressing keys.",
   demoLink: "./public/Drum-Kit/index.html",

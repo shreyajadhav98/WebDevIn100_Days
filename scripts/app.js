@@ -1033,35 +1033,24 @@ class WebDev100Days {
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["Bird", "Score", "Hard"]
   },
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-     
->>>>>>> main
-      {
-
-        originalDay: 157,
-        name: "Invoice Builder",
-        description: "Generate Product Invoice",
-        demoLink: "./public/Invoice-Builder/index.html",
-        category: "utilities",
-        technologies: ["HTML", "CSS", "JavaScript"],
-        features: ["Invoice", "Product Invoice ",  "Invoice Generator"]
-       },
-  {
-
-         originalDay:158, 
-         name: "Fanta Website Clone",
-          description: "Enjoy your first Drink ",
-          demoLink: "./public/Fanta-Website/index.html",
-          category: "creativity",
-          technologies: ["HTML", "CSS", "JavaScript"],
-          features: ["Fanta", "Coldrink", "Animation"]
-  },
-<<<<<<< HEAD
->>>>>>> upstream/main
-
+{
+  originalDay: 157,
+  name: "Invoice Builder",
+  description: "Generate Product Invoice",
+  demoLink: "./public/Invoice-Builder/index.html",
+  category: "utilities",
+  technologies: ["HTML", "CSS", "JavaScript"],
+  features: ["Invoice", "Product Invoice", "Invoice Generator"]
+},
+{
+  originalDay: 158, 
+  name: "Fanta Website Clone",
+  description: "Enjoy your first Drink",
+  demoLink: "./public/Fanta-Website/index.html",
+  category: "creativity",
+  technologies: ["HTML", "CSS", "JavaScript"],
+  features: ["Fanta", "Coldrink", "Animation"]
+},
 {
   originalDay: 159, 
   name: "Drum Kit",
@@ -1074,14 +1063,24 @@ class WebDev100Days {
     "Visual feedback on key press",
     "Multiple drum sounds"
   ]
-}
-
-
-
-      
-=======
-
- {
+},
+{
+  originalDay: 164,
+  name: "Library Book Manager",
+  description: "A stylish, accessible, and fully functional library management app to add, edit, delete, and track reading status of books with persistent storage.",
+  demoLink: "./public/Library_Book_Manager/index.html",
+  category: "productivity",
+  technologies: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+  features: [
+    "Add, Edit, and Delete Books",
+    "Reading Status Toggle (Unread, Reading, Read)",
+    "Dark/Light Mode Toggle with Persistence",
+    "Responsive and Accessible UI",
+    "Animated Border Gradient Styling",
+    "Empty Library Message Handling"
+  ]
+},
+{
   originalDay: 165,
   name: "Memory Grid Rush",
   description: "Fast-paced memory game where players repeat flashing grid patterns that get progressively harder with each level.",
@@ -1089,10 +1088,10 @@ class WebDev100Days {
   category: "games",
   technologies: ["HTML", "CSS", "JavaScript"],
   features: [
-  "Dynamic grid scaling, pattern generation & replay, dark/light mode, score & level tracking, keyboard accessibility, animated feedback, and replay option."
+    "Dynamic grid scaling, pattern generation & replay, dark/light mode, score & level tracking, keyboard accessibility, animated feedback, and replay option."
   ]
 }
->>>>>>> main
+
 
     ];
 

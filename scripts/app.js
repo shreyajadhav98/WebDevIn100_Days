@@ -1033,6 +1033,7 @@ class WebDev100Days {
           features: ["Bird", "Score", "Hard"]
   },
       {
+
         originalDay: 157,
         name: "Invoice Builder",
         description: "Generate Product Invoice",
@@ -1040,7 +1041,18 @@ class WebDev100Days {
         category: "utilities",
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Invoice", "Product Invoice ",  "Invoice Generator"]
-       }
+       },
+  {
+
+         originalDay:158, 
+         name: "Fanta Website Clone",
+          description: "Enjoy your first Drink ",
+          demoLink: "./public/Fanta-Website/index.html",
+          category: "creativity",
+          technologies: ["HTML", "CSS", "JavaScript"],
+          features: ["Fanta", "Coldrink", "Animation"]
+  }
+
 
 
 

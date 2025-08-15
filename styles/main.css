@@ -1571,8 +1571,8 @@ body {
 /* Scroll to Top Button */
 .scroll-top {
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 6rem;
+  right: 1.65rem;
   width: 3rem;
   height: 3rem;
   background: var(--primary-color);

@@ -1022,6 +1022,7 @@ class WebDev100Days {
             technologies: ["HTML", "CSS", "JavaScript"],
               features: ["Slide", "Solve"]
 },
+
    
       {
          originalDay:156, 
@@ -1032,7 +1033,9 @@ class WebDev100Days {
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["Bird", "Score", "Hard"]
   },
+     
       {
+
 
          originalDay:157, 
          name: "Fanta Website Clone",
@@ -1053,7 +1056,8 @@ class WebDev100Days {
   },
      
       {
-        originalDay: 157,
+
+        originalDay: 159,
         name: "Invoice Builder",
         description: "Generate Product Invoice",
         demoLink: "./public/Invoice-Builder/index.html",
@@ -1061,6 +1065,7 @@ class WebDev100Days {
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Invoice", "Product Invoice ",  "Invoice Generator"]
        },
+
  {
          originalDay:160, 
          name: "Fitness Club ",
@@ -1072,8 +1077,30 @@ class WebDev100Days {
   },
 
 
+{
+  originalDay: 164,
+  name: "Library Book Manager",
+  description: "A stylish, accessible, and fully functional library management app to add, edit, delete, and track reading status of books with persistent storage.",
+  demoLink: "./public/Library_Book_Manager/index.html",
+  category: "productivity",
+  technologies: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+  features: [
+    "Add, Edit, and Delete Books","Reading Status Toggle (Unread, Reading, Read)",
+    "Dark/Light Mode Toggle with Persistence","Responsive and Accessible UI",
+    "Animated Border Gradient Styling", "Empty Library Message Handling"]
+},
 
-      
+ {
+  originalDay: 165,
+  name: "Memory Grid Rush",
+  description: "Fast-paced memory game where players repeat flashing grid patterns that get progressively harder with each level.",
+  demoLink: "./public/Memory_Grid_Rush/index.html",
+  category: "games",
+  technologies: ["HTML", "CSS", "JavaScript"],
+  features: [
+  "Dynamic grid scaling, pattern generation & replay, dark/light mode, score & level tracking, keyboard accessibility, animated feedback, and replay option."
+  ]
+}
 
     ];
 

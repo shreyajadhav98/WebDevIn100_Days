@@ -184,19 +184,19 @@ class ChatbotWidget {
         },
         {
             keywords: ['Day-2', 'Day2', 'day-2', 'day 2', 'Day 2'],
-            answer: 'Name: Digital Clock<br>Description: A real-time clock application with multiple formats and customizable themes.<br>DemoLink: <a href="./public/Day-2_DigitalClock/index.html" target="_blank">Click Here</a>'
+            answer: 'Name: Digital Clock<br>Description: A real-time clock application with multiple formats and customizable themes.<br>DemoLink: <a href="./public/Day-2_digital_clock/digitalclock.html" target="_blank">Click Here</a>'
         },
         {
             keywords: ['Day-3', 'Day3', 'day-3', 'day 3', 'Day 3'],
-            answer: 'Name: ASCII Art Generator<br>Description: Generate ASCII art from text with various fonts and customizable output.<br>DemoLink: <a href="./public/Day-3_ASCIIArtGenerator/index.html" target="_blank">Click Here</a>'
+            answer: 'Name: ASCII Art Generator<br>Description: Generate ASCII art from text with various fonts and customizable output.<br>DemoLink: <a href="./public/Day-3_AsciiArtGenerator/index.html" target="_blank">Click Here</a>'
         },
         {
             keywords: ['Day-4', 'Day4', 'day-4', 'day 4', 'Day 4'],
-            answer: 'Name: Password Visualizer<br>Description: Visual representation of password strength with analysis and tips.<br>DemoLink: <a href="./public/Day-4_PasswordVisualizer/index.html" target="_blank">Click Here</a>'
+            answer: 'Name: Password Visualizer<br>Description: Visual representation of password strength with analysis and tips.<br>DemoLink: <a href="./public/Day-4_password_visualizer/index.html" target="_blank">Click Here</a>'
         },
         {
             keywords: ['Day-5', 'Day5', 'day-5', 'day 5', 'Day 5'],
-            answer: 'Name: Physics Simulation<br>Description: An interactive physics engine simulation with controls and animations.<br>DemoLink: <a href="./public/Day-5_PhysicsSimulation/index.html" target="_blank">Click Here</a>'
+            answer: 'Name: Physics Simulation<br>Description: An interactive physics engine simulation with controls and animations.<br>DemoLink: <a href="./public/Day-5_physics_simulation/index.html" target="_blank">Click Here</a>'
         },
         {
             keywords: ['Day-6', 'Day6', 'day-6', 'day 6', 'Day 6'],
@@ -212,11 +212,11 @@ class ChatbotWidget {
         },
         {
             keywords: ['Day-9', 'Day9', 'day-9', 'day 9', 'Day 9'],
-            answer: 'Name: Guess My Number<br>Description: A number guessing game with hints, score tracking, and difficulty levels.<br>DemoLink: <a href="./public/Day-9_GuessMyNumber/index.html" target="_blank">Click Here</a>'
+            answer: 'Name: Guess My Number<br>Description: A number guessing game with hints, score tracking, and difficulty levels.<br>DemoLink: <a href="./public/Day-9_Guess_My_Number/index.html" target="_blank">Click Here</a>'
         },
         {
             keywords: ['Day-10', 'Day10', 'day-10', 'day 10', 'Day 10'],
-            answer: 'Name: Neon Brick Breaker<br>Description: Classic brick breaker game with neon graphics, power-ups, and score tracking.<br>DemoLink: <a href="./public/Day-10_NeonBrickBreaker/index.html" target="_blank">Click Here</a>'
+            answer: 'Name: Neon Brick Breaker<br>Description: Classic brick breaker game with neon graphics, power-ups, and score tracking.<br>DemoLink: <a href="./public/Day-10_Neon_Brick_Breaker/index.html" target="_blank">Click Here</a>'
         },
         {
             keywords: ['Day-11', 'Day11', 'day-11', 'day 11', 'Day 11'],
@@ -224,27 +224,27 @@ class ChatbotWidget {
         },
         {
             keywords: ['Day-13', 'Day13', 'day-13', 'day 13', 'Day 13'],
-            answer: 'Name: Coin Flip<br>Description: Flip a coin with animation, sound effects, and statistics tracking.<br>DemoLink: <a href="./public/Day-13_CoinFlip/index.html" target="_blank">Click Here</a>'
+            answer: 'Name: Coin Flip<br>Description: Flip a coin with animation, sound effects, and statistics tracking.<br>DemoLink: <a href="./public/Day-13_Coin_Flip/index.html" target="_blank">Click Here</a>'
         },
         {
             keywords: ['Day-14', 'Day14', 'day-14', 'day 14', 'Day 14'],
-            answer: 'Name: E-Waste Management Hub<br>Description: Educational platform for e-waste management with location finder and impact info.<br>DemoLink: <a href="./public/Day-14_EWasteManagementHub/index.html" target="_blank">Click Here</a>'
+            answer: 'Name: E-Waste Management Hub<br>Description: Educational platform for e-waste management with location finder and impact info.<br>DemoLink: <a href="./public/Day-14_E-WasteManagementHub/index.html" target="_blank">Click Here</a>'
         },
         {
             keywords: ['Day-15', 'Day15', 'day-15', 'day 15', 'Day 15'],
-            answer: 'Name: Currency Converter<br>Description: Convert between currencies with real-time rates and history tracking.<br>DemoLink: <a href="./public/Day-15_CurrencyConverter/index.html" target="_blank">Click Here</a>'
+            answer: 'Name: Currency Converter<br>Description: Convert between currencies with real-time rates and history tracking.<br>DemoLink: <a href="./public/Day-15_Currency_Converter/index.html" target="_blank">Click Here</a>'
         },
         {
             keywords: ['Day-16', 'Day16', 'day-16', 'day 16', 'Day 16'],
-            answer: 'Name: Random User Generator<br>Description: Generate random user profiles with gallery view and export option.<br>DemoLink: <a href="./public/Day-16_RandomUserGenerator/index.html" target="_blank">Click Here</a>'
+            answer: 'Name: Random User Generator<br>Description: Generate random user profiles with gallery view and export option.<br>DemoLink: <a href="./public/Day-16_Random_User_Generator/index.html" target="_blank">Click Here</a>'
         },
         {
             keywords: ['Day-17', 'Day17', 'day-17', 'day 17', 'Day 17'],
-            answer: 'Name: Image Search App<br>Description: Search and view high-quality images with download functionality.<br>DemoLink: <a href="./public/Day-17_ImageSearchApp/index.html" target="_blank">Click Here</a>'
+            answer: 'Name: Image Search App<br>Description: Search and view high-quality images with download functionality.<br>DemoLink: <a href="./public/Day-17_Image_Search_App/index.html" target="_blank">Click Here</a>'
         },
         {
             keywords: ['Day-20', 'Day20', 'day-20', 'day 20', 'Day 20'],
-            answer: 'Name: Tic Tac Toe<br>Description: Classic Tic Tac Toe game with AI opponent and score tracking.<br>DemoLink: <a href="./public/Day-20_TicTacToe/index.html" target="_blank">Click Here</a>'
+            answer: 'Name: Tic Tac Toe<br>Description: Classic Tic Tac Toe game with AI opponent and score tracking.<br>DemoLink: <a href="./public/Day-20_tictactoe/index.html" target="_blank">Click Here</a>'
         },
         {
             keywords: ['categories', 'types', 'kinds', 'organize'],

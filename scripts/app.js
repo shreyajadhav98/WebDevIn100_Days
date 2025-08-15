@@ -1054,6 +1054,18 @@ class WebDev100Days {
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["Fanta", "Coldrink", "Animation"]
   },
+{
+  originalDay: 164,
+  name: "Library Book Manager",
+  description: "A stylish, accessible, and fully functional library management app to add, edit, delete, and track reading status of books with persistent storage.",
+  demoLink: "./public/Library_Book_Manager/index.html",
+  category: "productivity",
+  technologies: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+  features: [
+    "Add, Edit, and Delete Books","Reading Status Toggle (Unread, Reading, Read)",
+    "Dark/Light Mode Toggle with Persistence","Responsive and Accessible UI",
+    "Animated Border Gradient Styling", "Empty Library Message Handling"]
+},
 
  {
   originalDay: 165,

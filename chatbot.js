@@ -447,14 +447,17 @@ class ChatbotWidget {
 
         // Find matching Q&A based on keywords
         for (const qa of this.qnaDatabase) {
-            const hasMatch = qa.keywords.some(keyword =>
-                lowercaseMessage.includes(keyword.toLowerCase())
-            );
+            const hasMatch = qa.keywords.some(keyword => {
+                const pattern = `\\b${keyword.replace(/\s+/g, '\\s*')}\\b`;
+                const regex = new RegExp(pattern, 'i');
+                return regex.test(message);
+            });
 
             if (hasMatch) {
                 return qa.answer;
             }
         }
+
 
         // Fallback response with helpful suggestions
         return "I'd love to help! I can tell you about:\n\n🎮 **Our Games**: Chess, Space War, Candy Crush, Memory Game\n🛠️ **Utility Apps**: Weather App, QR Generator, Todo List\n🎨 **Creative Tools**: Drawing Apps, Color Tools\n📚 **Educational Apps**: Grade Analyzer, Quiz Programs\n\nTry asking about 'games', 'utilities', or a specific project name!";

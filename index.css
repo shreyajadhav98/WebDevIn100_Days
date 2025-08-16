@@ -6,25 +6,43 @@
   transition: color 0.3s ease, background-color 0.3s ease;
 
   #bgCanvas {
-    position: fixed;
+    position:absolute;
     top: 0;
-    left: 0;
+    left: 100%;
     width: 100%;
     height: 100%;
     z-index: -1;
     filter: blur(5px);
   }
 
-  .navbar-item:hover {
-    color: #ffffff; /* White text */
-    text-decoration: none;
-  }
+  
+     
 
-  .navbar-burger:hover {
-    background-color: #1abc9c; /* Teal hover for burger menu */
-    color: #ffffff;
-  }
-/* Styling for the animated cursor */
+.hero-actions {
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  gap: 20px;                /* Space between buttons */
+  margin-top: 20px;
+}
+
+.feedback-btn {
+  padding: 12px 30px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.feedback-btn:hover {
+  background-color: #16a085;
+  transform: translateY(-2px);
+}
+
+
+
 /* Styling for the animated cursor */
 .hero-subtitle .typed-cursor {
     color: #FFF; /* Or any color that looks good on your hero background */
@@ -40,9 +58,22 @@
 
   button:hover,
   .button:hover {
-    transform: scale(1.1);
+   transform: scale(1.1);
     background-color: #27ae60; /* Darker green for hover */
   }
+
+  .btn.btn-primary {
+ font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn.btn-primary:hover {
+  background-color: #16a085;
+   transform: scale(1.1);
+}
+
+
 
   /* Links */
   a {

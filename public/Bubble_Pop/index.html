@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Advanced Bubble Pop Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    Bubble Pop Game
+    <label class="switch" title="Toggle Light/Dark Mode">
+      <input type="checkbox" id="theme-toggle" aria-label="Toggle Light/Dark Mode" />
+      <span class="slider"></span>
+    </label>
+  </header>
+
+  <main>
+    <div id="info-bar" role="region" aria-live="polite" aria-atomic="true">
+      <div id="score">Score: 0</div>
+      <div id="level">Level: 1</div>
+      <div id="timer">Time: 60</div>
+    </div>
+
+    <div id="game-board" role="grid" aria-label="Bubble Pop Game Board"></div>
+
+    <button id="start-btn" aria-pressed="false" aria-label="Start Game">Start Game</button>
+
+    <div id="message" role="alert" aria-live="assertive"></div>
+  </main>
+
+  <audio id="pop-sound" src="https://actions.google.com/sounds/v1/pop/pop_bubble.wav" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

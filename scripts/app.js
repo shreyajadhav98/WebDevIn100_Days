@@ -1054,6 +1054,17 @@ class WebDev100Days {
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["Fanta", "Coldrink", "Animation"]
   },
+
+{
+originalDay: 163,
+name: "Bubble Pop",
+description: "Engaging bubble popping game where players clear groups of matching bubbles under a timer with increasing difficulty and score multipliers.",
+demoLink: "./public/Bubble_Pop/index.html",
+category: "games",
+technologies: ["HTML", "CSS", "JavaScript"],
+features: ["Dynamic 8x8 bubble grid", "group matching and popping", "multi-levels with timer", "score tracking", "light/dark mode", "responsive design", "keyboard accessible", "animations", "sound effects"]
+},
+
 {
   originalDay: 164,
   name: "Library Book Manager",

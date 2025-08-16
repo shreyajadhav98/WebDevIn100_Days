@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
             <nav>
                 <div class="logo">Notes App</div>
                 <ul>
-                    <li><a href="index.html" ${isActive('index.html')}>Home</a></li>
-                    <li><a href="notes.html" ${isActive('notes.html')}>Notes</a></li>
-                    <li><a href="contact.html" ${isActive('contact.html')}>Contact</a></li>
+                    <li><a href="Notes Home.html" ${isActive('index.html')}>Home</a></li>
+                    <li><a href="NotesPage1.html" ${isActive('notes.html')}>Notes</a></li>
+                    <li><a href="/./.404.html" ${isActive('contact.html')}>Contact</a></li>
                 </ul>
                 <button class="dark-mode-toggle" aria-label="Toggle Dark Mode">🌙</button>
             </nav>

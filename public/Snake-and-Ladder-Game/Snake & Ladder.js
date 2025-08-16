@@ -1,6 +1,6 @@
 let tog = 1
-let rollingSound = new Audio('dice-rolling.mp3')
-let winSound = new Audio('win-sound.mp3')
+let rollingSound = new Audio('Snake & Ladder-dice-roll.mp3')
+let winSound = new Audio('Snake & Ladder-win-sound.mp3')
 let p1sum = 0
 let p2sum = 0
 

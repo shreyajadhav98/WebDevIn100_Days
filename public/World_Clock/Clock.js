@@ -1,4 +1,4 @@
-import { timeZonesList } from "./local.js";
+import { timeZonesList } from "./Clock-local.js";
 
 document.addEventListener('DOMContentLoaded', onPageLoad);
 

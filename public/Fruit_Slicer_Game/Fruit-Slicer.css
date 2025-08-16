@@ -1,7 +1,7 @@
 html {
   height: 100%;
   background: linear-gradient(to bottom, #4a5568, #2d3748);
-  background-image: url(images/red\ _bg.jpg);
+  background-image: url(images/FruitSlicer-red_bg.jpg);
   background-size: cover;
   font-family: 'Arial', sans-serif;
 }
@@ -30,7 +30,7 @@ html {
 }
 
 #fruitcontainer {
-  background: url(images/brown_bg.jpg);
+  background: url(images/FruitSlicer-brown_bg.jpg);
   background-size: cover;
   width: 660px;
   height: 450px;

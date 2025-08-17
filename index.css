@@ -152,11 +152,11 @@
     background-color: #ffffff;
     color: #000000;
 
-    @media (max-width: 426px) {
+    }
+@media (max-width: 426px) {
       .links table tbody tr td {
         padding: 6px 2px; /* Reduce padding for smaller screens */
       }
-    }
 
     @media (max-width: 330px) {
       .links table tbody tr td {
@@ -381,16 +381,6 @@ body.dark-theme table {
 }
 
 body.dark-theme table th {
-  background-color: #34495e; /* Darker header */
-  color: #ffffff; /* Set white color for text */
-  padding: 12px;
-  text-align: left;
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  font-family: "Orbitron", sans-serif; /* Tech-inspired font */
-  font-weight: bold; /* Optional: Makes the header bolder */
-}
-body.dark-theme table th {
   background-color: #284a6b;
   padding: 12px;
   text-align: left;
@@ -463,7 +453,7 @@ body.dark-theme #scrollBtn:hover {
   background-color: #34495e;
   transform: scale(1.1);
 }
-body.dark-theme .subtitle has-text-centered{
+body.dark-theme .subtitle.has-text-centered{
   color: #fff;
 }
 /*........................................................................................................................*/
@@ -546,16 +536,6 @@ body.light-theme table {
 }
 
 body.light-theme table th {
-  background-color: #0080ff; /* Darker header */
-  color: #000000; /* Set white color for text */
-  padding: 12px;
-  text-align: left;
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  font-family: "Orbitron", sans-serif; /* Tech-inspired font */
-  font-weight: bold; /* Optional: Makes the header bolder */
-}
-body.light-theme table th {
   background-color: hsl(131, 100%, 42%);
   color: #000000 !important; /* Force white color */
   padding: 12px;
@@ -572,13 +552,13 @@ body.light-theme #title-two {
 }
 
 body.light-theme table td {
-  background-color: linear-gradient(145deg, #f0f9ff, #5cff33);
+  background: linear-gradient(145deg, #f0f9ff, #5cff33);
   color: white;
   padding: 12px;
 }
 
 body.light-theme table tr:hover {
-  background-color: linear-gradient(145deg, #f0f9ff, #5cff33, white);
+  background: linear-gradient(145deg, #f0f9ff, #5cff33, white);
   transition: background-color 0.4s ease;
 }
 
@@ -918,7 +898,7 @@ body {
   width: 20px;
   height: 20px;
 }
-body.light-theme .subtitle has-text-centered{
+body.light-theme .subtitle.has-text-centered{
   color: black;
 }
 .vertical-links {

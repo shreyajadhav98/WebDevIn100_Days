@@ -1036,17 +1036,8 @@ class WebDev100Days {
      
       {
 
-        originalDay: 157,
-        name: "Invoice Builder",
-        description: "Generate Product Invoice",
-        demoLink: "./public/Invoice-Builder/index.html",
-        category: "utilities",
-        technologies: ["HTML", "CSS", "JavaScript"],
-        features: ["Invoice", "Product Invoice ",  "Invoice Generator"]
-       },
-  {
 
-         originalDay:158, 
+         originalDay:157, 
          name: "Fanta Website Clone",
           description: "Enjoy your first Drink ",
           demoLink: "./public/Fanta-Website/index.html",
@@ -1054,6 +1045,38 @@ class WebDev100Days {
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["Fanta", "Coldrink", "Animation"]
   },
+      {
+         originalDay:158, 
+         name: "Ruchii Tiffin ",
+          description: "Simple Homely Tasty Meals ",
+          demoLink: "./public/Ruchii-Tiffin/index.html",
+          category: "creativity",
+          technologies: ["HTML", "CSS", "JavaScript"],
+          features: ["food", "meals", "creativity"]
+  },
+     
+      {
+
+        originalDay: 159,
+        name: "Invoice Builder",
+        description: "Generate Product Invoice",
+        demoLink: "./public/Invoice-Builder/index.html",
+        category: "utilities",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Invoice", "Product Invoice ",  "Invoice Generator"]
+       },
+
+ {
+         originalDay:160, 
+         name: "Fitness Club ",
+          description: "Your Only Gym",
+          demoLink: "./public/Gym-Website/index.html",
+          category: "creativity",
+          technologies: ["HTML", "CSS", "JavaScript"],
+          features: ["Gym", "Weight", "Fitness"]
+  },
+
+
 {
   originalDay: 164,
   name: "Library Book Manager",

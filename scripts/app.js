@@ -1033,6 +1033,38 @@ class WebDev100Days {
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["Bird", "Score", "Hard"]
   },
+
+{
+  originalDay: 157,
+  name: "Invoice Builder",
+  description: "Generate Product Invoice",
+  demoLink: "./public/Invoice-Builder/index.html",
+  category: "utilities",
+  technologies: ["HTML", "CSS", "JavaScript"],
+  features: ["Invoice", "Product Invoice", "Invoice Generator"]
+},
+{
+  originalDay: 158, 
+  name: "Fanta Website Clone",
+  description: "Enjoy your first Drink",
+  demoLink: "./public/Fanta-Website/index.html",
+  category: "creativity",
+  technologies: ["HTML", "CSS", "JavaScript"],
+  features: ["Fanta", "Coldrink", "Animation"]
+},
+{
+  originalDay: 159, 
+  name: "Drum Kit",
+  description: "A fun and interactive drum kit that can be played by clicking buttons or pressing keys.",
+  demoLink: "./public/Drum-Kit/index.html",
+  category: "entertainment",
+  technologies: ["HTML", "CSS", "JavaScript"],
+  features: [
+    "Play drums using mouse clicks or keyboard keys",
+    "Visual feedback on key press",
+    "Multiple drum sounds"
+  ]
+  },
      
       {
 
@@ -1076,7 +1108,6 @@ class WebDev100Days {
           features: ["Gym", "Weight", "Fitness"]
   },
 
-
 {
   originalDay: 164,
   name: "Library Book Manager",
@@ -1085,12 +1116,15 @@ class WebDev100Days {
   category: "productivity",
   technologies: ["HTML", "CSS", "JavaScript", "LocalStorage"],
   features: [
-    "Add, Edit, and Delete Books","Reading Status Toggle (Unread, Reading, Read)",
-    "Dark/Light Mode Toggle with Persistence","Responsive and Accessible UI",
-    "Animated Border Gradient Styling", "Empty Library Message Handling"]
+    "Add, Edit, and Delete Books",
+    "Reading Status Toggle (Unread, Reading, Read)",
+    "Dark/Light Mode Toggle with Persistence",
+    "Responsive and Accessible UI",
+    "Animated Border Gradient Styling",
+    "Empty Library Message Handling"
+  ]
 },
-
- {
+{
   originalDay: 165,
   name: "Memory Grid Rush",
   description: "Fast-paced memory game where players repeat flashing grid patterns that get progressively harder with each level.",
@@ -1098,9 +1132,10 @@ class WebDev100Days {
   category: "games",
   technologies: ["HTML", "CSS", "JavaScript"],
   features: [
-  "Dynamic grid scaling, pattern generation & replay, dark/light mode, score & level tracking, keyboard accessibility, animated feedback, and replay option."
+    "Dynamic grid scaling, pattern generation & replay, dark/light mode, score & level tracking, keyboard accessibility, animated feedback, and replay option."
   ]
 }
+
 
     ];
 

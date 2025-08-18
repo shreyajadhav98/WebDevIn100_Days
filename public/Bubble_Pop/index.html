@@ -26,6 +26,17 @@
 
     <button id="start-btn" aria-pressed="false" aria-label="Start Game">Start Game</button>
 
+    <div id="instructions" aria-live="polite" style="display:none; margin-top: 15px; font-weight: 600; text-align: center;">
+      Click groups of 3 or more adjacent matching colored bubbles to pop them before time runs out.
+    </div>
+
+    <div id="game-over-card" style="display:none; margin-top: 20px; padding: 20px; border-radius:12px; 
+      background: var(--primary-color); color: white; text-align: center; font-size: 1.3rem;">
+      <p id="final-score" style="margin: 0 0 10px 0;"></p>
+      <button id="restart-btn" style="background:#fff; color: var(--primary-color); border:none; 
+        padding: 10px 20px; border-radius: 8px; font-weight: 700; cursor: pointer;">Restart</button>
+    </div>
+
     <div id="message" role="alert" aria-live="assertive"></div>
   </main>
 

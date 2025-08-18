@@ -14,6 +14,10 @@
   const timerEl = document.getElementById('timer');
   const messageEl = document.getElementById('message');
   const startBtn = document.getElementById('start-btn');
+  const instructionsEl = document.getElementById('instructions');
+  const gameOverCard = document.getElementById('game-over-card');
+  const finalScoreEl = document.getElementById('final-score');
+  const restartBtn = document.getElementById('restart-btn');
   const themeToggle = document.getElementById('theme-toggle');
   const popSound = document.getElementById('pop-sound');
 
@@ -195,6 +199,17 @@
     }
   }
 
+  // Start button click handler to show instructions, then start
+  startBtn.addEventListener('click', () => {
+    startBtn.style.display = 'none';
+    instructionsEl.style.display = 'block';
+
+    setTimeout(() => {
+      instructionsEl.style.display = 'none';
+      startGame();
+    }, 3500);
+  });
+
   function startGame() {
     score = 0;
     level = 1;
@@ -204,8 +219,8 @@
     levelEl.textContent = `Level: ${level}`;
     timerEl.textContent = `Time: ${timeLeft}`;
     messageEl.textContent = '';
-    startBtn.disabled = true;
-    startBtn.setAttribute('aria-pressed', 'true');
+    gameOverCard.style.display = 'none';
+    startBtn.style.display = 'none';
     createGrid();
     renderGrid();
 
@@ -215,34 +230,38 @@
 
   function endGame(won) {
     isGameActive = false;
-    startBtn.disabled = false;
-    startBtn.setAttribute('aria-pressed', 'false');
     clearInterval(timer);
+    gameOverCard.style.display = 'block';
+    messageEl.style.display = 'none';
+    startBtn.style.display = 'none';
+    instructionsEl.style.display = 'none';
+    gameBoardEl.style.pointerEvents = 'none';
+
     if (won) {
-      if (level >= MAX_LEVEL) {
-        messageEl.textContent = `🎉 Congrats! You completed all ${MAX_LEVEL} levels with score ${score}.`;
-        return;
-      }
-      messageEl.textContent = `Level ${level} complete! Starting next level in 3 seconds...`;
-      setTimeout(() => {
-        level++;
-        levelEl.textContent = `Level: ${level}`;
-        timeLeft = Math.max(BASE_TIME - (level - 1) * TIME_DECREASE, 15);
-        timerEl.textContent = `Time: ${timeLeft}`;
-        messageEl.textContent = '';
-        isGameActive = true;
-        timer = setInterval(tick, 1000);
-        createGrid();
-        renderGrid();
-      }, 3000);
+      finalScoreEl.textContent = `🎉 Congrats! You completed all ${MAX_LEVEL} levels with a score of ${score}!`;
     } else {
-      messageEl.textContent = `Game Over! Final Score: ${score}. Press Start to play again.`;
+      finalScoreEl.textContent = `Game Over! Your final score is ${score}.`;
     }
   }
 
+  restartBtn.addEventListener('click', () => {
+    score = 0;
+    level = 1;
+    timeLeft = BASE_TIME;
+    scoreEl.textContent = `Score: ${score}`;
+    levelEl.textContent = `Level: ${level}`;
+    timerEl.textContent = `Time: ${timeLeft}`;
+    messageEl.style.display = 'block';
+    messageEl.textContent = '';
+    gameOverCard.style.display = 'none';
+    startBtn.style.display = 'block';
+    gameBoardEl.innerHTML = '';
+    gameBoardEl.style.pointerEvents = 'auto';
+  });
+
   function levelUp() {
     clearInterval(timer);
-    endGame(true);
+    endGame(true); // show level complete message, can customize to continue levels if desired
   }
 
   function flashMessage(text, isError = false) {
@@ -257,6 +276,4 @@
   }
 
   messageEl.style.willChange = 'transform';
-
-  startBtn.addEventListener('click', startGame);
 })();

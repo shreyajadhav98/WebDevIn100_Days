@@ -220,7 +220,6 @@ body.dark #timer {
     0 4px 7px rgba(230 126 34 / 0.75);
 }
 
-/* Dark mode bubbles shading */
 body.dark .bubble.red {
   background: #cc4337;
   box-shadow:
@@ -339,4 +338,17 @@ body.dark button#start-btn:hover:not(:disabled) {
 }
 #message.shake {
   animation: shake 0.9s ease;
+}
+
+/* Instructions and Game Over Card Styling */
+#instructions {
+  font-size: 1.1rem;
+  color: var(--primary-color);
+  margin-top: 15px;
+}
+
+#game-over-card button:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transition: 0.3s;
 }

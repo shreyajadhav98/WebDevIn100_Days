@@ -1109,7 +1109,17 @@ class WebDev100Days {
         features: [
           "Dynamic grid scaling, pattern generation & replay, dark/light mode, score & level tracking, keyboard accessibility, animated feedback, and replay option."
         ]
-      }
+      }, 
+      
+      {
+         originalDay:166, 
+         name: "Salon Website ",
+          description: "Firt Cut Free",
+          demoLink: "./public/Salon-Website/index.html",
+          category: "creativity",
+          technologies: ["HTML", "CSS", "JavaScript"],
+          features: ["salon", "cutting", "glow up"]
+  }
 
     ];
 

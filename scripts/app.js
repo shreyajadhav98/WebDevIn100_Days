@@ -52,17 +52,17 @@ class WebDev100Days {
           this.currentPage = page;
           this.renderTable();
 
-           // Scroll headings se start ho
-      setTimeout(() => {
-        const tableHead = document.querySelector("table thead");
-        if (tableHead) {
-          // Agar koi fixed header ya navbar height hai to uska offset nikal lo
-          const headerOffset = 80; // yahan apne header ki actual height set karo
-          const y = tableHead.getBoundingClientRect().top + window.scrollY - headerOffset;
-          window.scrollTo({ top: y, behavior: "smooth" });
-        }
-      }, 50);
-      
+          // Scroll headings se start ho
+          setTimeout(() => {
+            const tableHead = document.querySelector("table thead");
+            if (tableHead) {
+              // Agar koi fixed header ya navbar height hai to uska offset nikal lo
+              const headerOffset = 80; // yahan apne header ki actual height set karo
+              const y = tableHead.getBoundingClientRect().top + window.scrollY - headerOffset;
+              window.scrollTo({ top: y, behavior: "smooth" });
+            }
+          }, 50);
+
         }
       }
     });
@@ -737,7 +737,7 @@ class WebDev100Days {
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Quiz", "Scores"]
       },
- 
+
 
       {
 
@@ -769,88 +769,88 @@ class WebDev100Days {
 
 
 
-      
+
       {
 
-  originalDay: 131,
-    name: "Fruit Ninja",
-      description: "Play with fruits",
+        originalDay: 131,
+        name: "Fruit Ninja",
+        description: "Play with fruits",
         demoLink: "./public/Day-59/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Cut"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Cut"]
+      },
+      {
 
-  originalDay: 132,
-    name: "Solitaire",
-      description: "Play with Cards",
+        originalDay: 132,
+        name: "Solitaire",
+        description: "Play with Cards",
         demoLink: "./public/Day-90/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Ace", "King"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Ace", "King"]
+      },
+      {
 
-  originalDay: 133,
-    name: "Door Game",
-      description: "Open the Doors of your luck",
+        originalDay: 133,
+        name: "Door Game",
+        description: "Open the Doors of your luck",
         demoLink: "./public/Day-91/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Luck", "Doors"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Luck", "Doors"]
+      },
+      {
 
-  originalDay: 134,
-    name: "Roast Battle",
-      description: "Roast Your self by AI",
+        originalDay: 134,
+        name: "Roast Battle",
+        description: "Roast Your self by AI",
         demoLink: "./public/Day-92/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Roast"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Roast"]
+      },
+      {
 
-  originalDay: 135,
-    name: "Compliment Generator",
-      description: "Generate Compliment for your love once",
+        originalDay: 135,
+        name: "Compliment Generator",
+        description: "Generate Compliment for your love once",
         demoLink: "./public/Day-93/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Compliments"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Compliments"]
+      },
+      {
 
-  originalDay: 136,
-    name: "PickUp Lines",
-      description: "Generate PickUp Lines for your someonce",
+        originalDay: 136,
+        name: "PickUp Lines",
+        description: "Generate PickUp Lines for your someonce",
         demoLink: "./public/Day-94/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["PickUp Lines"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["PickUp Lines"]
+      },
+      {
 
-  originalDay: 137,
-    name: "Hero Identity",
-      description: "Know who you are",
+        originalDay: 137,
+        name: "Hero Identity",
+        description: "Know who you are",
         demoLink: "./public/Day-95/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Hero", "Powers"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Hero", "Powers"]
+      },
+      {
 
-  originalDay: 138,
-    name: "Fotune Teller",
-      description: "Know your future",
+        originalDay: 138,
+        name: "Fotune Teller",
+        description: "Know your future",
         demoLink: "./public/Day-96/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Future", "Fortune"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Future", "Fortune"]
+      },
+      {
         originalDay: 139,
         name: "Fitness Tracker",
         description: "Advanced, vibrant web app to track daily steps and water intake with charts, themes, and responsive design.",
@@ -858,248 +858,290 @@ class WebDev100Days {
         category: "productivity",
         technologies: ["HTML", "CSS", "JavaScript", "Chart.js"],
         features: ["Daily Steps & Water Input", "Dark/Light Mode", "Chart.js Visualizations", "Responsive Design", "Duplicate Prevention", "Tooltips on Charts"]
-       },
+      },
 
 
-       {
+      {
 
-  originalDay: 140,
-    name: "Super Mario",
-      description: "Mario is back.",
+        originalDay: 140,
+        name: "Super Mario",
+        description: "Mario is back.",
         demoLink: "./public/Day-62/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Mario", "Jump"]
-},
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Mario", "Jump"]
+      },
 
-{
+      {
 
-  originalDay: 141,
-    name: "Netflix",
-      description: "Netflix Clone",
+        originalDay: 141,
+        name: "Netflix",
+        description: "Netflix Clone",
         demoLink: "./public/Day-97/index.html",
-          category: "Utility",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Clone"]
-},
-{
+        category: "Utility",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Clone"]
+      },
+      {
 
-  originalDay: 142,
-    name: "Spin",
-      description: "Spin the wheel",
+        originalDay: 142,
+        name: "Spin",
+        description: "Spin the wheel",
         demoLink: "./public/Day-98/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Spin", "Wheel"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Spin", "Wheel"]
+      },
+      {
 
-  originalDay: 143,
-    name: "PuckMan",
-      description: "Escape from the ghost",
+        originalDay: 143,
+        name: "PuckMan",
+        description: "Escape from the ghost",
         demoLink: "./public/Day-99/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["PuckMan", "Ghost"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["PuckMan", "Ghost"]
+      },
+      {
 
-  originalDay: 144,
-    name: "EduGames phase 1",
-      description: "Class 1 - Class 8",
+        originalDay: 144,
+        name: "EduGames phase 1",
+        description: "Class 1 - Class 8",
         demoLink: "./public/Day-100/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Games", "MCQ"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Games", "MCQ"]
+      },
+      {
 
-  originalDay: 145,
-    name: "EduGames phase 2",
-      description: "Class 9 - Class 12",
+        originalDay: 145,
+        name: "EduGames phase 2",
+        description: "Class 9 - Class 12",
         demoLink: "./public/Day-80/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Games", "MCQ"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Games", "MCQ"]
+      },
+      {
 
-  originalDay: 146,
-    name: "Tank Battle",
-      description: "Fight with Tanks",
+        originalDay: 146,
+        name: "Tank Battle",
+        description: "Fight with Tanks",
         demoLink: "./public/Day-81/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Future", "Fortune"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Future", "Fortune"]
+      },
+      {
 
-  originalDay: 147,
-    name: "Carrom",
-      description: "Play carrom",
+        originalDay: 147,
+        name: "Carrom",
+        description: "Play carrom",
         demoLink: "./public/Day-82/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Carrom", "Fun"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Carrom", "Fun"]
+      },
+      {
 
-  originalDay: 148,
-    name: "Pong",
-      description: "Play Pong",
+        originalDay: 148,
+        name: "Pong",
+        description: "Play Pong",
         demoLink: "./public/Day-83/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Future", "Fortune"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Future", "Fortune"]
+      },
+      {
 
-  originalDay: 149,
-    name: "404 Escape Room",
-      description: "Find the hidden clues",
+        originalDay: 149,
+        name: "404 Escape Room",
+        description: "Find the hidden clues",
         demoLink: "./public/Day-84/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Hidden", "Clues"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Hidden", "Clues"]
+      },
+      {
 
-  originalDay: 150,
-    name: "Sudoku",
-      description: "Play with numbers",
+        originalDay: 150,
+        name: "Sudoku",
+        description: "Play with numbers",
         demoLink: "./public/Day-85/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Numbers"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Numbers"]
+      },
+      {
 
-  originalDay: 151,
-    name: "KBC",
-      description: "Kaun Banega crorepati?",
+        originalDay: 151,
+        name: "KBC",
+        description: "Kaun Banega crorepati?",
         demoLink: "./public/Day-86/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["MCQ", "Lifelines"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["MCQ", "Lifelines"]
+      },
+      {
 
-  originalDay: 152,
-    name: "Past Life Finder",
-      description: "Know your Past",
+        originalDay: 152,
+        name: "Past Life Finder",
+        description: "Know your Past",
         demoLink: "./public/Day-87/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Past"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Past"]
+      },
+      {
 
-  originalDay: 153,
-    name: "Tetris",
-      description: "Play Tetris",
+        originalDay: 153,
+        name: "Tetris",
+        description: "Play Tetris",
         demoLink: "./public/Day-88/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Tetris", "Boxes"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Tetris", "Boxes"]
+      },
+      {
 
-  originalDay: 154,
-    name: "Puzzle",
-      description: "Slides the boxes",
+        originalDay: 154,
+        name: "Puzzle",
+        description: "Slides the boxes",
         demoLink: "./public/Day-89/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Slide", "Solve"]
-},
-{
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Slide", "Solve"]
+      },
+      {
 
-  originalDay: 155,
-    name: "Archery",
-      description: "Aim the target",
+        originalDay: 155,
+        name: "Archery",
+        description: "Aim the target",
         demoLink: "./public/Day-61/index.html",
-          category: "games",
-            technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Slide", "Solve"]
-},
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Slide", "Solve"]
+      },
 
-   
+
       {
-         originalDay:156, 
-         name: "Flappy Bird",
-          description: "Play with Bird",
-          demoLink: "./public/flappy-bird/index.html",
-          category: "games",
-          technologies: ["HTML", "CSS", "JavaScript"],
-          features: ["Bird", "Score", "Hard"]
-  },
-     
+        originalDay: 156,
+        name: "Flappy Bird",
+        description: "Play with Bird",
+        demoLink: "./public/flappy-bird/index.html",
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Bird", "Score", "Hard"]
+      },
+
       {
+
 
         originalDay: 157,
+        name: "Fanta Website Clone",
+        description: "Enjoy your first Drink ",
+        demoLink: "./public/Fanta-Website/index.html",
+        category: "creativity",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Fanta", "Coldrink", "Animation"]
+      },
+      {
+        originalDay: 158,
+        name: "Ruchii Tiffin ",
+        description: "Simple Homely Tasty Meals ",
+        demoLink: "./public/Ruchii-Tiffin/index.html",
+        category: "creativity",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["food", "meals", "creativity"]
+      },
+
+      {
+
+        originalDay: 159,
         name: "Invoice Builder",
         description: "Generate Product Invoice",
         demoLink: "./public/Invoice-Builder/index.html",
         category: "utilities",
         technologies: ["HTML", "CSS", "JavaScript"],
-        features: ["Invoice", "Product Invoice ",  "Invoice Generator"]
-       },
-  {
+        features: ["Invoice", "Product Invoice ", "Invoice Generator"]
+      },
 
-         originalDay:158, 
-         name: "Fanta Website Clone",
-          description: "Enjoy your first Drink ",
-          demoLink: "./public/Fanta-Website/index.html",
+      {
+        originalDay: 160,
+        name: "Fitness Club ",
+        description: "Your Only Gym",
+        demoLink: "./public/Gym-Website/index.html",
+        category: "creativity",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Gym", "Weight", "Fitness"]
+      },
+
+
+      {
+        originalDay: 164,
+        name: "Library Book Manager",
+        description: "A stylish, accessible, and fully functional library management app to add, edit, delete, and track reading status of books with persistent storage.",
+        demoLink: "./public/Library_Book_Manager/index.html",
+        category: "productivity",
+        technologies: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+        features: [
+          "Add, Edit, and Delete Books", "Reading Status Toggle (Unread, Reading, Read)",
+          "Dark/Light Mode Toggle with Persistence", "Responsive and Accessible UI",
+          "Animated Border Gradient Styling", "Empty Library Message Handling"]
+      },
+      {
+        originalDay: 164,
+        name: "Drum Kit",
+        description: "Play the Drum",
+        demoLink: "./public/Drum-Kit/index.html",
+        category: "productivity",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Music", "Drum"]
+      },
+
+      {
+        originalDay: 165,
+        name: "Memory Grid Rush",
+        description: "Fast-paced memory game where players repeat flashing grid patterns that get progressively harder with each level.",
+        demoLink: "./public/Memory_Grid_Rush/index.html",
+        category: "games",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: [
+          "Dynamic grid scaling, pattern generation & replay, dark/light mode, score & level tracking, keyboard accessibility, animated feedback, and replay option."
+        ]
+      }, 
+      
+      {
+         originalDay:166, 
+         name: "Salon Website ",
+          description: "Firt Cut Free",
+          demoLink: "./public/Salon-Website/index.html",
           category: "creativity",
           technologies: ["HTML", "CSS", "JavaScript"],
-          features: ["Fanta", "Coldrink", "Animation"]
-  },
-{
-  originalDay: 164,
-  name: "Library Book Manager",
-  description: "A stylish, accessible, and fully functional library management app to add, edit, delete, and track reading status of books with persistent storage.",
-  demoLink: "./public/Library_Book_Manager/index.html",
-  category: "productivity",
-  technologies: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-  features: [
-    "Add, Edit, and Delete Books","Reading Status Toggle (Unread, Reading, Read)",
-    "Dark/Light Mode Toggle with Persistence","Responsive and Accessible UI",
-    "Animated Border Gradient Styling", "Empty Library Message Handling"]
-},
-
- {
-  originalDay: 165,
-  name: "Memory Grid Rush",
-  description: "Fast-paced memory game where players repeat flashing grid patterns that get progressively harder with each level.",
-  demoLink: "./public/Memory_Grid_Rush/index.html",
-  category: "games",
-  technologies: ["HTML", "CSS", "JavaScript"],
-  features: [
-  "Dynamic grid scaling, pattern generation & replay, dark/light mode, score & level tracking, keyboard accessibility, animated feedback, and replay option."
-  ]
-}
+          features: ["salon", "cutting", "glow up"]
+  }
 
     ];
 
-this.projects = projectsData.map((project, index) => ({
-  ...project,
-  day: index + 1
-}));
+    this.projects = projectsData.map((project, index) => ({
+      ...project,
+      day: index + 1
+    }));
 
-this.filteredProjects = [...this.projects];
+    this.filteredProjects = [...this.projects];
   }
 
-updateStatistics() {
-  const statsContainer = document.querySelector('.challenge-stats');
-  if (!statsContainer) return;
+  updateStatistics() {
+    const statsContainer = document.querySelector('.challenge-stats');
+    if (!statsContainer) return;
 
-  // Calculate unique technologies
-  const uniqueTechnologies = [...new Set(
-    this.projects.flatMap(project => project.technologies)
-  )].length;
+    // Calculate unique technologies
+    const uniqueTechnologies = [...new Set(
+      this.projects.flatMap(project => project.technologies)
+    )].length;
 
-  // Update stats
-  statsContainer.innerHTML = `
+    // Update stats
+    statsContainer.innerHTML = `
       <h3 class="challenge-stats-title">Challenge Statistics</h3>
       <div class="stats-grid">
         <div class="stat-item">
@@ -1120,68 +1162,68 @@ updateStatistics() {
         </div>
       </div>
     `;
-}
-
-filterProjects() {
-  let filtered = [...this.projects];
-
-  if (this.currentFilter !== 'all') {
-    filtered = filtered.filter(project => project.category === this.currentFilter);
   }
 
-  if (this.searchTerm) {
-    filtered = filtered.filter(project =>
-      project.name.toLowerCase().includes(this.searchTerm) ||
-      project.description.toLowerCase().includes(this.searchTerm) ||
-      project.technologies.some(tech => tech.toLowerCase().includes(this.searchTerm)) ||
-      project.features.some(feature => feature.toLowerCase().includes(this.searchTerm))
-    );
-  }
+  filterProjects() {
+    let filtered = [...this.projects];
 
-  this.filteredProjects = filtered;
-  this.currentPage = 1;
-  this.renderTable();
-}
-
-setActiveFilter(filter) {
-  this.currentFilter = filter;
-  this.currentPage = 1;
-
-  document.querySelectorAll('.filter-tab').forEach(tab => {
-    tab.classList.remove('active');
-  });
-  document.querySelector(`[data-filter="${filter}"]`).classList.add('active');
-
-  this.filterProjects();
-}
-
-renderTable() {
-  const tableContainer = document.querySelector('.projects-table-container');
-  const emptyState = document.querySelector('.empty-state');
-
-  if (!tableContainer) return;
-
-  const startIndex = (this.currentPage - 1) * this.projectsPerPage;
-  const endIndex = startIndex + this.projectsPerPage;
-  const projectsToShow = this.filteredProjects.slice(startIndex, endIndex);
-
-  tableContainer.innerHTML = '';
-
-  if (projectsToShow.length === 0) {
-    if (emptyState) {
-      emptyState.classList.add('show');
+    if (this.currentFilter !== 'all') {
+      filtered = filtered.filter(project => project.category === this.currentFilter);
     }
-    return;
+
+    if (this.searchTerm) {
+      filtered = filtered.filter(project =>
+        project.name.toLowerCase().includes(this.searchTerm) ||
+        project.description.toLowerCase().includes(this.searchTerm) ||
+        project.technologies.some(tech => tech.toLowerCase().includes(this.searchTerm)) ||
+        project.features.some(feature => feature.toLowerCase().includes(this.searchTerm))
+      );
+    }
+
+    this.filteredProjects = filtered;
+    this.currentPage = 1;
+    this.renderTable();
   }
 
-  if (emptyState) {
-    emptyState.classList.remove('show');
+  setActiveFilter(filter) {
+    this.currentFilter = filter;
+    this.currentPage = 1;
+
+    document.querySelectorAll('.filter-tab').forEach(tab => {
+      tab.classList.remove('active');
+    });
+    document.querySelector(`[data-filter="${filter}"]`).classList.add('active');
+
+    this.filterProjects();
   }
 
-  const table = document.createElement('table');
-  table.className = 'projects-table';
+  renderTable() {
+    const tableContainer = document.querySelector('.projects-table-container');
+    const emptyState = document.querySelector('.empty-state');
 
-  table.innerHTML = `
+    if (!tableContainer) return;
+
+    const startIndex = (this.currentPage - 1) * this.projectsPerPage;
+    const endIndex = startIndex + this.projectsPerPage;
+    const projectsToShow = this.filteredProjects.slice(startIndex, endIndex);
+
+    tableContainer.innerHTML = '';
+
+    if (projectsToShow.length === 0) {
+      if (emptyState) {
+        emptyState.classList.add('show');
+      }
+      return;
+    }
+
+    if (emptyState) {
+      emptyState.classList.remove('show');
+    }
+
+    const table = document.createElement('table');
+    table.className = 'projects-table';
+
+    table.innerHTML = `
       <thead>
         <tr>
           <th onclick="app.sortTable('day')" class="sortable">Day <span class="sort-icon">↕</span></th>
@@ -1229,84 +1271,84 @@ renderTable() {
       </tbody>
     `;
 
-  tableContainer.appendChild(table);
+    tableContainer.appendChild(table);
 
-  this.renderPagination();
-}
-
-sortTable(column) {
-  this.filteredProjects.sort((a, b) => {
-    if (column === 'day') {
-      return a.day - b.day;
-    } else if (column === 'name') {
-      return a.name.localeCompare(b.name);
-    } else if (column === 'category') {
-      return a.category.localeCompare(b.category);
-    }
-    return 0;
-  });
-
-  this.renderTable();
-}
-
-renderPagination() {
-  const totalPages = Math.ceil(this.filteredProjects.length / this.projectsPerPage);
-  const paginationContainer = document.querySelector('.pagination');
-
-  if (!paginationContainer || totalPages <= 1) {
-    if (paginationContainer) paginationContainer.style.display = 'none';
-    return;
+    this.renderPagination();
   }
 
-  paginationContainer.style.display = 'flex';
-  paginationContainer.innerHTML = '';
+  sortTable(column) {
+    this.filteredProjects.sort((a, b) => {
+      if (column === 'day') {
+        return a.day - b.day;
+      } else if (column === 'name') {
+        return a.name.localeCompare(b.name);
+      } else if (column === 'category') {
+        return a.category.localeCompare(b.category);
+      }
+      return 0;
+    });
 
-  const prevBtn = document.createElement('button');
-  prevBtn.className = 'pagination-btn';
-  prevBtn.disabled = this.currentPage === 1;
-  prevBtn.innerHTML = '‹';
-  prevBtn.dataset.page = this.currentPage - 1;
-  paginationContainer.appendChild(prevBtn);
-
-  for (let i = 1; i <= totalPages; i++) {
-    if (i === 1 || i === totalPages || (i >= this.currentPage - 2 && i <= this.currentPage + 2)) {
-      const pageBtn = document.createElement('button');
-      pageBtn.className = `pagination-btn ${i === this.currentPage ? 'active' : ''}`;
-      pageBtn.textContent = i;
-      pageBtn.dataset.page = i;
-      paginationContainer.appendChild(pageBtn);
-    } else if (i === this.currentPage - 3 || i === this.currentPage + 3) {
-      const ellipsis = document.createElement('span');
-      ellipsis.textContent = '...';
-      ellipsis.className = 'pagination-info';
-      paginationContainer.appendChild(ellipsis);
-    }
+    this.renderTable();
   }
 
-  const nextBtn = document.createElement('button');
-  nextBtn.className = 'pagination-btn';
-  nextBtn.disabled = this.currentPage === totalPages;
-  nextBtn.innerHTML = '›';
-  nextBtn.dataset.page = this.currentPage + 1;
-  paginationContainer.appendChild(nextBtn);
+  renderPagination() {
+    const totalPages = Math.ceil(this.filteredProjects.length / this.projectsPerPage);
+    const paginationContainer = document.querySelector('.pagination');
 
-  const pageInfo = document.createElement('div');
-  pageInfo.className = 'pagination-info';
-  pageInfo.textContent = `${this.currentPage} of ${totalPages}`;
-  paginationContainer.appendChild(pageInfo);
-}
+    if (!paginationContainer || totalPages <= 1) {
+      if (paginationContainer) paginationContainer.style.display = 'none';
+      return;
+    }
 
-debounce(func, wait) {
-  let timeout;
-  return function executedFunction(...args) {
-    const later = () => {
+    paginationContainer.style.display = 'flex';
+    paginationContainer.innerHTML = '';
+
+    const prevBtn = document.createElement('button');
+    prevBtn.className = 'pagination-btn';
+    prevBtn.disabled = this.currentPage === 1;
+    prevBtn.innerHTML = '‹';
+    prevBtn.dataset.page = this.currentPage - 1;
+    paginationContainer.appendChild(prevBtn);
+
+    for (let i = 1; i <= totalPages; i++) {
+      if (i === 1 || i === totalPages || (i >= this.currentPage - 2 && i <= this.currentPage + 2)) {
+        const pageBtn = document.createElement('button');
+        pageBtn.className = `pagination-btn ${i === this.currentPage ? 'active' : ''}`;
+        pageBtn.textContent = i;
+        pageBtn.dataset.page = i;
+        paginationContainer.appendChild(pageBtn);
+      } else if (i === this.currentPage - 3 || i === this.currentPage + 3) {
+        const ellipsis = document.createElement('span');
+        ellipsis.textContent = '...';
+        ellipsis.className = 'pagination-info';
+        paginationContainer.appendChild(ellipsis);
+      }
+    }
+
+    const nextBtn = document.createElement('button');
+    nextBtn.className = 'pagination-btn';
+    nextBtn.disabled = this.currentPage === totalPages;
+    nextBtn.innerHTML = '›';
+    nextBtn.dataset.page = this.currentPage + 1;
+    paginationContainer.appendChild(nextBtn);
+
+    const pageInfo = document.createElement('div');
+    pageInfo.className = 'pagination-info';
+    pageInfo.textContent = `${this.currentPage} of ${totalPages}`;
+    paginationContainer.appendChild(pageInfo);
+  }
+
+  debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+      const later = () => {
+        clearTimeout(timeout);
+        func(...args);
+      };
       clearTimeout(timeout);
-      func(...args);
+      timeout = setTimeout(later, wait);
     };
-    clearTimeout(timeout);
-    timeout = setTimeout(later, wait);
-  };
-}
+  }
 }
 
 let app;

@@ -15,9 +15,6 @@
     filter: blur(5px);
   }
 
-  
-     
-
 .hero-actions {
   display: flex;
   justify-content: center;  /* Center horizontally */
@@ -40,7 +37,6 @@
   background-color: #16a085;
   transform: translateY(-2px);
 }
-
 
 
 /* Styling for the animated cursor */
@@ -456,7 +452,8 @@ body.dark-theme #scrollBtn:hover {
 body.dark-theme .subtitle.has-text-centered{
   color: #fff;
 }
-/*........................................................................................................................*/
+
+
 
 /* Light theme styles */
 body.light-theme {

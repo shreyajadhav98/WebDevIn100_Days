@@ -1022,6 +1022,7 @@ class WebDev100Days {
             technologies: ["HTML", "CSS", "JavaScript"],
               features: ["Slide", "Solve"]
 },
+
    
       {
          originalDay:156, 
@@ -1032,6 +1033,39 @@ class WebDev100Days {
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["Bird", "Score", "Hard"]
   },
+
+{
+  originalDay: 157,
+  name: "Invoice Builder",
+  description: "Generate Product Invoice",
+  demoLink: "./public/Invoice-Builder/index.html",
+  category: "utilities",
+  technologies: ["HTML", "CSS", "JavaScript"],
+  features: ["Invoice", "Product Invoice", "Invoice Generator"]
+},
+{
+  originalDay: 158, 
+  name: "Fanta Website Clone",
+  description: "Enjoy your first Drink",
+  demoLink: "./public/Fanta-Website/index.html",
+  category: "creativity",
+  technologies: ["HTML", "CSS", "JavaScript"],
+  features: ["Fanta", "Coldrink", "Animation"]
+},
+{
+  originalDay: 159, 
+  name: "Drum Kit",
+  description: "A fun and interactive drum kit that can be played by clicking buttons or pressing keys.",
+  demoLink: "./public/Drum-Kit/index.html",
+  category: "entertainment",
+  technologies: ["HTML", "CSS", "JavaScript"],
+  features: [
+    "Play drums using mouse clicks or keyboard keys",
+    "Visual feedback on key press",
+    "Multiple drum sounds"
+  ]
+  },
+     
       {
 
          originalDay:157, 
@@ -1051,8 +1085,20 @@ class WebDev100Days {
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["food", "meals", "creativity"]
   },
+     
       {
-         originalDay:159, 
+
+        originalDay: 159,
+        name: "Invoice Builder",
+        description: "Generate Product Invoice",
+        demoLink: "./public/Invoice-Builder/index.html",
+        category: "utilities",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        features: ["Invoice", "Product Invoice ",  "Invoice Generator"]
+       },
+
+ {
+         originalDay:160, 
          name: "Fitness Club ",
           description: "Your Only Gym",
           demoLink: "./public/Gym-Website/index.html",
@@ -1062,7 +1108,7 @@ class WebDev100Days {
   },
       
     {
-        originalDay: 157,
+        originalDay: 161,
         name: "Invoice Builder",
         description: "Generate Product Invoice",
         demoLink: "./public/Invoice-Builder/index.html",
@@ -1070,8 +1116,37 @@ class WebDev100Days {
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Invoice", "Product Invoice ",  "Invoice Generator"]
        },
-      {
-         originalDay:161, 
+    
+
+{
+  originalDay: 164,
+  name: "Library Book Manager",
+  description: "A stylish, accessible, and fully functional library management app to add, edit, delete, and track reading status of books with persistent storage.",
+  demoLink: "./public/Library_Book_Manager/index.html",
+  category: "productivity",
+  technologies: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+  features: [
+    "Add, Edit, and Delete Books",
+    "Reading Status Toggle (Unread, Reading, Read)",
+    "Dark/Light Mode Toggle with Persistence",
+    "Responsive and Accessible UI",
+    "Animated Border Gradient Styling",
+    "Empty Library Message Handling"
+  ]
+},
+{
+  originalDay: 165,
+  name: "Memory Grid Rush",
+  description: "Fast-paced memory game where players repeat flashing grid patterns that get progressively harder with each level.",
+  demoLink: "./public/Memory_Grid_Rush/index.html",
+  category: "games",
+  technologies: ["HTML", "CSS", "JavaScript"],
+  features: [
+    "Dynamic grid scaling, pattern generation & replay, dark/light mode, score & level tracking, keyboard accessibility, animated feedback, and replay option."
+  ]
+}, 
+        {
+         originalDay:166, 
          name: "Salon Website ",
           description: "Firt Cut Free",
           demoLink: "./public/Salon-Website/index.html",
@@ -1081,9 +1156,6 @@ class WebDev100Days {
   },
 
 
-
-
-      
 
     ];
 

@@ -1108,7 +1108,6 @@ class WebDev100Days {
           features: ["Gym", "Weight", "Fitness"]
   },
 
-
 {
           originalDay: 163,
           name: "Bubble Pop",

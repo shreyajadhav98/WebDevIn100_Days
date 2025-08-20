@@ -1155,7 +1155,19 @@ class WebDev100Days {
       category: "creativity",
       technologies: ["HTML", "CSS", "JavaScript"],
       features: ["RAM", "Computer", "Website"]
-    }
+    }, 
+
+    {
+           originalDay: 169,
+           name: "Lagunitas Website",
+           description: "A website for showcasing Lagunitas products",
+           demoLink: "./public/Lagunitas-Website/index.html",
+           category: "creativity",
+           technologies: ["HTML", "CSS", "JavaScript"],
+           features: ["Lagunitas", "Beer", "Website"]
+         }
+
+    
 
 
     ];

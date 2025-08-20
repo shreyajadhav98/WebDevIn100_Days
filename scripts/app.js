@@ -1135,8 +1135,16 @@ class WebDev100Days {
           category: "creativity",
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["salon", "cutting", "glow up"]
-  }
-
+  }, 
+    {
+      originalDay: 167,
+      name: "Agency Website",
+      description: "Showcase your agency",
+      demoLink: "./public/Agency-Website/index.html",
+      category: "creativity",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      features: ["agency", "showcase", "portfolio"]
+    }
     ];
 
     this.projects = projectsData.map((project, index) => ({

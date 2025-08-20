@@ -1165,6 +1165,17 @@ class WebDev100Days {
            category: "creativity",
            technologies: ["HTML", "CSS", "JavaScript"],
            features: ["Lagunitas", "Beer", "Website"]
+         }, 
+
+
+         {
+            originalDay: 170,
+            name: "Pirate Website",
+            description: "A website for showcasing pirate-themed products",
+            demoLink: "./public/Pirates-Website/index.html",
+            category: "creativity",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Pirate", "Website", "Showcase"]
          }
 
     

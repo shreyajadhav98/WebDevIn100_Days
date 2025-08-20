@@ -1176,6 +1176,17 @@ class WebDev100Days {
             category: "creativity",
             technologies: ["HTML", "CSS", "JavaScript"],
             features: ["Pirate", "Website", "Showcase"]
+         }, 
+
+         {
+
+             originalDay: 171,
+             name: "Christmas Lights",
+             description: "A website for showcasing Christmas lights",
+             demoLink: "./public/Christmas-Website/index.html",
+             category: "creativity",
+             technologies: ["HTML", "CSS", "JavaScript"],
+             features: ["Christmas", "Lights", "Website"]
          }
 
     

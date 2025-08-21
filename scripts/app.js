@@ -1268,6 +1268,18 @@ class WebDev100Days {
               category: "creativity",
               technologies: ["HTML", "CSS", "JavaScript"],
               features: ["Blog", "Website", "Showcase"]
+         },
+
+
+         {
+
+              originalDay: 175,
+              name:"Yoga Website",
+              description: "A website for showcasing yoga classes",
+              demoLink: "./public/Yoga-Website/index.html",
+              category: "creativity",
+              technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Yoga", "Website", "Showcase"]
          }
 
     

@@ -263,8 +263,8 @@ class WebDev100Days {
   name: "Health Checkup Appointment",
   description: "Doctor appointment scheduled for a routine health checkup on 25th Aug, 2025 at 10:30 AM.",
   demoLink: "Home.html", // link to details page
-  category: "personal",
-  technologies: ["HTML", "CSS"], // if you create appointment page, else keep ["N/A"]
+  category: "Basic",
+  technologies: ["HTML", "CSS","JS"], 
   features: [
     "Doctor consultation details",
     "Date & time reminder",

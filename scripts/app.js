@@ -1245,6 +1245,18 @@ class WebDev100Days {
              category: "creativity",
              technologies: ["HTML", "CSS", "JavaScript"],
              features: ["Animal", "Save", "Website"]
+         },
+
+
+         {
+
+          originalDay:173,
+          name : "Jewellery Website",
+          description: "A website for showcasing jewellery products",
+          demoLink: "./public/Jwellery-Website/index.html",
+          category: "creativity",
+          technologies: ["HTML", "CSS", "JavaScript"],
+          features: ["Jewellery", "Website", "Showcase"]
          }
 
     

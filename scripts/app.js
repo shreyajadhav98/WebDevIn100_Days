@@ -1079,7 +1079,55 @@ class WebDev100Days {
         demoLink: "./public/Invoice-Builder/index.html",
         category: "utilities",
         technologies: ["HTML", "CSS", "JavaScript"],
-        features: ["Invoice", "Product Invoice ", "Invoice Generator"]
+        features: ["Invoice", "Product Invoice ",  "Invoice Generator"]
+       },
+
+ {
+         originalDay:160, 
+         name: "Fitness Club ",
+          description: "Your Only Gym",
+          demoLink: "./public/Gym-Website/index.html",
+          category: "creativity",
+          technologies: ["HTML", "CSS", "JavaScript"],
+          features: ["Gym", "Weight", "Fitness"]
+  },
+
+{
+          originalDay: 163,
+          name: "Bubble Pop",
+          description: "Engaging bubble popping game where players clear groups of matching bubbles under a timer with increasing difficulty and score multipliers.",
+          demoLink: "./public/Bubble_Pop/index.html",
+          category: "games",
+          technologies: ["HTML", "CSS", "JavaScript"],
+          features: ["Dynamic 8x8 bubble grid", "group matching and popping", "multi-levels with timer", "score tracking", "light/dark mode", "responsive design", "keyboard accessible", "animations", "sound effects"]
+},
+
+{
+  originalDay: 164,
+  name: "Library Book Manager",
+  description: "A stylish, accessible, and fully functional library management app to add, edit, delete, and track reading status of books with persistent storage.",
+  demoLink: "./public/Library_Book_Manager/index.html",
+  category: "productivity",
+  technologies: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+  features: [
+    "Add, Edit, and Delete Books",
+    "Reading Status Toggle (Unread, Reading, Read)",
+    "Dark/Light Mode Toggle with Persistence",
+    "Responsive and Accessible UI",
+    "Animated Border Gradient Styling",
+    "Empty Library Message Handling"
+  ]
+},
+{
+  originalDay: 165,
+  name: "Memory Grid Rush",
+  description: "Fast-paced memory game where players repeat flashing grid patterns that get progressively harder with each level.",
+  demoLink: "./public/Memory_Grid_Rush/index.html",
+  category: "games",
+  technologies: ["HTML", "CSS", "JavaScript"],
+  features: [
+    "Dynamic grid scaling, pattern generation & replay, dark/light mode, score & level tracking, keyboard accessibility, animated feedback, and replay option."
+  ]
       },
 
       {

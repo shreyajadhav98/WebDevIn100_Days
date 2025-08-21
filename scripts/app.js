@@ -1280,6 +1280,17 @@ class WebDev100Days {
               category: "creativity",
               technologies: ["HTML", "CSS", "JavaScript"],
               features: ["Yoga", "Website", "Showcase"]
+         },
+
+         {
+
+              originalDay: 176,
+              name : "SunDown Studio",
+              description: "A website for showcasing SunDown Studio's projects",
+              demoLink: "./public/SunDown-Studio-Website/index.html",
+              category: "creativity",
+              technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["SunDown", "Studio", "Website"]
          }
 
     

@@ -1291,6 +1291,17 @@ class WebDev100Days {
               category: "creativity",
               technologies: ["HTML", "CSS", "JavaScript"],
               features: ["SunDown", "Studio", "Website"]
+         },
+
+         {
+
+              originalDay: 177,
+              name: "Game Over",
+              description: "Ecommerce website for selling video games",
+              demoLink: "./public/Game-Over-Game-Selling-Website/index.html",
+              category: "creativity",
+              technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Game", "Over", "Website"]
          }
 
     

@@ -1098,10 +1098,9 @@ class WebDev100Days {
       demoLink: "./public/Reaction_Time_Test_2.0/index.html",
       category: "games",
       technologies: ["HTML", "CSS", "JavaScript"],
-      features: [
-      "Multiple colorful shapes display, timed reaction tracking, progressive levels, scoring system, light/dark mode, responsive layout, keyboard accessibility, animations, sound effects"
-      ]
+      features: ["Multiple colorful shapes display", "timed reaction tracking", "progressive levels", "scoring system", "light/dark mode", "responsive layout", "keyboard accessibility", "animations", "sound effects"]
       }, 
+
 
 {
           originalDay: 163,

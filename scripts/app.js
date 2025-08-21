@@ -1302,9 +1302,18 @@ class WebDev100Days {
               category: "creativity",
               technologies: ["HTML", "CSS", "JavaScript"],
               features: ["Game", "Over", "Website"]
-         }
+         },
 
-    
+         {
+
+            originalDay: 178,
+            name: "Zombie Shooter",
+            description: "A website for showcasing a zombie shooter game",
+            demoLink: "./public/Zombie-Shooter-Game/index.html",
+            category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Zombie", "Shooter", "Game"]
+         }
 
 
     ];

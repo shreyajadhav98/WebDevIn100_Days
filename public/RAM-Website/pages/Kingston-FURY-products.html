@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="PJ, OKE225" />
+    <meta name="keywords" content="Ram, Computer, Website, Template shop" />
+    <meta name="description" content="Template website to computer ram shop" />
+    <meta property="og:site_name" content="RAM'sy" />
+    <meta property="og:title" content="Kingston FURY Products Shop" />
+    <meta
+      property="og:description"
+      content="Simple website with HTML, CSS, JS & cdn Bootstrap 5" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Kingston FURY Product Shop | RAM'sy</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg sticky-top navbar-light bg-dark-subtle py-2 py-lg-0">
+      <div class="container-fluid">
+        <span class="navbar-brand h1 my-0 ms-4 ms-lg-1">RAM'sy</span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-content">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbar-content">
+          <ul class="navbar-nav mx-3 mx-lg-1">
+            <li class="nav-item mx-1">
+              <a href="../index.html" class="nav-link">Strona główna</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a href="shop.html" class="nav-link">Sklep</a>
+            </li>
+          </ul>
+          <div class="navbar-margin-right d-lg-flex ms-auto">
+            <span
+              class="navbar-text text-dark-emphasis d-inline-block d-lg-flex align-items-center mx-3"
+              >Ulubione
+              <i
+                class="fa-solid fa-heart position-relative text-dark-emphasis mx-1"
+                style="color: #000000"
+                ><span
+                  class="position-absolute badge top-0 start-100 translate-middle bg-danger rounded-pill"
+                  id="num-add-heart"
+                  >0</span
+                ></i
+              ></span
+            >
+            <span
+              class="navbar-text text-dark-emphasis d-inline-block d-lg-flex align-items-center mx-3"
+              >Koszyk
+              <i
+                class="fa-solid fa-cart-shopping position-relative text-dark-emphasis mx-1"
+                ><span
+                  class="position-absolute badge top-0 start-100 translate-middle bg-danger rounded-pill"
+                  id="num-add-cart"
+                  >0</span
+                ></i
+              >
+            </span>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-3 col-xxl-2" id="aside-menu">
+            <form class="filters-box mt-4">
+              <label class="form-check-label">Name product's</label>
+              <div class="input-group" role="group">
+                <input
+                  type="text"
+                  class="form-control filter"
+                  id="filter-name"
+                  autocomplete="off"
+                  name="name" />
+                <span
+                  class="input-group-text bg-primary text-light border border-primary">
+                  <i
+                    class="fa-solid fa-magnifying-glass"
+                    style="color: #ffffff"></i>
+                </span>
+              </div>
+              <div class="filter my-2">
+                <label class="form-check-label">Memory</label>
+                <select class="form-select" name="memory" id="filter-memory">
+                  <option value="" selected></option>
+                  <option value="8 GB">8 GB</option>
+                  <option value="16 GB">16 GB</option>
+                  <option value="32 GB">32 GB</option>
+                  <option value="64 GB">64 GB</option>
+                </select>
+              </div>
+              <div class="filter my-2">
+                <label class="form-check-label">Type</label>
+                <select class="form-select" name="type" id="filter-type">
+                  <option value="" selected></option>
+                  <option value="DDR3">DDR3</option>
+                  <option value="DDR4">DDR4</option>
+                  <option value="DDR5">DDR5</option>
+                </select>
+              </div>
+              <div class="filter my-2">
+                <label class="form-check-label">Frequency</label>
+                <select
+                  class="form-select"
+                  name="frequency"
+                  id="filter-frequency">
+                  <option value="" selected></option>
+                  <option value="1600 MHz">1 600 MHz</option>
+                  <option value="2666 MHz">2 666 MHz</option>
+                  <option value="3200 MHz">3 200 MHz</option>
+                  <option value="3600 MHz">3 600 MHz</option>
+                  <option value="5200 MHz">5 200 MHz</option>
+                  <option value="6000 MHz">6 000 MHz</option>
+                </select>
+              </div>
+              <div class="filter my-2">
+                <label class="form-check-label">Latency</label>
+                <select class="form-select" name="latency" id="filter-latency">
+                  <option value="" selected></option>
+                  <option value="CL 10">CL 10</option>
+                  <option value="CL 16">CL 16</option>
+                  <option value="CL 17">CL 17</option>
+                  <option value="CL 18">CL 18</option>
+                  <option value="CL 36">CL 36</option>
+                  <option value="CL 40">CL 40</option>
+                </select>
+              </div>
+              <div class="filter submit my-5">
+                <button class="btn btn-primary w-100" type="submit">
+                  Search
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-12 col-lg-9 col-xxl-10">
+            <p class="display-6 ms-3 my-3 mt-lg-4">
+              Found <span id="num-search-item" class="fw-bolder"></span> results
+            </p>
+            <div
+              class="row row-cols-2 row-cols-xxl-5 row-cols-xl-4 row-cols-lg-3 row-cols-md-3 row-cols-sm-2 fury-products-section"></div>
+            <ul class="pagination justify-content-end my-5 me-5">
+              <li class="page-item disabled">
+                <a href="#" class="page-link"><span>&laquo;</span></a>
+              </li>
+              <li class="page-item active">
+                <a href="#" class="page-link">1</a>
+              </li>
+              <li class="page-item disabled">
+                <a href="#" class="page-link"><span>&raquo;</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+
+    <script src="../JS/Kingston-FURY-products.js"></script>
+  </body>
+</html>

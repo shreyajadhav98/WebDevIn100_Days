@@ -113,6 +113,6 @@ window.addEventListener("resize", function () {
   moveSliderItem();
 });
 
-document.getElementById("showMoreBtn").onclick = function () {
+document.getElementById("showMoreBtn").onclick = function(){
   location.href = "blog.html";
 };

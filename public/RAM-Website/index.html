@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Home | RAM Store</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg sticky-top navbar-light bg-dark-subtle py-2 py-lg-0">
+      <div class="container-fluid">
+        <span class="navbar-brand h1 my-0 ms-4 ms-lg-1">RAM Store</span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-content">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbar-content">
+          <ul class="navbar-nav mx-3 mx-lg-1">
+            <li class="nav-item mx-1">
+              <a href="index.html" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a href="pages/shop.html" class="nav-link">Shop</a>
+            </li>
+          </ul>
+          <div class="navbar-margin-right d-lg-flex ms-auto">
+            <span
+              class="navbar-text text-dark-emphasis d-inline-block d-lg-flex align-items-center mx-3"
+              >Favorites
+              <i
+                class="fa-solid fa-heart position-relative text-dark-emphasis mx-1"
+                style="color: #000000"
+                ><span
+                  class="position-absolute badge top-0 start-100 translate-middle bg-danger rounded-pill"
+                  id="num-add-heart"
+                  >0</span
+                ></i
+              ></span
+            >
+            <span
+              class="navbar-text text-dark-emphasis d-inline-block d-lg-flex align-items-center mx-3"
+              >Cart
+              <i
+                class="fa-solid fa-cart-shopping position-relative text-dark-emphasis mx-1"
+                ><span
+                  class="position-absolute badge top-0 start-100 translate-middle bg-danger rounded-pill"
+                  id="num-add-cart"
+                  >0</span
+                ></i
+              >
+            </span>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container-lg">
+        <div
+          class="carousel slide carousel-fade w-100 mx-auto my-3"
+          id="main-carousel"
+          data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              class="active"
+              type="button"
+              data-bs-target="#main-carousel"
+              data-bs-slide-to="0"></button>
+            <button
+              type="button"
+              data-bs-target="#main-carousel"
+              data-bs-slide-to="1"></button>
+            <button
+              type="button"
+              data-bs-target="#main-carousel"
+              data-bs-slide-to="2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item rounded active" data-bs-interval="3000">
+              <a href="pages/G.SKILL-products.html">
+                <img
+                  src="images/TridentZ Royal Gold.jpg"
+                  alt=""
+                  class="d-block w-100" />
+                <div class="carousel-caption white-text-with-gray-shadow">
+                  <h3>G.SKILL Gold and Silver</h3>
+                  <p class="d-none d-md-block">
+                    Check the specifications of prestigious G.SKILL RAM modules
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="carousel-item rounded" data-bs-interval="3000">
+              <a href="pages/Kingston-FURY-products.html">
+                <img
+                  src="images/Kingston-FURY-Renegade-RGB.jpg"
+                  alt=""
+                  class="d-block w-100" />
+                <div class="carousel-caption white-text-with-gray-shadow">
+                  <h3>Kingston FURY</h3>
+                  <p class="d-none d-md-block">
+                    See the most popular and best performing RAM modules
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="carousel-item rounded" data-bs-interval="3000">
+              <a href="pages/sodimm-article.html">
+                <img src="images/SODIMM.jpg" alt="" class="d-block w-100" />
+                <div class="carousel-caption white-text-with-gray-shadow">
+                  <h3>SODIMM RAM</h3>
+                  <p class="d-none d-md-block">
+                    Article and expert opinion on SODIMM RAM modules
+                  </p>
+                </div>
+              </a>
+            </div>
+            <a
+              href="#main-carousel"
+              class="carousel-control-prev"
+              role="button"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a
+              href="#main-carousel"
+              class="carousel-control-next"
+              role="button"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+        <div class="box-product-margin-top">
+          <h2 class="mb-1">Featured Products</h2>
+          <div
+            class="row row-cols-2 row-cols-xxl-5 row-cols-xl-4 row-cols-lg-3 row-cols-md-3 row-cols-sm-2 products-section-home">
+            <a
+              href="pages/shop.html"
+              class="card rounded text-black text-decoration-none p-0">
+              <img
+                src="images/Kingston FURY 64GB (2x32GB) 6000MHz CL36 Beast RGB EXPO.png"
+                alt=""
+                class="card-img-top" />
+              <div class="card-body">
+                <h6 class="card-title">
+                  Kingston FURY 64GB (2x32GB) 2666MHz CL15 Renegade Black
+                </h6>
+                <div class="product-description d-flex my-4">
+                  <div class="left-section">
+                    <p>Memory:</p>
+                    <p>Type:</p>
+                    <p>Frequency:</p>
+                    <p>Latency:</p>
+                  </div>
+                  <div class="right-section">
+                    <p>
+                      64 GB
+                      <span class="d-none d-sm-inline-block">(2x32 GB)</span>
+                    </p>
+                    <p>DDR4</p>
+                    <p>2666 MHz</p>
+                    <p>CL 15</p>
+                  </div>
+                </div>
+                <div class="btn-group d-flex mb-3">
+                  <button
+                    class="btn btn-warning btn-sm w-100 text-black"
+                    role="button"
+                    type="button">
+                    VIEW DETAILS
+                  </button>
+                  <button
+                    class="btn btn-primary btn-sm button-cart-shopping"
+                    role="button"
+                    type="button">
+                    <i class="fa-solid fa-cart-shopping mx-1"></i>
+                  </button>
+                  <button
+                    class="btn btn-outline-danger btn-sm button-heart"
+                    role="button"
+                    type="button">
+                    <i class="fa-solid fa-heart mx-1"></i>
+                  </button>
+                </div>
+              </div> </a
+            ><a
+              href="pages/shop.html"
+              class="card rounded text-black text-decoration-none p-0">
+              <img
+                src="images/Kingston FURY 64GB (2x32GB) 6000MHz CL36 Beast RGB EXPO.png"
+                alt=""
+                class="card-img-top" />
+              <div class="card-body">
+                <h6 class="card-title">
+                  Kingston FURY 64GB (2x32GB) 2666MHz CL15 Renegade Black
+                </h6>
+                <div class="product-description d-flex my-4">
+                  <div class="left-section">
+                    <p>Memory:</p>
+                    <p>Type:</p>
+                    <p>Frequency:</p>
+                    <p>Latency:</p>
+                  </div>
+                  <div class="right-section">
+                    <p>
+                      64 GB
+                      <span class="d-none d-sm-inline-block">(2x32 GB)</span>
+                    </p>
+                    <p>DDR4</p>
+                    <p>2666 MHz</p>
+                    <p>CL 15</p>
+                  </div>
+                </div>
+                <div class="btn-group d-flex mb-3">
+                  <button
+                    class="btn btn-warning btn-sm w-100 text-black"
+                    role="button"
+                    type="button">
+                    VIEW DETAILS
+                  </button>
+                  <button
+                    class="btn btn-primary btn-sm button-cart-shopping"
+                    role="button"
+                    type="button">
+                    <i class="fa-solid fa-cart-shopping mx-1"></i>
+                  </button>
+                  <button
+                    class="btn btn-outline-danger btn-sm button-heart"
+                    role="button"
+                    type="button">
+                    <i class="fa-solid fa-heart mx-1"></i>
+                  </button>
+                </div>
+              </div> </a
+            ><a
+              href="pages/shop.html"
+              class="card rounded text-black text-decoration-none p-0">
+              <img
+                src="images/Kingston FURY 64GB (2x32GB) 6000MHz CL36 Beast RGB EXPO.png"
+                alt=""
+                class="card-img-top" />
+              <div class="card-body">
+                <h6 class="card-title">
+                  Kingston FURY 64GB (2x32GB) 2666MHz CL15 Renegade Black
+                </h6>
+                <div class="product-description d-flex my-4">
+                  <div class="left-section">
+                    <p>Memory:</p>
+                    <p>Type:</p>
+                    <p>Frequency:</p>
+                    <p>Latency:</p>
+                  </div>
+                  <div class="right-section">
+                    <p>
+                      64 GB
+                      <span class="d-none d-sm-inline-block">(2x32 GB)</span>
+                    </p>
+                    <p>DDR4</p>
+                    <p>2666 MHz</p>
+                    <p>CL 15</p>
+                  </div>
+                </div>
+                <div class="btn-group d-flex mb-3">
+                  <button
+                    class="btn btn-warning btn-sm w-100 text-black"
+                    role="button"
+                    type="button">
+                    VIEW DETAILS
+                  </button>
+                  <button
+                    class="btn btn-primary btn-sm button-cart-shopping"
+                    role="button"
+                    type="button">
+                    <i class="fa-solid fa-cart-shopping mx-1"></i>
+                  </button>
+                  <button
+                    class="btn btn-outline-danger btn-sm button-heart"
+                    role="button"
+                    type="button">
+                    <i class="fa-solid fa-heart mx-1"></i>
+                  </button>
+                </div>
+              </div> </a
+            ><a
+              href="pages/shop.html"
+              class="card rounded text-black text-decoration-none p-0">
+              <img
+                src="images/Kingston FURY 64GB (2x32GB) 6000MHz CL36 Beast RGB EXPO.png"
+                alt=""
+                class="card-img-top" />
+              <div class="card-body">
+                <h6 class="card-title">
+                  Kingston FURY 64GB (2x32GB) 2666MHz CL15 Renegade Black
+                </h6>
+                <div class="product-description d-flex my-4">
+                  <div class="left-section">
+                    <p>Memory:</p>
+                    <p>Type:</p>
+                    <p>Frequency:</p>
+                    <p>Latency:</p>
+                  </div>
+                  <div class="right-section">
+                    <p>
+                      64 GB
+                      <span class="d-none d-sm-inline-block">(2x32 GB)</span>
+                    </p>
+                    <p>DDR4</p>
+                    <p>2666 MHz</p>
+                    <p>CL 15</p>
+                  </div>
+                </div>
+                <div class="btn-group d-flex mb-3">
+                  <button
+                    class="btn btn-warning btn-sm w-100 text-black"
+                    role="button"
+                    type="button">
+                    VIEW DETAILS
+                  </button>
+                  <button
+                    class="btn btn-primary btn-sm button-cart-shopping"
+                    role="button"
+                    type="button">
+                    <i class="fa-solid fa-cart-shopping mx-1"></i>
+                  </button>
+                  <button
+                    class="btn btn-outline-danger btn-sm button-heart"
+                    role="button"
+                    type="button">
+                    <i class="fa-solid fa-heart mx-1"></i>
+                  </button>
+                </div>
+              </div> </a
+            ><a
+              href="pages/shop.html"
+              class="card rounded text-black text-decoration-none p-0">
+              <img
+                src="images/Kingston FURY 64GB (2x32GB) 6000MHz CL36 Beast RGB EXPO.png"
+                alt=""
+                class="card-img-top" />
+              <div class="card-body">
+                <h6 class="card-title">
+                  Kingston FURY 64GB (2x32GB) 2666MHz CL15 Renegade Black
+                </h6>
+                <div class="product-description d-flex my-4">
+                  <div class="left-section">
+                    <p>Memory:</p>
+                    <p>Type:</p>
+                    <p>Frequency:</p>
+                    <p>Latency:</p>
+                  </div>
+                  <div class="right-section">
+                    <p>
+                      64 GB
+                      <span class="d-none d-sm-inline-block">(2x32 GB)</span>
+                    </p>
+                    <p>DDR4</p>
+                    <p>2666 MHz</p>
+                    <p>CL 15</p>
+                  </div>
+                </div>
+                <div class="btn-group d-flex mb-3">
+                  <button
+                    class="btn btn-warning btn-sm w-100 text-black"
+                    role="button"
+                    type="button">
+                    VIEW DETAILS
+                  </button>
+                  <button
+                    class="btn btn-primary btn-sm button-cart-shopping"
+                    role="button"
+                    type="button">
+                    <i class="fa-solid fa-cart-shopping mx-1"></i>
+                  </button>
+                  <button
+                    class="btn btn-outline-danger btn-sm button-heart"
+                    role="button"
+                    type="button">
+                    <i class="fa-solid fa-heart mx-1"></i>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="huge-margin-top">
+      <div
+        class="container-lg border-top border-1 border-black border-dark-subtle py-4">
+        <div class="row">
+          <div class="col-4 d-flex justify-content-center">
+            <ul
+              class="list-group list-group-flush list-unstyled footer-line-height">
+              <h3>Information</h3>
+              <li>
+                <a href="#" class="text-decoration-none text-black"
+                  >Terms & Conditions</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-black"
+                  >News</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-black">Help</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-black">Service</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-black"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-black"
+                  >Frequently Asked Questions</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-4 d-flex justify-content-center">
+            <ul
+              class="list-group list-group-flush list-unstyled footer-line-height">
+              <h3>Contact</h3>
+              <li>
+                <a href="#" class="text-decoration-none text-black"
+                  ><i class="fa-solid fa-phone me-1"></i>+48 111 111 111</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-black"
+                  ><i class="fa-solid fa-envelope me-1"></i
+                  >email&shy;.example&shy;@gmail&shy;.com</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-4 d-flex justify-content-center">
+            <ul
+              class="list-group list-group-flush list-unstyled footer-line-height">
+              <h3>Find Us On</h3>
+              <li>
+                <a href="#" class="text-decoration-none facebook-color"
+                  ><i class="fa-brands fa-facebook facebook-color me-1"></i
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none instagram-color"
+                  ><i class="fa-brands fa-instagram instagram-color me-1"></i
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+
+    <script type="module" src="JS/products.js"></script>
+    <script type="module" src="JS/main.js"></script>
+  </body>
+</html>

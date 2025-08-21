@@ -1192,7 +1192,20 @@ class WebDev100Days {
       category: "creativity",
       technologies: ["HTML", "CSS", "JavaScript"],
       features: ["agency", "showcase", "portfolio"]
+    },
+ 
+
+    {
+      originalDay: 168,
+      name: "RAM Website",
+      description: "A website for showcasing RAM products",
+      demoLink: "./public/RAM-Website/index.html",
+      category: "creativity",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      features: ["RAM", "Computer", "Website"]
     }
+
+
     ];
 
     this.projects = projectsData.map((project, index) => ({

@@ -1313,6 +1313,17 @@ class WebDev100Days {
             category: "games",
             technologies: ["HTML", "CSS", "JavaScript"],
             features: ["Zombie", "Shooter", "Game"]
+         },
+
+         {
+
+           originalDay:179,
+           name:"Interior Design Website",
+           description: "A website for showcasing interior design ideas",
+           demoLink: "./public/Interior-Design-Website/index.html",
+           category: "creativity",
+           technologies: ["HTML", "CSS", "JavaScript"],
+           features: ["Interior", "Design", "Website"]
          }
 
 

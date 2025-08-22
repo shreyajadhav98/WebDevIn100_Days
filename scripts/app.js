@@ -1235,7 +1235,16 @@ class WebDev100Days {
              category: "creativity",
              technologies: ["HTML", "CSS", "JavaScript"],
              features: ["Christmas", "Lights", "Website"]
-         }
+         },
+          {
+            originalDay: 172,
+            name: "Email Validator",
+            description: "A website for real time email validation",
+            demoLink: "./public/Day-101_Email_Validator/index.html",
+            category: "Utility",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Real time email validation", "Clean UI", "Website"]
+          }
 
     
 

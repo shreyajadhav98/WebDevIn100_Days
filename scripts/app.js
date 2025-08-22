@@ -1361,6 +1361,17 @@ class WebDev100Days {
             technologies: ["HTML", "CSS", "JavaScript"],
             features: ["Chat", "UI", "Channels"]
 
+         },
+
+         {
+           originalDay:183, 
+           name:"TATA 1mg Website Clone",
+           description: "A website for online pharmacy services",
+           demoLink: "./public/TATA-1mg-Clone/index.html",
+           category: "creativity",
+           technologies: ["HTML", "CSS", "JavaScript"],
+           features: ["Online Pharmacy", "Health", "Wellness"]
+
          }
 
 

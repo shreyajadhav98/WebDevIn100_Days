@@ -1378,6 +1378,15 @@ class WebDev100Days {
                 category: "games",
                 technologies: ["HTML", "CSS", "JavaScript"],
                 features: ["Multiple colorful shapes display", "timed reaction tracking", "progressive levels", "scoring system", "light/dark mode", "responsive layout", "keyboard accessibility", "animations", "sound effects"]
+            },
+            {
+                originalDay: 128,
+                name: "Save Animals Website ",
+                description: "A website for saving animals",
+                demoLink: "./public/Save-Animals-Website/index.html",
+                category: "creativity",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Animal", "Save", "Website"]
             }
         ];
 

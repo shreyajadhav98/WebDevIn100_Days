@@ -1259,6 +1259,16 @@ class WebDev100Days {
              category: "creativity",
              technologies: ["HTML", "CSS", "JavaScript"],
              features: ["Christmas", "Lights", "Website"]
+         },
+
+         {
+             originalDay: 172,
+             name: "Save Animals Website ",
+             description: "A website for saving animals",
+             demoLink: "./public/Save-Animals-Website/index.html",
+             category: "creativity",
+             technologies: ["HTML", "CSS", "JavaScript"],
+             features: ["Animal", "Save", "Website"]
          }
 
     

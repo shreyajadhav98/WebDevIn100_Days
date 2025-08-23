@@ -259,6 +259,20 @@ class WebDev100Days {
         features: ["Real-time Data", "City Search", "Weather Icons"]
       },
       {
+  originalDay: 12,
+  name: "Health Checkup Appointment",
+  description: "Doctor appointment scheduled for a routine health checkup on 25th Aug, 2025 at 10:30 AM.",
+  demoLink: "Home.html", // link to details page
+  category: "Basic",
+  technologies: ["HTML", "CSS","JS"], 
+  features: [
+    "Doctor consultation details",
+    "Date & time reminder",
+    "Hospital/Clinic information"
+  ]
+},
+
+      {
         originalDay: 13,
         name: "Coin Flip",
         description: "A realistic coin flipping animation with statistics tracking.",

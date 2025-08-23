@@ -1269,9 +1269,77 @@ class WebDev100Days {
              category: "creativity",
              technologies: ["HTML", "CSS", "JavaScript"],
              features: ["Animal", "Save", "Website"]
-         }
 
-    
+         },
+
+
+         {
+
+          originalDay:173,
+          name : "Jewellery Website",
+          description: "A website for showcasing jewellery products",
+          demoLink: "./public/Jwellery-Website/index.html",
+          category: "creativity",
+          technologies: ["HTML", "CSS", "JavaScript"],
+          features: ["Jewellery", "Website", "Showcase"]
+         },
+
+         {
+
+              originalDay: 174,
+              name:"Blog Website",
+              description: "A website for showcasing blog posts",
+              demoLink: "./public/Blog-Website/index.html",
+              category: "creativity",
+              technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Blog", "Website", "Showcase"]
+         },
+
+
+
+         {
+
+              originalDay: 175,
+              name:"Yoga Website",
+              description: "A website for showcasing yoga classes",
+              demoLink: "./public/Yoga-Website/index.html",
+              category: "creativity",
+              technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Yoga", "Website", "Showcase"]
+         },
+
+         {
+
+              originalDay: 176,
+              name : "SunDown Studio",
+              description: "A website for showcasing SunDown Studio's projects",
+              demoLink: "./public/SunDown-Studio-Website/index.html",
+              category: "creativity",
+              technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["SunDown", "Studio", "Website"]
+         },
+
+         {
+
+              originalDay: 177,
+              name: "Game Over",
+              description: "Ecommerce website for selling video games",
+              demoLink: "./public/Game-Over-Game-Selling-Website/index.html",
+              category: "creativity",
+              technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Game", "Over", "Website"]
+         },
+
+         {
+
+            originalDay: 178,
+            name: "Zombie Shooter",
+            description: "A website for showcasing a zombie shooter game",
+            demoLink: "./public/Zombie-Shooter-Game/index.html",
+            category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Zombie", "Shooter", "Game"]
+         }
 
 
     ];

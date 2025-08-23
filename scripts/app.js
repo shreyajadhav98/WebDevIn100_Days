@@ -1396,6 +1396,16 @@ class WebDev100Days {
                 category: "games",
                 technologies: ["HTML", "CSS", "JavaScript"],
                 features: ["Zombie", "Shooter", "Game"]
+            },
+            {
+                originalDay: 130,
+                name: "HangMan Game",
+                description: "A classic word-guessing game where players try to guess a hidden word by suggesting letters within a certain number of guesses.",
+                demoLink: "./public/HangmanGame/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["HangMan", "Game", "Word Guessing"]
+
             }
         ];
 

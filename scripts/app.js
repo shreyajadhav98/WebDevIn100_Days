@@ -259,6 +259,20 @@ class WebDev100Days {
         features: ["Real-time Data", "City Search", "Weather Icons"]
       },
       {
+  originalDay: 12,
+  name: "Health Checkup Appointment",
+  description: "Doctor appointment scheduled for a routine health checkup on 25th Aug, 2025 at 10:30 AM.",
+  demoLink: "Home.html", // link to details page
+  category: "Basic",
+  technologies: ["HTML", "CSS","JS"], 
+  features: [
+    "Doctor consultation details",
+    "Date & time reminder",
+    "Hospital/Clinic information"
+  ]
+},
+
+      {
         originalDay: 13,
         name: "Coin Flip",
         description: "A realistic coin flipping animation with statistics tracking.",
@@ -1090,7 +1104,17 @@ class WebDev100Days {
           category: "creativity",
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["Gym", "Weight", "Fitness"]
-  },
+        },
+      {
+      originalDay: 161,
+      name: "Reaction Time Test 2.0",
+      description: "Challenging reaction game where players quickly identify and click the correct shape and color among multiple targets with increasing levels and timed responses.",
+      demoLink: "./public/Reaction_Time_Test_2.0/index.html",
+      category: "games",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      features: ["Multiple colorful shapes display", "timed reaction tracking", "progressive levels", "scoring system", "light/dark mode", "responsive layout", "keyboard accessibility", "animations", "sound effects"]
+      }, 
+
 
 {
           originalDay: 163,
@@ -1236,8 +1260,138 @@ class WebDev100Days {
              technologies: ["HTML", "CSS", "JavaScript"],
              features: ["Christmas", "Lights", "Website"]
          },
+
+         {
+             originalDay: 172,
+             name: "Save Animals Website ",
+             description: "A website for saving animals",
+             demoLink: "./public/Save-Animals-Website/index.html",
+             category: "creativity",
+             technologies: ["HTML", "CSS", "JavaScript"],
+             features: ["Animal", "Save", "Website"]
+
+
+         },
+
+
+         {
+
+          originalDay:173,
+          name : "Jewellery Website",
+          description: "A website for showcasing jewellery products",
+          demoLink: "./public/Jwellery-Website/index.html",
+          category: "creativity",
+          technologies: ["HTML", "CSS", "JavaScript"],
+          features: ["Jewellery", "Website", "Showcase"]
+         },
+
+         {
+
+              originalDay: 174,
+              name:"Blog Website",
+              description: "A website for showcasing blog posts",
+              demoLink: "./public/Blog-Website/index.html",
+              category: "creativity",
+              technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Blog", "Website", "Showcase"]
+         },
+
+
+
+         {
+
+              originalDay: 175,
+              name:"Yoga Website",
+              description: "A website for showcasing yoga classes",
+              demoLink: "./public/Yoga-Website/index.html",
+              category: "creativity",
+              technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Yoga", "Website", "Showcase"]
+         },
+
+         {
+
+              originalDay: 176,
+              name : "SunDown Studio",
+              description: "A website for showcasing SunDown Studio's projects",
+              demoLink: "./public/SunDown-Studio-Website/index.html",
+              category: "creativity",
+              technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["SunDown", "Studio", "Website"]
+         },
+
+         {
+
+              originalDay: 177,
+              name: "Game Over",
+              description: "Ecommerce website for selling video games",
+              demoLink: "./public/Game-Over-Game-Selling-Website/index.html",
+              category: "creativity",
+              technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Game", "Over", "Website"]
+         },
+
+         {
+
+            originalDay: 178,
+            name: "Zombie Shooter",
+            description: "A website for showcasing a zombie shooter game",
+            demoLink: "./public/Zombie-Shooter-Game/index.html",
+            category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Zombie", "Shooter", "Game"]
+         },
+
+         {
+
+           originalDay:179,
+           name:"Interior Design Website",
+           description: "A website for showcasing interior design ideas",
+           demoLink: "./public/Interior-Design-Website/index.html",
+           category: "creativity",
+           technologies: ["HTML", "CSS", "JavaScript"],
+           features: ["Interior", "Design", "Website"]
+         },
+
+         {
+            
+             originalDay:180, 
+             name:"HangMan Game",
+              description: "A classic word-guessing game where players try to guess a hidden word by suggesting letters within a certain number of guesses.",
+              demoLink: "./public/HangmanGame/index.html",
+              category: "games",
+              technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["HangMan", "Game", "Word Guessing"]
+
+         },
+
+         {
+
+
+          originalDay: 181,
+          name:"Movie Seat Booking",
+          description: "A website for booking movie seats",
+          demoLink: "./public/MovieSeatBooking/index.html",
+          category: "creativity",
+          technologies: ["HTML", "CSS", "JavaScript"],
+          features: ["Movie", "Seat", "Booking"]
+
+         },
+
+         {
+
+            originalDay: 182,
+            name:"Discord Clone",
+            description: "Discord UI Clone ",
+            demoLink: "./public/Discord-Clone/index.html",
+            category: "creativity",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Chat", "UI", "Channels"]
+
+         },
+      
           {
-            originalDay: 172,
+            originalDay: 183,
             name: "Email Validator",
             description: "A website for real time email validation",
             demoLink: "./public/Day-101_Email_Validator/index.html",
@@ -1246,7 +1400,7 @@ class WebDev100Days {
             features: ["Real time email validation", "Clean UI", "Website"]
           }
 
-    
+
 
 
     ];

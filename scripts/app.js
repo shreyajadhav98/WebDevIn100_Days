@@ -1406,6 +1406,30 @@ class WebDev100Days {
                 technologies: ["HTML", "CSS", "JavaScript"],
                 features: ["HangMan", "Game", "Word Guessing"]
 
+            },
+            {
+
+
+                originalDay: 131,
+                name: "Movie Seat Booking",
+                description: "A website for booking movie seats",
+                demoLink: "./public/MovieSeatBooking/index.html",
+                category: "creativity",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Movie", "Seat", "Booking"]
+
+            },
+
+            {
+
+                originalDay: 132,
+                name: "Discord Clone",
+                description: "Discord UI Clone ",
+                demoLink: "./public/Discord-Clone/index.html",
+                category: "creativity",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Chat", "UI", "Channels"]
+
             }
         ];
 

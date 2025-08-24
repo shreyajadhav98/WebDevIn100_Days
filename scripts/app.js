@@ -1558,7 +1558,18 @@ class WebDev100Days {
                 category: "games",
                 technologies: ["HTML", "CSS", "JavaScript"],
                 features: ["Run"]
-            }
+            },
+           {
+
+              originalDay: 148,
+              name:"Yoga Website",
+              description: "A website for showcasing yoga classes",
+              demoLink: "./public/Yoga-Website/index.html",
+              category: "creativity",
+              technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Yoga", "Website", "Showcase"]
+
+         }
         ];
 
         this.projects = projectsData.map((project, index) => ({

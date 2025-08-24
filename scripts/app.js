@@ -1405,11 +1405,8 @@ class WebDev100Days {
                 category: "games",
                 technologies: ["HTML", "CSS", "JavaScript"],
                 features: ["HangMan", "Game", "Word Guessing"]
-
             },
             {
-
-
                 originalDay: 131,
                 name: "Movie Seat Booking",
                 description: "A website for booking movie seats",
@@ -1417,11 +1414,8 @@ class WebDev100Days {
                 category: "creativity",
                 technologies: ["HTML", "CSS", "JavaScript"],
                 features: ["Movie", "Seat", "Booking"]
-
             },
-
             {
-
                 originalDay: 132,
                 name: "Discord Clone",
                 description: "Discord UI Clone ",
@@ -1429,7 +1423,141 @@ class WebDev100Days {
                 category: "creativity",
                 technologies: ["HTML", "CSS", "JavaScript"],
                 features: ["Chat", "UI", "Channels"]
-
+            },
+            {
+                originalDay: 133,
+                name: "Cups & Ball",
+                description: "Play with cups",
+                demoLink: "./public/Day-167/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Cups", "Ball"]
+            },
+            {
+                originalDay: 134,
+                name: "BINGO",
+                description: "Play BINGO",
+                demoLink: "./public/Day-168/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["BINGO"]
+            },
+            {
+                originalDay: 135,
+                name: "Casino Roulette",
+                description: "Spin the wheel",
+                demoLink: "./public/Day-169/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Wheel", "Luck"]
+            },
+            {
+                originalDay: 136,
+                name: "Shooting",
+                description: "Aim the target",
+                demoLink: "./public/Day-170/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Shoot", "Aim"]
+            },
+            {
+                originalDay: 137,
+                name: "Car Racing",
+                description: "A website for Car Racing Game",
+                demoLink: "./public/Day-171/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Car", "Race"]
+            },
+            {
+                originalDay: 138,
+                name: "Tattoo Designer",
+                description: "A website for Tattoo Designer",
+                demoLink: "./public/Day-172/index.html",
+                category: "utilities",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Tattoo", "Designer"]
+            },
+            {
+                originalDay: 139,
+                name: "Signature Maker",
+                description: "A website for Signature Maker",
+                demoLink: "./public/Day-173/index.html",
+                category: "utilities",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Signature"]
+            },
+            {
+                originalDay: 140,
+                name: "Car rental website",
+                description: "A website for Car rent",
+                demoLink: "./public/Day-174/index.html",
+                category: "utilities",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Cars", "Rent"]
+            },
+            {
+                originalDay: 141,
+                name: "Admin Dashboard",
+                description: "A website for Admin Dashboard",
+                demoLink: "./public/Day-175/index.html",
+                category: "utilities",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Dashboard"]
+            },
+            {
+                originalDay: 142,
+                name: "Treasure Hunt",
+                description: "A website for Browser-Based Treasure Hunt Game",
+                demoLink: "./public/Day-176/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Treasure Hunt"]
+            },
+            {
+                originalDay: 143,
+                name: "Rubik Cube",
+                description: "A website for Rubik Cube solve",
+                demoLink: "./public/Day-177/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Rubik Cube"]
+            },
+            {
+                originalDay: 144,
+                name: "Rocket Fighting",
+                description: "A website for Rocket Fighting Games",
+                demoLink: "./public/Day-178/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Rocket", "Fighting"]
+            },
+            {
+                originalDay: 145,
+                name: "Basketball",
+                description: "Play Basketball Game",
+                demoLink: "./public/Day-179/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Basketball"]
+            },
+            {
+                originalDay: 146,
+                name: "Blocks Smash",
+                description: "A Blocks Smash Game",
+                demoLink: "./public/Day-180/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Blocks", "Smash"]
+            },
+            {
+                originalDay: 147,
+                name: "Temple run",
+                description: "A Temple run type game",
+                demoLink: "./public/Day-181/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Run"]
             }
         ];
 

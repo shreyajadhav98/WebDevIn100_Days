@@ -1559,46 +1559,153 @@ class WebDev100Days {
                 technologies: ["HTML", "CSS", "JavaScript"],
                 features: ["Run"]
             },
-           {
+            {
 
-              originalDay: 148,
-              name:"Yoga Website",
-              description: "A website for showcasing yoga classes",
-              demoLink: "./public/Yoga-Website/index.html",
-              category: "creativity",
-              technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["Yoga", "Website", "Showcase"]
+                originalDay: 148,
+                name: "Yoga Website",
+                description: "A website for showcasing yoga classes",
+                demoLink: "./public/Yoga-Website/index.html",
+                category: "creativity",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Yoga", "Website", "Showcase"]
 
-         },
-               {
-            originalDay: 149,
-            name: "Email Validator",
-            description: "A website for real time email validation",
-            demoLink: "./public/Day-101_Email_Validator/index.html",
-            category: "Utility",
-            technologies: ["HTML", "CSS", "JavaScript"],
-            features: ["Real time email validation", "Clean UI", "Website"]
-          },
-          {
-           originalDay:150, 
-           name:"TATA 1mg Website Clone",
-           description: "A website for online pharmacy services",
-           demoLink: "./public/TATA-1mg-Clone/index.html",
-           category: "creativity",
-           technologies: ["HTML", "CSS", "JavaScript"],
-           features: ["Online Pharmacy", "Health", "Wellness"]
+            },
+            {
+                originalDay: 149,
+                name: "Email Validator",
+                description: "A website for real time email validation",
+                demoLink: "./public/Day-101_Email_Validator/index.html",
+                category: "Utility",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Real time email validation", "Clean UI", "Website"]
+            },
+            {
+                originalDay: 150,
+                name: "TATA 1mg Website Clone",
+                description: "A website for online pharmacy services",
+                demoLink: "./public/TATA-1mg-Clone/index.html",
+                category: "creativity",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Online Pharmacy", "Health", "Wellness"]
 
-         },
-           {
-
-          originalDay:151,
-          name : "Jewellery Website",
-          description: "A website for showcasing jewellery products",
-          demoLink: "./public/Jwellery-Website/index.html",
-          category: "creativity",
-          technologies: ["HTML", "CSS", "JavaScript"],
-          features: ["Jewellery", "Website", "Showcase"]
-         }
+            },
+            {
+                originalDay: 151,
+                name: "Jewellery Website",
+                description: "A website for showcasing jewellery products",
+                demoLink: "./public/Jwellery-Website/index.html",
+                category: "creativity",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Jewellery", "Website", "Showcase"]
+            },
+            {
+                originalDay: 152,
+                name: "Myntra Clone",
+                description: "Myntra Clone",
+                demoLink: "./public/Day-182/index.html",
+                category: "creativity",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Myntra Clone", "Website"]
+            },
+            {
+                originalDay: 153,
+                name: "8 Ball Pool",
+                description: "8 Ball Pool game",
+                demoLink: "./public/Day-183/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["8 Ball"]
+            },
+            {
+                originalDay: 154,
+                name: "Dart Game",
+                description: "Aim the board",
+                demoLink: "./public/Day-184/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Dart", "Aim"]
+            },
+            {
+                originalDay: 155,
+                name: "Gun War",
+                description: "Shooting Game",
+                demoLink: "./public/Day-185/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Gun"]
+            },
+            {
+                originalDay: 156,
+                name: "Watch website",
+                description: "A website for showcasing Watches",
+                demoLink: "./public/Day-186/index.html",
+                category: "creativity",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Watches", "Website", "Showcase"]
+            },
+            {
+                originalDay: 157,
+                name: "Coffee website",
+                description: "A website for showcasing Coffee",
+                demoLink: "./public/Day-187/index.html",
+                category: "creativity",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Coffee", "Website"]
+            },
+            {
+                originalDay: 158,
+                name: "Social Media Dashboard",
+                description: "A Dashboard for Social Media",
+                demoLink: "./public/Day-188/index.html",
+                category: "creativity",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Dashboard", "Social Media"]
+            },
+            {
+                originalDay: 159,
+                name: "Hunter",
+                description: "Shoot The Bird",
+                demoLink: "./public/Day-189/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Shooting"]
+            },
+            {
+                originalDay: 160,
+                name: "Ghost Jumper",
+                description: "Ghost Jumper Game",
+                demoLink: "./public/Day-190/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Ghost", "Jumper"]
+            },
+            {
+                originalDay: 161,
+                name: "Monkey Runner",
+                description: "Monkey Runner Game",
+                demoLink: "./public/Day-191/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Monkey", "Runner"]
+            },
+            {
+                originalDay: 162,
+                name: "War Game",
+                description: "Soldier War Game",
+                demoLink: "./public/Day-192/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["War"]
+            },
+            {
+                originalDay: 163,
+                name: "Pinball",
+                description: "Pinball Game",
+                demoLink: "./public/Day-193/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Pinball"]
+            }
         ];
 
         this.projects = projectsData.map((project, index) => ({

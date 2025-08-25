@@ -1707,24 +1707,42 @@ class WebDev100Days {
                 technologies: ["HTML", "CSS", "JavaScript"],
                 features: ["Pinball"]
             },
+            {
+                originalDay: 164,
+                name: "Flip Tiles Puzzle",
+                description: "An advanced logic puzzle game where players must flip all tiles to the same color. Clicking a tile toggles its state along with adjacent tiles. The goal is achieved when the entire board is uniform in color.",
+                demoLink: "./public/Flip_Tiles_Puzzle/index.html",
+                category: "games",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: [
+                    "Interactive 5x5 puzzle grid",
+                    "Stylish instructions before gameplay",
+                    "Dark and light mode support",
+                    "Responsive modern UI with animations",
+                    "Reset and Start functionality",
+                    "Win detection when all tiles match color",
+                    "Hover effects and smooth transitions",
+                    "Attractive gradients, shadows, and game-like polish"]
+            },
+            {
+                originalDay: 165,
+                name: "Hospital Website",
+                description: "A Hospital Website",
+                demoLink: "./public/Day-194/index.html",
+                category: "utilities",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Hospital"]
+            },
+            {
+                originalDay: 166,
+                name: "Photography Portfolio Website",
+                description: "A Photography Portfolio Website",
+                demoLink: "./public/Day-195/index.html",
+                category: "utilities",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Photography"]
+            }
 
-        {
-          originalDay: 164,
-          name: "Flip Tiles Puzzle",
-          description: "An advanced logic puzzle game where players must flip all tiles to the same color. Clicking a tile toggles its state along with adjacent tiles. The goal is achieved when the entire board is uniform in color.",
-          demoLink: "./public/Flip_Tiles_Puzzle/index.html",
-          category: "games",
-          technologies: ["HTML", "CSS", "JavaScript"],
-          features: [
-            "Interactive 5x5 puzzle grid",
-            "Stylish instructions before gameplay",
-            "Dark and light mode support",
-            "Responsive modern UI with animations",
-            "Reset and Start functionality",
-            "Win detection when all tiles match color",
-            "Hover effects and smooth transitions",
-            "Attractive gradients, shadows, and game-like polish"]}
-          
         ];
 
         this.projects = projectsData.map((project, index) => ({

@@ -1417,6 +1417,152 @@ class ChatbotWidget {
             category: "games",
             technologies: ["HTML", "CSS", "JavaScript"],
             features: ["Run"]
+        },
+        {
+            originalDay: 148,
+            name: "Yoga Website",
+            description: "A website for showcasing yoga classes",
+            demoLink: "./public/Yoga-Website/index.html",
+            category: "creativity",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Yoga", "Website", "Showcase"]
+
+        },
+        {
+            originalDay: 149,
+            name: "Email Validator",
+            description: "A website for real time email validation",
+            demoLink: "./public/Day-101_Email_Validator/index.html",
+            category: "Utility",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Real time email validation", "Clean UI", "Website"]
+        },
+        {
+            originalDay: 150,
+            name: "TATA 1mg Website Clone",
+            description: "A website for online pharmacy services",
+            demoLink: "./public/TATA-1mg-Clone/index.html",
+            category: "creativity",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Online Pharmacy", "Health", "Wellness"]
+
+        },
+        {
+            originalDay: 151,
+            name: "Jewellery Website",
+            description: "A website for showcasing jewellery products",
+            demoLink: "./public/Jwellery-Website/index.html",
+            category: "creativity",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Jewellery", "Website", "Showcase"]
+        },
+        {
+            originalDay: 152,
+            name: "Myntra Clone",
+            description: "Myntra Clone",
+            demoLink: "./public/Day-182/index.html",
+            category: "creativity",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Myntra Clone", "Website"]
+        },
+        {
+            originalDay: 153,
+            name: "8 Ball Pool",
+            description: "8 Ball Pool game",
+            demoLink: "./public/Day-183/index.html",
+            category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["8 Ball"]
+        },
+        {
+            originalDay: 154,
+            name: "Dart Game",
+            description: "Aim the board",
+            demoLink: "./public/Day-184/index.html",
+            category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Dart", "Aim"]
+        },
+        {
+            originalDay: 155,
+            name: "Gun War",
+            description: "Shooting Game",
+            demoLink: "./public/Day-185/index.html",
+            category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Gun"]
+        },
+        {
+            originalDay: 156,
+            name: "Watch website",
+            description: "A website for showcasing Watches",
+            demoLink: "./public/Day-186/index.html",
+            category: "creativity",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Watches", "Website", "Showcase"]
+        },
+        {
+            originalDay: 157,
+            name: "Coffee website",
+            description: "A website for showcasing Coffee",
+            demoLink: "./public/Day-187/index.html",
+            category: "creativity",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Coffee", "Website"]
+        },
+        {
+            originalDay: 158,
+            name: "Social Media Dashboard",
+            description: "A Dashboard for Social Media",
+            demoLink: "./public/Day-188/index.html",
+            category: "creativity",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Dashboard", "Social Media"]
+        },
+        {
+            originalDay: 159,
+            name: "Hunter",
+            description: "Shoot The Bird",
+            demoLink: "./public/Day-189/index.html",
+            category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Shooting"]
+        },
+        {
+            originalDay: 160,
+            name: "Ghost Jumper",
+            description: "Ghost Jumper Game",
+            demoLink: "./public/Day-190/index.html",
+            category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Ghost", "Jumper"]
+        },
+        {
+            originalDay: 161,
+            name: "Monkey Runner",
+            description: "Monkey Runner Game",
+            demoLink: "./public/Day-191/index.html",
+            category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Monkey", "Runner"]
+        },
+        {
+            originalDay: 162,
+            name: "War Game",
+            description: "Soldier War Game",
+            demoLink: "./public/Day-192/index.html",
+            category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["War"]
+        },
+        {
+            originalDay: 163,
+            name: "Pinball",
+            description: "Pinball Game",
+            demoLink: "./public/Day-193/index.html",
+            category: "games",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Pinball"]
         }
     ];
 
@@ -2046,6 +2192,667 @@ class ChatbotWidget {
             keywords: ['Day-147', 'Day147', 'day-147', 'day 147', 'Day 147'],
             answer: 'Name: Temple run<br>Description: A Temple run type game.<br>DemoLink: <a href="./public/Day-181/index.html" target="_blank">Click Here</a>'
         },
+        { keywords: ['Day-148', 'Day148', 'day-148', 'day 148', 'Day 148'], answer: 'Name: Yoga Website<br>Description: A website for showcasing yoga classes.<br>DemoLink: <a href="./public/Yoga-Website/index.html" target="_blank">Click Here</a>' },
+        { keywords: ['Day-149', 'Day149', 'day-149', 'day 149', 'Day 149'], answer: 'Name: Email Validator<br>Description: A website for real time email validation.<br>DemoLink: <a href="./public/Day-101_Email_Validator/index.html" target="_blank">Click Here</a>' },
+        { keywords: ['Day-150', 'Day150', 'day-150', 'day 150', 'Day 150'], answer: 'Name: TATA 1mg Website Clone<br>Description: A website for online pharmacy services.<br>DemoLink: <a href="./public/TATA-1mg-Clone/index.html" target="_blank">Click Here</a>' },
+        { keywords: ['Day-151', 'Day151', 'day-151', 'day 151', 'Day 151'], answer: 'Name: Jewellery Website<br>Description: A website for showcasing jewellery products.<br>DemoLink: <a href="./public/Jwellery-Website/index.html" target="_blank">Click Here</a>' },
+        { keywords: ['Day-152', 'Day152', 'day-152', 'day 152', 'Day 152'], answer: 'Name: Myntra Clone<br>Description: Myntra Clone.<br>DemoLink: <a href="./public/Day-182/index.html" target="_blank">Click Here</a>' },
+        { keywords: ['Day-153', 'Day153', 'day-153', 'day 153', 'Day 153'], answer: 'Name: 8 Ball Pool<br>Description: 8 Ball Pool game.<br>DemoLink: <a href="./public/Day-183/index.html" target="_blank">Click Here</a>' },
+        { keywords: ['Day-154', 'Day154', 'day-154', 'day 154', 'Day 154'], answer: 'Name: Dart Game<br>Description: Aim the board.<br>DemoLink: <a href="./public/Day-184/index.html" target="_blank">Click Here</a>' },
+        { keywords: ['Day-155', 'Day155', 'day-155', 'day 155', 'Day 155'], answer: 'Name: Gun War<br>Description: Shooting Game.<br>DemoLink: <a href="./public/Day-185/index.html" target="_blank">Click Here</a>' },
+        { keywords: ['Day-156', 'Day156', 'day-156', 'day 156', 'Day 156'], answer: 'Name: Watch Website<br>Description: A website for showcasing Watches.<br>DemoLink: <a href="./public/Day-186/index.html" target="_blank">Click Here</a>' },
+        { keywords: ['Day-157', 'Day157', 'day-157', 'day 157', 'Day 157'], answer: 'Name: Coffee Website<br>Description: A website for showcasing Coffee.<br>DemoLink: <a href="./public/Day-187/index.html" target="_blank">Click Here</a>' },
+        { keywords: ['Day-158', 'Day158', 'day-158', 'day 158', 'Day 158'], answer: 'Name: Social Media Dashboard<br>Description: A Dashboard for Social Media.<br>DemoLink: <a href="./public/Day-188/index.html" target="_blank">Click Here</a>' },
+        { keywords: ['Day-159', 'Day159', 'day-159', 'day 159', 'Day 159'], answer: 'Name: Hunter<br>Description: Shoot The Bird.<br>DemoLink: <a href="./public/Day-189/index.html" target="_blank">Click Here</a>' },
+        { keywords: ['Day-160', 'Day160', 'day-160', 'day 160', 'Day 160'], answer: 'Name: Ghost Jumper<br>Description: Ghost Jumper Game.<br>DemoLink: <a href="./public/Day-190/index.html" target="_blank">Click Here</a>' },
+        { keywords: ['Day-161', 'Day161', 'day-161', 'day 161', 'Day 161'], answer: 'Name: Monkey Runner<br>Description: Monkey Runner Game.<br>DemoLink: <a href="./public/Day-191/index.html" target="_blank">Click Here</a>' },
+        { keywords: ['Day-162', 'Day162', 'day-162', 'day 162', 'Day 162'], answer: 'Name: War Game<br>Description: Soldier War Game.<br>DemoLink: <a href="./public/Day-192/index.html" target="_blank">Click Here</a>' },
+        { keywords: ['Day-163', 'Day163', 'day-163', 'day 163', 'Day 163'], answer: 'Name: Pinball<br>Description: Pinball Game.<br>DemoLink: <a href="./public/Day-193/index.html" target="_blank">Click Here</a>' },
+        {
+    keywords: ['todo','tasks','list','add task','remove task'],
+    answer: 'Name: Todo List<br>Description: A simple and elegant todo list application with local storage support.<br>DemoLink: <a href="./public/Day-1_TodoList/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['digital clock','clock','time','theme','format'],
+    answer: 'Name: Digital Clock<br>Description: A beautiful digital clock with customizable themes and formats.<br>DemoLink: <a href="./public/Day-2_digital_clock/digitalclock.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['ascii art','ascii','text art','fonts'],
+    answer: 'Name: ASCII Art Generator<br>Description: Convert text into ASCII art with various font styles and customization options.<br>DemoLink: <a href="./public/Day-3_AsciiArtGenerator/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['password','visualizer','strength','security'],
+    answer: 'Name: Password Visualizer<br>Description: Visualize password strength and complexity with interactive graphics.<br>DemoLink: <a href="./public/Day-4_password_visualizer/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['physics','simulation','balls','gravity','interactive'],
+    answer: 'Name: Physics Simulation<br>Description: Interactive physics simulation with bouncing balls and gravity effects.<br>DemoLink: <a href="./public/Day-5_physics_simulation/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['quote','generator','inspiration','random quote','category'],
+    answer: 'Name: Quote Generator<br>Description: Generate inspirational quotes with beautiful backgrounds and sharing options.<br>DemoLink: <a href="./public/Day-6_QuoteGenerator/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['word counter','character count','text analysis','statistics'],
+    answer: 'Name: Character Word Counter<br>Description: Count characters, words, and paragraphs in real-time with detailed statistics.<br>DemoLink: <a href="./public/Day-7_CharacterWordCounter/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['dice','roll','simulator','game','3d'],
+    answer: 'Name: Dice Roll Simulator<br>Description: Simulate dice rolls with realistic 3D animations and multiple dice options.<br>DemoLink: <a href="./public/Day-8_DiceRollSimulator/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['guess','number','game','hint','score'],
+    answer: 'Name: Guess My Number<br>Description: A fun number guessing game with hints and score tracking.<br>DemoLink: <a href="./public/Day-9_Guess_My_Number/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['brick breaker','neon','game','score','power-ups'],
+    answer: 'Name: Neon Brick Breaker<br>Description: A modern twist on the classic brick breaker game with neon graphics.<br>DemoLink: <a href="./public/Day-10_Neon_Brick_Breaker/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['weather','forecast','city','temperature','icons'],
+    answer: 'Name: Weather App<br>Description: Get real-time weather information for any city with a beautiful interface.<br>DemoLink: <a href="./public/Day-11_WeatherApp/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['coin','flip','animation','statistics','game'],
+    answer: 'Name: Coin Flip<br>Description: A realistic coin flipping animation with statistics tracking.<br>DemoLink: <a href="./public/Day-13_Coin_Flip/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['e-waste','management','environment','educational','location'],
+    answer: 'Name: E-Waste Management Hub<br>Description: Educational platform for e-waste management with location finder.<br>DemoLink: <a href="./public/Day-14_E-WasteManagementHub/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['currency','converter','exchange rate','real-time'],
+    answer: 'Name: Currency Converter<br>Description: Convert between different currencies with real-time exchange rates.<br>DemoLink: <a href="./public/Day-15_Currency_Converter/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['random user','profile','generator','photos'],
+    answer: 'Name: Random User Generator<br>Description: Generate random user profiles with photos and detailed information.<br>DemoLink: <a href="./public/Day-16_Random_User_Generator/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['image search','images','photos','filter'],
+    answer: 'Name: Image Search App<br>Description: Search and browse high-quality images with advanced filtering options.<br>DemoLink: <a href="./public/Day-17_Image_Search_App/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['tic tac toe','game','AI','score','xo'],
+    answer: 'Name: Tic Tac Toe<br>Description: Classic tic-tac-toe game with AI opponent and score tracking.<br>DemoLink: <a href="./public/Day-20_tictactoe/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['candy crush','match 3','puzzle','game','power-ups'],
+    answer: 'Name: Candy Crush<br>Description: Match-3 puzzle game inspired by the popular Candy Crush saga.<br>DemoLink: <a href="./public/Day-21_candycrush/candy_crush.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['palette','color','generator','design','colors'],
+    answer: 'Name: Palette Generator<br>Description: Generate beautiful color palettes for your design projects.<br>DemoLink: <a href="./public/Day-22_Palette_generator/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['qr code','generator','url','text','data'],
+    answer: 'Name: QR Code Generator<br>Description: Generate QR codes for text, URLs, and other data types.<br>DemoLink: <a href="./public/Day-23_QRCodeGenerator/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['rock paper scissors','game','rps','ai','score'],
+    answer: 'Name: Rock Paper Scissors<br>Description: Classic rock paper scissors game with computer opponent.<br>DemoLink: <a href="./public/Day-23_RockPaperScissor/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['drawing','canvas','paint','brush','colors'],
+    answer: 'Name: Drawing App<br>Description: Digital drawing canvas with multiple brush tools and colors.<br>DemoLink: <a href="./public/Day-26_Drawing/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['reflex','target','reaction','speed','game'],
+    answer: 'Name: Target Reflex Test<br>Description: Test your reflexes by clicking on moving targets as fast as possible.<br>DemoLink: <a href="./public/Day-28_Target_Reflex_Test/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['memory','cards','matching','game','levels'],
+    answer: 'Name: Memory Game<br>Description: Classic memory card matching game with multiple difficulty levels.<br>DemoLink: <a href="./public/Day-31/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['color picker','palette','colors','hex','rgb'],
+    answer: 'Name: Color Picker<br>Description: Advanced color picker with multiple format outputs and palette saving.<br>DemoLink: <a href="./public/Day-34-Colour_picker/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['drawing','advanced','layers','tools','export'],
+    answer: 'Name: Advanced Drawing<br>Description: Professional drawing application with layers and advanced tools.<br>DemoLink: <a href="./public/Day-35-Drawing/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['notes','app','organization','search','rich text'],
+    answer: 'Name: Notes App<br>Description: Feature-rich notes application with search and organization tools.<br>DemoLink: <a href="./public/Day-36_Notes_App/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['note','taker','markdown','auto-save','export'],
+    answer: 'Name: Note Taker<br>Description: Simple and efficient note-taking app with markdown support.<br>DemoLink: <a href="./public/Day-42_NoteTaker/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['audio','visualizer','particles','frequency','themes'],
+    answer: 'Name: Audio Visualizer<br>Description: Interactive audio visualizer with particle effects and real-time frequency analysis.<br>DemoLink: <a href="./public/Day-45/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['pomodoro','timer','productivity','task','statistics'],
+    answer: 'Name: Pomodoro Timer<br>Description: Productivity timer with task management, customizable themes, and session tracking.<br>DemoLink: <a href="./public/Day-47_Pomodoro-app/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['chess','game','interactive','pieces','animation'],
+    answer: 'Name: Chess Game<br>Description: Interactive chess game with move validation, piece animations, and game state tracking.<br>DemoLink: <a href="./public/Day-51/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['rock','paper','scissors','game','interactive','computer'],
+    answer: 'Name: Rock Paper Scissors<br>Description: Interactive rock paper scissors game with user vs computer gameplay.<br>DemoLink: <a href="./public/Day-54_RockPaperSessior/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['portfolio','website','responsive','animations','contact'],
+    answer: 'Name: Portfolio Website<br>Description: Modern portfolio website template with responsive design and animations.<br>DemoLink: <a href="./public/Day-72_Portfolio/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['etch-a-sketch','drawing','grid','clear','digital'],
+    answer: 'Name: Etch-a-Sketch<br>Description: Digital Etch-a-Sketch with customizable grid and drawing modes.<br>DemoLink: <a href="./public/Etch-a-Sketch/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['gigglebits','mini games','fun','entertainment','high scores'],
+    answer: 'Name: GiggleBits<br>Description: Fun collection of interactive mini-games and entertainment.<br>DemoLink: <a href="./public/GiggleBits/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['gradient','generator','css','color','preview'],
+    answer: 'Name: Gradient Generator<br>Description: Create beautiful CSS gradients with live preview and export functionality.<br>DemoLink: <a href="./public/Gradient_Generator/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['snake','ladder','game','multiplayer','board'],
+    answer: 'Name: Snake and Ladder<br>Description: Classic board game with multiplayer support and animated gameplay.<br>DemoLink: <a href="./public/Snake-and-Ladder-Game/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['space','jumper','game','physics','score'],
+    answer: 'Name: Space Jumper Game<br>Description: Exciting space-themed jumping game with physics engine and score system.<br>DemoLink: <a href="./public/Space-Jumper-Game/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['space','war','game','enemy','power-ups'],
+    answer: 'Name: Space War Game<br>Description: Intense space battle game with enemy AI and power-ups.<br>DemoLink: <a href="./public/Space-War-Game/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['stopwatch','timer','lap','split','precision'],
+    answer: 'Name: Stopwatch<br>Description: Precision stopwatch with lap timing and split functionality.<br>DemoLink: <a href="./public/Stopwatch/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['world','clock','time zones','real-time','customization'],
+    answer: 'Name: World Clock<br>Description: Display multiple world time zones with real-time updates and customization.<br>DemoLink: <a href="./public/World_Clock/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['notes','tracker','digital','storage','search'],
+    answer: 'Name: Notes Tracker<br>Description: A simple and organized digital notebook to create, update, and manage notes efficiently.<br>DemoLink: <a href="./public/Day-42_NoteTaker/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['alien','hunt','shooting','game','score'],
+    answer: 'Name: Alien Hunt<br>Description: A fun and fast-paced shooting game where players hunt down aliens and score points.<br>DemoLink: <a href="./public/Day-31/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['book','recommendation','genres','mood','UI'],
+    answer: 'Name: Book Recommendation<br>Description: Suggests books based on user-selected genres, moods, or interests with a clean UI.<br>DemoLink: <a href="https://book-recomendation.netlify.app/" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['student','grade','analyzer','marks','performance'],
+    answer: 'Name: Student Grade Analyzer<br>Description: Analyzes student marks and provides insights like total, average, grade, and performance level.<br>DemoLink: <a href="./public/Student_Grade_Analyzer/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['mood','music','suggester','songs','audio'],
+    answer: 'Name: Mood Based Music Suggester<br>Description: Recommends music tracks based on the users selected mood for a personalized listening experience.<br>DemoLink: <a href="./public/Mood_Music_Suggester/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['calrace','calculator','game','math','timer'],
+    answer: 'Name: CalRace<br>Description: A fast-paced calculator racing game where players solve math problems under time pressure to advance.<br>DemoLink: <a href="./public/Day-45/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['word','guess','game','letters','hidden'],
+    answer: 'Name: Word Guess Game<br>Description: An interactive word guessing game where players try to reveal the hidden word within limited attempts.<br>DemoLink: <a href="./public/Day53-Word-Guess-Game/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['4 in a row','connect four','two player','grid','game'],
+    answer: 'Name: 4 in a Row<br>Description: A strategic two-player game where the goal is to connect four discs in a row vertically, horizontally, or diagonally.<br>DemoLink: <a href="./public/Day-57_4_in_a_row/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['budget','tracker','finance','income','expenses'],
+    answer: 'Name: Budget Tracker<br>Description: A simple financial tracking tool to manage income, expenses, and visualize spending habits.<br>DemoLink: <a href="./public/Budget-Tracker/index.html" target="_blank">Click Here</a>'
+  },
+        {
+    keywords: ['memory','game','card','match','timer','moves'],
+    answer: 'Name: Memory Game App<br>Description: A classic card-flipping memory game where players match pairs to win with the fewest moves.<br>DemoLink: <a href="./public/Memory Game App/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['mypaint','drawing','canvas','color','brush','clear'],
+    answer: 'Name: MyPaint<br>Description: A simple and fun digital drawing app that allows users to sketch, doodle, and paint freely on a canvas.<br>DemoLink: <a href="./public/day75-mypaint/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['fruit','slicer','game','score','cut','life'],
+    answer: 'Name: Fruit Slicer<br>Description: Every slice counts. Miss and it’s game over!<br>DemoLink: <a href="./public/Fruit_Slicer_Game/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['battleship','destroy','enemy','ship','game'],
+    answer: 'Name: BattleShip<br>Description: Destroy the enemy ship.<br>DemoLink: <a href="./public/Day-71/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['github','profile','finder','followers','creative'],
+    answer: 'Name: Github Profle Finder<br>Description: Find Github Profile.<br>DemoLink: <a href="./public/Github_Profile_Finder/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['helifly','helicopter','fly','game'],
+    answer: 'Name: HeliFly<br>Description: Fly the Helicopter.<br>DemoLink: <a href="./public/Day-55/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['robobuilder','robot','repair','fix'],
+    answer: 'Name: RoboBuilder<br>Description: Build the Robot.<br>DemoLink: <a href="./public/Day-72/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['github','profile','finder','followers','creative'],
+    answer: 'Name: Github Profile Finder<br>Description: Find Github Profile.<br>DemoLink: <a href="./public/Github_Profile_Finder/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['hamster','slap','hide','catch'],
+    answer: 'Name: Hamster Slap<br>Description: Slap the Hamster coming from the hole.<br>DemoLink: <a href="./public/Day-69/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['leetmatrix','leetcode','stats','graph'],
+    answer: 'Name: LeetMatrix<br>Description: Check Leetcode stats.<br>DemoLink: <a href="./public/LeetMatrix/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['loveverse','love','game','romantic'],
+    answer: 'Name: LoveVerse<br>Description: A Lovely Website with some crazy stuffs.<br>DemoLink: <a href="./public/Day-70/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['quiz','program','random','scores','game'],
+    answer: 'Name: QuizProgram<br>Description: Take a random quiz.<br>DemoLink: <a href="./public/QuizProgram/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['university','management','system','courses','students','faculty'],
+    answer: 'Name: University Management System<br>Description: Manage university operations including courses, students, and faculty.<br>DemoLink: <a href="./public/University_managment_system/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['pixel','art','maker','grid','color','canvas','download'],
+    answer: 'Name: Pixel Art Maker<br>Description: Create pixel art with a simple grid interface.<br>DemoLink: <a href="./public/Day-76_PixelArt/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['cinesearch','movies','search','omdb','poster','responsive','dark'],
+    answer: 'Name: CineSearch<br>Description: Stylish and responsive movie search web app using the OMDB API.<br>DemoLink: <a href="./public/CineSearch/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['fruit','ninja','cut','game'],
+    answer: 'Name: Fruit Ninja<br>Description: Play with fruits.<br>DemoLink: <a href="./public/Day-59/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['solitaire','cards','game','ace','king'],
+    answer: 'Name: Solitaire<br>Description: Play with Cards.<br>DemoLink: <a href="./public/Day-90/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['door','game','luck','open','doors'],
+    answer: 'Name: Door Game<br>Description: Open the Doors of your luck.<br>DemoLink: <a href="./public/Day-91/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['roast','battle','ai'],
+    answer: 'Name: Roast Battle<br>Description: Roast Yourself by AI.<br>DemoLink: <a href="./public/Day-92/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['compliment','generator','love'],
+    answer: 'Name: Compliment Generator<br>Description: Generate Compliment for your loved ones.<br>DemoLink: <a href="./public/Day-93/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['pickup','lines','love','flirt'],
+    answer: 'Name: PickUp Lines<br>Description: Generate PickUp Lines for someone.<br>DemoLink: <a href="./public/Day-94/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['hero','identity','powers','know'],
+    answer: 'Name: Hero Identity<br>Description: Know who you are.<br>DemoLink: <a href="./public/Day-95/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['fortune','teller','future','game','predict'],
+    answer: 'Name: Fortune Teller<br>Description: Know your future.<br>DemoLink: <a href="./public/Day-96/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['fitness','tracker','steps','water','chart','dark','light'],
+    answer: 'Name: Fitness Tracker<br>Description: Track daily steps and water intake with charts, themes, and responsive design.<br>DemoLink: <a href="./public/Fitness_Tracker/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['super','mario','jump'],
+    answer: 'Name: Super Mario<br>Description: Mario is back.<br>DemoLink: <a href="./public/Day-62/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['netflix','clone','movie','streaming'],
+    answer: 'Name: Netflix<br>Description: Netflix Clone.<br>DemoLink: <a href="./public/Day-97/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['spin','wheel'],
+    answer: 'Name: Spin<br>Description: Spin the wheel.<br>DemoLink: <a href="./public/Day-98/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['puckman','ghost','escape'],
+    answer: 'Name: PuckMan<br>Description: Escape from the ghost.<br>DemoLink: <a href="./public/Day-99/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['edugames','phase1','class1','class8','mcq'],
+    answer: 'Name: EduGames phase 1<br>Description: Class 1 - Class 8 educational games.<br>DemoLink: <a href="./public/Day-100/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['edugames','phase2','class9','class12','mcq'],
+    answer: 'Name: EduGames phase 2<br>Description: Class 9 - Class 12 educational games.<br>DemoLink: <a href="./public/Day-80/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['tank','battle','fight'],
+    answer: 'Name: Tank Battle<br>Description: Fight with Tanks.<br>DemoLink: <a href="./public/Day-81/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['carrom','play','fun'],
+    answer: 'Name: Carrom<br>Description: Play carrom.<br>DemoLink: <a href="./public/Day-82/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['pong','play'],
+    answer: 'Name: Pong<br>Description: Play Pong.<br>DemoLink: <a href="./public/Day-83/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['escape','room','clues','hidden'],
+    answer: 'Name: 404 Escape Room<br>Description: Find the hidden clues.<br>DemoLink: <a href="./public/Day-84/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['sudoku','numbers'],
+    answer: 'Name: Sudoku<br>Description: Play with numbers.<br>DemoLink: <a href="./public/Day-85/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['kbc','quiz','mcq','lifelines'],
+    answer: 'Name: KBC<br>Description: Kaun Banega Crorepati?<br>DemoLink: <a href="./public/Day-86/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['past','life','finder'],
+    answer: 'Name: Past Life Finder<br>Description: Know your past.<br>DemoLink: <a href="./public/Day-87/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['tetris','boxes'],
+    answer: 'Name: Tetris<br>Description: Play Tetris.<br>DemoLink: <a href="./public/Day-88/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['puzzle','slide','solve'],
+    answer: 'Name: Puzzle<br>Description: Slides the boxes.<br>DemoLink: <a href="./public/Day-89/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['archery','aim','target'],
+    answer: 'Name: Archery<br>Description: Aim the target.<br>DemoLink: <a href="./public/Day-61/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['flappy','bird','score','hard'],
+    answer: 'Name: Flappy Bird<br>Description: Play with Bird.<br>DemoLink: <a href="./public/flappy-bird/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['fanta','clone','website','drink','animation'],
+    answer: 'Name: Fanta Website Clone<br>Description: Enjoy your first Drink.<br>DemoLink: <a href="./public/Fanta-Website/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['ruchii','tiffin','food','meals'],
+    answer: 'Name: Ruchii Tiffin<br>Description: Simple Homely Tasty Meals.<br>DemoLink: <a href="./public/Ruchii-Tiffin/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['invoice','builder','product','generate'],
+    answer: 'Name: Invoice Builder<br>Description: Generate Product Invoice.<br>DemoLink: <a href="./public/Invoice-Builder/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['fitness','club','gym','weight','exercise'],
+    answer: 'Name: Fitness Club<br>Description: Your Only Gym.<br>DemoLink: <a href="./public/Gym-Website/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['bubble','pop','grid','timer','score','level','animation'],
+    answer: 'Name: Bubble Pop<br>Description: Engaging bubble popping game with dynamic grid, timer, score, and animations.<br>DemoLink: <a href="./public/Bubble_Pop/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['library','book','manager','read','edit','delete','storage'],
+    answer: 'Name: Library Book Manager<br>Description: Stylish library management app with add, edit, delete, and track reading status.<br>DemoLink: <a href="./public/Library_Book_Manager/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['memory','grid','rush','pattern','level'],
+    answer: 'Name: Memory Grid Rush<br>Description: Fast-paced memory game with flashing grid patterns and increasing difficulty.<br>DemoLink: <a href="./public/Memory_Grid_Rush/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['drum','kit','music','play'],
+    answer: 'Name: Drum Kit<br>Description: Play the Drum.<br>DemoLink: <a href="./public/Drum-Kit/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['memory','grid','rush','pattern','level'],
+    answer: 'Name: Memory Grid Rush<br>Description: Fast-paced memory game with flashing grid patterns and increasing difficulty.<br>DemoLink: <a href="./public/Memory_Grid_Rush/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['salon','cut','glow','up'],
+    answer: 'Name: Salon Website<br>Description: First Cut Free.<br>DemoLink: <a href="./public/Salon-Website/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['agency','website','portfolio','showcase','creativity'],
+    answer: 'Name: Agency Website<br>Description: Showcase your agency.<br>DemoLink: <a href="./public/Agency-Website/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['ram','computer'],
+    answer: 'Name: RAM Website<br>Description: A website for showcasing RAM products.<br>DemoLink: <a href="./public/RAM-Website/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['lagunitas','beer'],
+    answer: 'Name: Lagunitas Website<br>Description: A website for showcasing Lagunitas products.<br>DemoLink: <a href="./public/Lagunitas-Website/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['pirate'],
+    answer: 'Name: Pirate Website<br>Description: A website for showcasing pirate-themed products.<br>DemoLink: <a href="./public/Pirates-Website/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['christmas','lights','website','creativity'],
+    answer: 'Name: Christmas Lights<br>Description: A website for showcasing Christmas lights.<br>DemoLink: <a href="./public/Christmas-Website/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['bottle','spin','truth','dare','game'],
+    answer: 'Name: Bottle Spin<br>Description: Play truth & dare with friends.<br>DemoLink: <a href="./public/Day-150/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['travel','bucket','list','planning','creativity'],
+    answer: 'Name: Travel Bucket List App<br>Description: A website for your Travel Bucket List.<br>DemoLink: <a href="./public/Day-151/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['lost','found','hub','items','utilities'],
+    answer: 'Name: Lost & Found Hub<br>Description: A website for Lost & Found products.<br>DemoLink: <a href="./public/Day-152/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['recipe','finder','recipes','creativity'],
+    answer: 'Name: Recipe Finder<br>Description: A website to find your favorite recipes.<br>DemoLink: <a href="./public/Day-153/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['cross','road','cars','game'],
+    answer: 'Name: Cross the road<br>Description: Beware from Cars.<br>DemoLink: <a href="./public/Day-154/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['borderland','survival','cards','game'],
+    answer: 'Name: Borderland<br>Description: Browser-Based Survival Game.<br>DemoLink: <a href="./public/Day-155/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['rolling','numbers','match','game'],
+    answer: 'Name: Rolling Numbers<br>Description: Match the 3 numbers.<br>DemoLink: <a href="./public/Day-156/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['time','vault','message','creativity'],
+    answer: 'Name: Time Vault<br>Description: Hide your message in a vault.<br>DemoLink: <a href="./public/Day-157/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['puzzle','game','fun'],
+    answer: 'Name: Puzzle<br>Description: Puzzle Game.<br>DemoLink: <a href="./public/Day-158/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['lighthouse','building','game'],
+    answer: 'Name: Lighthouse Building<br>Description: Build the Lighthouse.<br>DemoLink: <a href="./public/Day-159/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['car','racing','game'],
+    answer: 'Name: Car Racing<br>Description: Car Racing Game.<br>DemoLink: <a href="./public/Day-160/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['balloon','buster','game'],
+    answer: 'Name: Balloon Buster<br>Description: Bust the Balloon.<br>DemoLink: <a href="./public/Day-161/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['hacker','website','game','theme'],
+    answer: 'Name: Hacker Website<br>Description: A Hacker themed Website.<br>DemoLink: <a href="./public/Day-162/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['story','generator','game'],
+    answer: 'Name: Story Generator<br>Description: Generate Stories.<br>DemoLink: <a href="./public/Day-163/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['alien','language','translator','game'],
+    answer: 'Name: Alien Language Translator<br>Description: Translate Alien Language.<br>DemoLink: <a href="./public/Day-164/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['dino','game','chrome'],
+    answer: 'Name: Dino Game<br>Description: Chrome Dino Game.<br>DemoLink: <a href="./public/Day-165/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['past','life','finder','utilities','website'],
+    answer: 'Name: Past Life Finder<br>Description: Past Life Finder website.<br>DemoLink: <a href="./public/Day-166/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['health','checkup','appointment','doctor','basic'],
+    answer: 'Name: Health Checkup Appointment<br>Description: Doctor appointment scheduled for routine health checkup.<br>DemoLink: <a href="Home.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['reaction','time','test','game','shapes','color'],
+    answer: 'Name: Reaction Time Test 2.0<br>Description: Challenging reaction game with multiple shapes and timed responses.<br>DemoLink: <a href="./public/Reaction_Time_Test_2.0/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['save','animals','website','creativity'],
+    answer: 'Name: Save Animals Website<br>Description: A website for saving animals.<br>DemoLink: <a href="./public/Save-Animals-Website/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['zombie','shooter','game'],
+    answer: 'Name: Zombie Shooter<br>Description: Showcasing a zombie shooter game.<br>DemoLink: <a href="./public/Zombie-Shooter-Game/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['hangman','game','word','guessing'],
+    answer: 'Name: HangMan Game<br>Description: Classic word-guessing game.<br>DemoLink: <a href="./public/HangmanGame/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['movie','seat','booking','creativity'],
+    answer: 'Name: Movie Seat Booking<br>Description: A website for booking movie seats.<br>DemoLink: <a href="./public/MovieSeatBooking/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['discord','clone','chat','channels','creativity'],
+    answer: 'Name: Discord Clone<br>Description: Discord UI Clone.<br>DemoLink: <a href="./public/Discord-Clone/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['cups','ball','game'],
+    answer: 'Name: Cups & Ball<br>Description: Play with cups.<br>DemoLink: <a href="./public/Day-167/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['bingo','game'],
+    answer: 'Name: BINGO<br>Description: Play BINGO.<br>DemoLink: <a href="./public/Day-168/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['casino','roulette','wheel','game'],
+    answer: 'Name: Casino Roulette<br>Description: Spin the wheel.<br>DemoLink: <a href="./public/Day-169/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['shooting','aim','target','game'],
+    answer: 'Name: Shooting<br>Description: Aim the target.<br>DemoLink: <a href="./public/Day-170/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['car','racing','game'],
+    answer: 'Name: Car Racing<br>Description: A website for Car Racing Game.<br>DemoLink: <a href="./public/Day-171/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['tattoo','designer','website','utility'],
+    answer: 'Name: Tattoo Designer<br>Description: A website for Tattoo Designer.<br>DemoLink: <a href="./public/Day-172/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['signature','maker','website','utility'],
+    answer: 'Name: Signature Maker<br>Description: A website for Signature Maker.<br>DemoLink: <a href="./public/Day-173/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['car','rental','rent','website','utility'],
+    answer: 'Name: Car Rental Website<br>Description: A website for Car rent.<br>DemoLink: <a href="./public/Day-174/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['admin','dashboard','website','utility'],
+    answer: 'Name: Admin Dashboard<br>Description: A website for Admin Dashboard.<br>DemoLink: <a href="./public/Day-175/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['treasure','hunt','game'],
+    answer: 'Name: Treasure Hunt<br>Description: Browser-Based Treasure Hunt Game.<br>DemoLink: <a href="./public/Day-176/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['rubik','cube'],
+    answer: 'Name: Rubik Cube<br>Description: A website for Rubik Cube solve.<br>DemoLink: <a href="./public/Day-177/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['rocket','fighting'],
+    answer: 'Name: Rocket Fighting<br>Description: A website for Rocket Fighting Games.<br>DemoLink: <a href="./public/Day-178/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['basketball'],
+    answer: 'Name: Basketball<br>Description: Play Basketball Game.<br>DemoLink: <a href="./public/Day-179/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['blocks','smash'],
+    answer: 'Name: Blocks Smash<br>Description: A Blocks Smash Game.<br>DemoLink: <a href="./public/Day-180/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['temple','run'],
+    answer: 'Name: Temple Run<br>Description: A Temple Run type game.<br>DemoLink: <a href="./public/Day-181/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['yoga'],
+    answer: 'Name: Yoga Website<br>Description: A website for showcasing yoga classes.<br>DemoLink: <a href="./public/Yoga-Website/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['email','validator'],
+    answer: 'Name: Email Validator<br>Description: A website for real-time email validation.<br>DemoLink: <a href="./public/Day-101_Email_Validator/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['tata','1mg'],
+    answer: 'Name: TATA 1mg Website Clone<br>Description: Online pharmacy services.<br>DemoLink: <a href="./public/TATA-1mg-Clone/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['jewellery'],
+    answer: 'Name: Jewellery Website<br>Description: A website for showcasing jewellery products.<br>DemoLink: <a href="./public/Jwellery-Website/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['myntra','clone'],
+    answer: 'Name: Myntra Clone<br>Description: Myntra Clone.<br>DemoLink: <a href="./public/Day-182/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['8 ball','pool'],
+    answer: 'Name: 8 Ball Pool<br>Description: 8 Ball Pool game.<br>DemoLink: <a href="./public/Day-183/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['dart','aim','board'],
+    answer: 'Name: Dart Game<br>Description: Aim the board.<br>DemoLink: <a href="./public/Day-184/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['gun','war','shooting'],
+    answer: 'Name: Gun War<br>Description: Shooting Game.<br>DemoLink: <a href="./public/Day-185/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['watch'],
+    answer: 'Name: Watch Website<br>Description: A website for showcasing Watches.<br>DemoLink: <a href="./public/Day-186/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['coffee'],
+    answer: 'Name: Coffee Website<br>Description: A website for showcasing Coffee.<br>DemoLink: <a href="./public/Day-187/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['social media','dashboard'],
+    answer: 'Name: Social Media Dashboard<br>Description: A Dashboard for Social Media.<br>DemoLink: <a href="./public/Day-188/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['hunter','shoot','bird'],
+    answer: 'Name: Hunter<br>Description: Shoot The Bird.<br>DemoLink: <a href="./public/Day-189/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['ghost','jumper'],
+    answer: 'Name: Ghost Jumper<br>Description: Ghost Jumper Game.<br>DemoLink: <a href="./public/Day-190/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['monkey','runner'],
+    answer: 'Name: Monkey Runner<br>Description: Monkey Runner Game.<br>DemoLink: <a href="./public/Day-191/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['war','soldier'],
+    answer: 'Name: War Game<br>Description: Soldier War Game.<br>DemoLink: <a href="./public/Day-192/index.html" target="_blank">Click Here</a>'
+  },
+  {
+    keywords: ['pinball'],
+    answer: 'Name: Pinball<br>Description: Pinball Game.<br>DemoLink: <a href="./public/Day-193/index.html" target="_blank">Click Here</a>'
+  },
+        
         {
             keywords: ['categories', 'types', 'kinds', 'organize'],
             answer: 'Project categories:\n\n🎮 Games - Interactive entertainment\n🛠️ Utilities - Practical daily tools\n📚 Education - Learning applications\n🎨 Creative - Art and design tools\n📈 Productivity - Organization helpers\n\nWhich category interests you?'

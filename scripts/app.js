@@ -1741,7 +1741,16 @@ class WebDev100Days {
                 category: "utilities",
                 technologies: ["HTML", "CSS", "JavaScript"],
                 features: ["Photography"]
-            }
+            },
+            {
+                originalDay: 167,
+                name: "Recipe Finder",
+                description: "Find a Recipe using Recipe Finder with the help of API ",
+                demoLink: "./public/Day-196/index.html",
+                category: "utilities",
+                technologies: ["HTML", "CSS", "Javascript", "API"],
+                features: ["Recipe Finder"]
+            },
 
         ];
 

@@ -2016,7 +2016,7 @@ class WebDev100Days {
                 originalDay: 172,
                 name: "Mood-Based Music Suggestion",
                 description: "Suggests songs based on the user's current mood with a stylish UI",
-                demoLink: "./public/day172-mood-music-suggestion/index.html",
+                demoLink: "./public/day172-mood-based-music-suggestion/MusicSuggestion.html",
                 category: "entertainment",
                 technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
                 features: ["Mood-based song suggestions", "Responsive design", "Interactive UI"]

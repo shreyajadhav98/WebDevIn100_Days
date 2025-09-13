@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mood-Based Music Suggestion</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #f629b2, #f691d8);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .container {
+      margin-top: 50px;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border: none;
+      border-radius: 15px;
+      color: #fff;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .btn-custom {
+      background: #fc3ca9;
+      border: none;
+      border-radius: 20px;
+      color: #fff;
+      padding: 10px 20px;
+    }
+    .btn-custom:hover {
+      background: #fa56b3;
+    }
+    footer {
+      margin-top: auto;
+      text-align: center;
+      padding: 10px;
+      background: rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="container text-center">
+    <h1 class="mb-4">🎵 Mood-Based Music Suggestion</h1>
+    <p class="lead">Enter your current mood and get a playlist!</p>
+    
+    <!-- Input Section -->
+    <div class="row justify-content-center mb-4">
+      <div class="col-md-6">
+        <input type="text" id="moodInput" class="form-control form-control-lg" placeholder="Type your mood (e.g., Happy, Sad, Relaxed)">
+      </div>
+      <div class="col-md-2 mt-2 mt-md-0">
+        <button class="btn btn-custom btn-lg w-100" onclick="suggestSongs()">Get Songs</button>
+      </div>
+    </div>
+
+    
+    <div id="songList" class="row justify-content-center"></div>
+  </div>
+
+  <script>
+    
+    const moodSongs = {
+       happy: [
+      "London Thumakda - Queen",
+      "Badtameez Dil – Yeh Jawaani Hai Deewani",
+      "Dil Chahta Hai - Dil Chahta Hai"
+    ],
+    sad: [
+      "Channa Mereya – Ae Dil Hai Mushkil",
+      "Agar Tum Saath Ho – Tamasha",
+      "Tujhe Bhula Diya – Anjaana Anjaani"
+    ],
+    energetic: [
+      "Malhari – Bajirao Mastani",
+      "Zinda – Bhaag Milkha Bhaag",
+      "Jai Ho – Slumdog Millionaire"
+    ],
+    relaxed: [
+      "Tum Hi Ho – Aashiqui 2",
+      "Khairiyat – Chhichhore",
+      "Raabta – Agent Vinod"
+    ],
+    romantic: [
+      "Tera Ban Jaunga – Kabir Singh",
+      "Janam Janam – Dilwale",
+      "Pee Loon – Once Upon a Time in Mumbaai"
+    ],
+    angry: [
+      "Aarambh Hai Prachand - Gulaal",
+      "Mera Intkam Dekhegi - Shadi Main Zaroor Aana",
+      "Bande Hain Hum Uske – Dhoom 3"
+    ],
+    motivated: [
+      "Chak De India – Chak De! India", 
+      "Kar Har Maidaan Fateh – Sanju",
+      "Zinda – Bhaag Milkha Bhaag"
+    ]
+    };
+
+    function suggestSongs() {
+      const moodInput = document.getElementById("moodInput").value.trim().toLowerCase();
+      const songs = moodSongs[moodInput];
+      const songListDiv = document.getElementById("songList");
+      songListDiv.innerHTML = "";
+
+      if (songs) {
+        songs.forEach(song => {
+          let col = document.createElement("div");
+          col.className = "col-md-4 mb-3";
+          col.innerHTML = `
+            <div class="card p-3 h-100">
+              <h5>${song}</h5>
+            </div>`;
+          songListDiv.appendChild(col);
+        });
+      } else {
+        songListDiv.innerHTML = `
+          <div class="col-md-8">
+            <div class="alert alert-warning">😕 Sorry, no playlist found for that mood. Try: Happy, Sad, Energetic, Relaxed, Romantic, Angry, Motivated.</div>
+          </div>`;
+      }
+    }
+  </script>
+</body>
+</html>

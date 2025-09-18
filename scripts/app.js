@@ -1,4 +1,4 @@
-class WebDev100Days {
+ class WebDev100Days {
     constructor() {
         this.projects = [];
         this.filteredProjects = [];
@@ -2012,17 +2012,45 @@ class WebDev100Days {
 
             },
 
-            {
-                originalDay: 172,
+           {
+               originalDay: 172,
+               name: "Typing-Speed-Test",
+               description: "Typing Speed Test having WPM, CPM accuracy and timing analysis.",
+               demoLink: "./public/Typing-Speed-Test/index.html",
+               category: "Test",
+               technologies: ["HTML", "CSS", "JavaScript"],
+               features: ["User interaction", "Fun project", "Basic simulation"]
+           },
+          {
+              originalDay: 173,
+              name: "BeatPulse",
+              description: "BeatPulse rhythm game",
+              demoLink: "./public/BeatPulse/index.html",
+              category: "games",
+              technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["BeatPulse", "Fun project", "Music"]
+          },
+          {
+              originalDay: 174,
+              name: "Parallax Demo",
+              description: "When you scroll down the page you will see a beautiful parallax.",
+              demoLink: "./public/ParallaxscrollingDemo/index.html",
+              category: "creativity",
+              technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["Multiple background layers", "Scroll-based animations", "Placeholder sections"]
+          }
+          {
+                originalDay: 175,
                 name: "Mood-Based Music Suggestion",
                 description: "Suggests songs based on the user's current mood with a stylish UI",
-                demoLink: "./public/day172-mood-based-music-suggestion/MusicSuggestion.html",
+                demoLink: "./public/day175-mood-based-music-suggestion/MusicSuggestion.html",
                 category: "entertainment",
                 technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
                 features: ["Mood-based song suggestions", "Responsive design", "Interactive UI"]
             }
+];
 
-        ];
+
 
         this.projects = projectsData.map((project, index) => ({
             ...project,

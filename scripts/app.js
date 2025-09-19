@@ -1,4 +1,4 @@
-class WebDev100Days {
+ class WebDev100Days {
     constructor() {
         this.projects = [];
         this.filteredProjects = [];
@@ -2011,8 +2011,12 @@ class WebDev100Days {
                 features: ["User interaction", "Fun project", "Basic simulation"]
 
             },
+
         
-            {
+            
+
+           {
+
                originalDay: 172,
                name: "Typing-Speed-Test",
                description: "Typing Speed Test having WPM, CPM accuracy and timing analysis.",
@@ -2020,6 +2024,7 @@ class WebDev100Days {
                category: "Test",
                technologies: ["HTML", "CSS", "JavaScript"],
                features: ["User interaction", "Fun project", "Basic simulation"]
+
             },
             {
                originalDay: 173,
@@ -2030,7 +2035,18 @@ class WebDev100Days {
                technologies: ["HTML", "CSS", "JavaScript"],
                features: ["BeatPulse", "Fun project", "Music"]
             },
-            {
+           
+          {
+              originalDay: 173,
+              name: "BeatPulse",
+              description: "BeatPulse rhythm game",
+              demoLink: "./public/BeatPulse/index.html",
+              category: "games",
+              technologies: ["HTML", "CSS", "JavaScript"],
+              features: ["BeatPulse", "Fun project", "Music"]
+          },
+          {
+
               originalDay: 174,
               name: "Parallax Demo",
               description: "When you scroll down the page you will see a beautiful parallax.",
@@ -2038,6 +2054,7 @@ class WebDev100Days {
               category: "creativity",
               technologies: ["HTML", "CSS", "JavaScript"],
               features: ["Multiple background layers", "Scroll-based animations", "Placeholder sections"]
+
             },
             {
                 originalDay: 175,
@@ -2049,6 +2066,10 @@ class WebDev100Days {
                 features: ["Mood input", "Song suggestions", "Responsive design"]
             }
         ];
+
+          
+
+
 
         this.projects = projectsData.map((project, index) => ({
             ...project,

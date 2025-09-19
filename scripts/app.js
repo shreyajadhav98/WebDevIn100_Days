@@ -2053,7 +2053,7 @@
                 originalDay: 175,
                 name: "Mood-Based Music Suggestion",
                 description: "Suggests songs based on your current mood with a simple UI",
-                demoLink: "./public/day175-mood-based-music-suggestion/index.html",
+                demoLink: "./public/day175-mood-based-music-suggestion/MusicSuggestion.html",
                 category: "entertainment",
                 technologies: ["HTML", "CSS", "JavaScript"],
                 features: ["Mood input", "Song suggestions", "Responsive design"]

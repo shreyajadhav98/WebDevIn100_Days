@@ -2047,6 +2047,7 @@
               technologies: ["HTML", "CSS", "JavaScript"],
               features: ["Multiple background layers", "Scroll-based animations", "Placeholder sections"]
 
+
             },
             {
                 originalDay: 175,
@@ -2058,8 +2059,6 @@
                 features: ["Mood input", "Song suggestions", "Responsive design"]
             }
         ];
-
-          
 
 
 

@@ -2040,13 +2040,13 @@ class WebDev100Days {
               features: ["Multiple background layers", "Scroll-based animations", "Placeholder sections"]
             },
             {
-            originalDay: 175,
-            name: "Mood-Based Music Suggestion",
-            description: "Suggests songs based on your current mood with a simple UI",
-            demoLink: "./public/day175-mood-based-music-suggestion/index.html",
-            category: "entertainment",
-            technologies: ["HTML", "CSS", "JavaScript"],
-            features: ["Mood input", "Song suggestions", "Responsive design"]
+                originalDay: 175,
+                name: "Mood-Based Music Suggestion",
+                description: "Suggests songs based on your current mood with a simple UI",
+                demoLink: "./public/day175-mood-based-music-suggestion/index.html",
+                category: "entertainment",
+                technologies: ["HTML", "CSS", "JavaScript"],
+                features: ["Mood input", "Song suggestions", "Responsive design"]
             }
         ];
 

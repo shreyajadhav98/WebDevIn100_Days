@@ -2036,15 +2036,7 @@
                features: ["BeatPulse", "Fun project", "Music"]
             },
            
-          {
-              originalDay: 173,
-              name: "BeatPulse",
-              description: "BeatPulse rhythm game",
-              demoLink: "./public/BeatPulse/index.html",
-              category: "games",
-              technologies: ["HTML", "CSS", "JavaScript"],
-              features: ["BeatPulse", "Fun project", "Music"]
-          },
+        
           {
 
               originalDay: 174,

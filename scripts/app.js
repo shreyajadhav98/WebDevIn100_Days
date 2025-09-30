@@ -2066,7 +2066,7 @@
                 category: "entertainment",
                 technologies: ["HTML", "CSS", "JavaScript"],
                 features: ["Mood input", "Song suggestions", "Responsive design"]
-            }
+            } 
         ];
 
 
